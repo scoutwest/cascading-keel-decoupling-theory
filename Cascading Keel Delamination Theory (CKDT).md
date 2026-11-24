@@ -1,6 +1,6 @@
 # Cascading Keel Delamination Theory (CKDT): a young-earth Flood model that avoids the CPT "heat problem"
 
-**Status:** Initial model (draft 1), written 2026-11-24 by merging `Noah's Pangea v1` (`Theories.md`, `Model.md` Phase 13) and `Noah's Pangea v2` (`Model.md` Phases 1, 3-6). Follow-on phases A-E (Section 11) have **not** been run. Every number below is carried over from v1 or v2 and is **not yet re-verified** unless marked "checked".
+**Status:** Draft 2. Phase A (attribute re-verification) is done; results are in Section 14 and have been applied to Sections 4, 9 and 12. Phases B-E have not been run. Draft 1 was written 2026-11-24 by merging `Noah's Pangea v1` (`Theories.md`, `Model.md` Phase 13) and `Noah's Pangea v2` (`Model.md` Phases 1, 3-6). Follow-on phases A-E (Section 11) have **not** been run. Numbers not listed in Section 14 are still carried over from v1 or v2 and are not yet re-verified.
 **Nature:** a speculative young-earth creation-science model. Mainstream geoscience rejects its premises. Where a number fails, the failure is stated.
 
 ---
@@ -93,6 +93,8 @@ Published views conflict: isopycnic (neutral), "neutral or positive", and a 2022
 
 **Repair: CKDT-II (dense keel drip).** The sinking part is dense (net ε about 0.3-1%). While it is descending, it pulls the surface down by dynamic subsidence, about −C·ε·t with C between 0.1 and 1 (0.03-2 km). When it has detached, the surface rebounds by about the same amount. This gives flooding at the start, and uplift later, which matches the overshoot-and-rebound target in P6. C is unverified (Section 9, item O5; Phase B).
 
+**Phase A update.** Sourced chemical depletion averages 1.1-1.5% (maximum 1.7-2.5%, Kaban et al. 2003). Against a thermal excess of about 2.3% that gives a net-dense keel (+0.8 to +1.2%). The isopycnic view gives net zero. No source supports a net-light keel, so CKDT-II is the only version consistent with the data (Section 14.2).
+
 **Consequence.** CKDT-II only acts under the 24% of continental area that has keels. Non-keel areas need another subsidence source: stretching (4.5) or released water (5.1).
 
 ### 4.4 Making fast failure physical: wet power-law creep
@@ -112,10 +114,10 @@ So the gap between "millions of years" and "days" is largely a **water and stres
 **v1's two levers, kept in simplified form.**
 1. Shear heating concentrated in a 50-100 km zone gives ΔT of 120-240 K and 1.5-3 orders of viscosity reduction. Narrower zones (10 km) give 1,200 K, which is unphysical. *(v1 13.3; not rederived)*
 2. Power-law amplification (strain rate ∝ σ^3.5) from stress transfer. A 5× stress boost gives about 3 orders of magnitude. *(v1 13.4)*
-Together v1 reached 4-6 orders, enough to close the v1 gap. v2's wet-olivine result is a more direct route and is preferred for the model. Both depend on **water in the keel base**, which is a free parameter that must be justified (Section 9, item O3).
+Together v1 reached 4-6 orders, enough to close the v1 gap. v2's wet-olivine result is a more direct route and is preferred for the model. Both depend on **water in the keel base**. Phase A found measured keel-base water is often lower than the wet case, and the fastest case is hotter than the keel base (Section 14.2). See Section 9, item O3.
 
 ### 4.5 Second subsidence source: stretching (no keel physics needed)
-McKenzie-type initial subsidence (v2 formula transcription, unverified against the paper): β = 1.2 → 755 m; β = 1.5 → 1,511 m; β = 2 → 2,266 m (water-loaded). The dataset's transitional crust (136 provinces, 3.8×10⁷ km², 18% of continental plus transitional) has mean elevation −1,360 m and is 92.6% submerged, a fall of about 1,560 m from a +200 m start, consistent with β ≈ 1.5. Zealandia (4.9×10⁶ km², about 94% submerged; Mortimer et al. 2017) is the real example of stretched, permanently submerged continent. Stretching energy (3.1×10²⁷ J if all transitional crust) stays deep and passes H3, unless decompression melt erupts (then it counts against H1).
+McKenzie-type initial subsidence (textbook form; v2's code applied the factor (1 − αT_m) twice, which overstated results by 4.6%, corrected in Phase A): β = 1.2 → 722 m; β = 1.5 → 1,445 m; β = 2 → 2,167 m (water-loaded; 35 km crust, 125 km lithosphere). The dataset's transitional crust (136 provinces, 3.8×10⁷ km², 18% of continental plus transitional) has mean elevation −1,360 m and is 92.6% submerged, a fall of about 1,560 m from a +200 m start, consistent with β of about 1.5-1.6 (corrected values). Zealandia (4.9×10⁶ km², about 94% submerged; Mortimer et al. 2017) is the real example of stretched, permanently submerged continent. Stretching energy (3.1×10²⁷ J if all transitional crust) stays deep and passes H3, unless decompression melt erupts (then it counts against H1).
 
 ### 4.6 Trigger and cascade
 - **Cascade (stress transfer).** One failure loads its neighbours. v1 used the median earthquake stress drop (4 MPa) against low ambient shear-zone stress (1 MPa) for a 5× multiplier. *(v1 13.5; checked against literature, but see O6.)*
@@ -201,13 +203,13 @@ Cool, conductive xenolith geotherms show no recent catastrophic heating. Fine de
 | ID | Problem | Why it matters | Source |
 |----|---------|----------------|--------|
 | O1 | **H9: origin of 1.64×10⁸ km² of ocean floor between separated continents.** Rotating blocks back leaves ≥1.08×10⁸ km² uncovered (302× H1). Exhumed mantle margins cover 21-85% at assumed 100-400 km widths. Intact new floor passes heat only if heat extraction stays above about 300 m. | Without it, CKDT floods Pangea but does not make today's oceans | v2 6.2 |
-| O2 | **H10: moving blocks about 3,841 km.** In 150 days that is 0.3 m/s and basal drag costs ≥ 350 B with no named energy source. Spread over 4,370 yr it still needs about 17,600× the present rate. | Heat problem returns here | v2 6.1 |
-| O3 | Water content of the keel base, and where pre-Flood keel water came from | Fast failure needs wet rock; keels are usually dry | v2 5.5 |
+| O2 | **H10: moving blocks about 3,841 km.** In 150 days that is 0.3 m/s and basal drag costs ≥ 350 B with no named energy source. Spread over 4,370 yr it still needs about 23,800× the present mean plate speed (3.7 cm/yr; v2's 5 cm/yr gave 17,600×). | Heat problem returns here | v2 6.1 |
+| O3 | Water content of the keel base, and where pre-Flood keel water came from | Fast failure needs about 60 ppm water and 1,650 K; Kaapvaal base measures <10 ppm and the craton base is about 1,563 K (14.2) | v2 5.5; Phase A |
 | O4 | Trigger for the first failure | No candidate works as proposed | v1 13.6, v2 |
 | O5 | Dynamic-subsidence factor C (0.1-1) | Sets CKDT-II's amplitude and hence H8 | v2 5.5 |
 | O6 | Cross-craton propagation in ductile mantle | "Cascade" is the theory's name | v1 13.6 |
 | O7 | Self-sustaining versus stalling | Cascade may arrest | v1 13.6 |
-| O8 | Keel thermal and chemical density (α, 718 K, chemical lightness) | Sets sign | v2 5.8 |
+| O8 | Keel thermal density excess (the 718 K mean deficit is still unsourced); net sign range is now 0 to +1.2% | Sets amplitude of CKDT-II | v2 5.8; Phase A |
 | O9 | Unverified inputs: ocean volume 1.335×10⁹ km³; 40 °C cap; 15 °C start; 5 cm/yr present speed; slab pull 3.3×10¹³ N/m; ridge push 2.5×10¹² N/m; crust heat 3.2×10¹³ J/m²; sediment and serpentinite reservoir sizes | Many results rest on these | v2 10 |
 | O10 | Shear-localization width in real rock | Needed for v1 lever 1 | v1 13.6 |
 | O11 | Post-Flood ice age (P8) and the 40-day "windows of heaven" water | Not modelled | v2 Phase 9 |
@@ -237,7 +239,7 @@ Cool, conductive xenolith geotherms show no recent catastrophic heating. Fine de
 
 Run in this order. Each phase ends with findings and an updated Sections 9-10.
 
-### Phase A: Re-verify scientific attributes
+### Phase A: Re-verify scientific attributes (DONE, see Section 14)
 Check every property used as an input against a primary source or a stated public dataset: keel thickness and extent, keel density (thermal α, ΔT, chemical depletion), olivine flow-law parameters (wet and dry), asthenosphere and keel temperatures, water solubility and content, ocean volume, ocean-floor heat per m², Moho and lithosphere properties, mantle solidus. Replace every "my estimate" in Sections 3-6 with a sourced value or mark it as a free parameter with a justified range. Output: an attribute table (value, source, status).
 
 ### Phase B: Re-verify claims against real scientific data
@@ -272,7 +274,7 @@ Work through Section 9 in this order of importance: O1 and O2 (the heat problem 
 | Subsidence saved per 10⁸ km³ released | about 330 m |
 | Keel sinking energy | 0.6-5.9 B, dissipated about 150 km down |
 | Wet failure time, 30 kg/m³, 1,650 K | about 66 days |
-| Stretching subsidence | β = 1.5: 1.5 km |
+| Stretching subsidence (corrected) | β = 1.5: 1.4 km |
 | Submerged share of continental plus transitional crust | 33.3% (transitional 92.6%) |
 | Unsolved: new ocean floor | 1.64×10⁸ km², 456 B if made new |
 | Unsolved: basal drag for 3,841 km in 150 d | ≥ 350 B |
@@ -285,3 +287,50 @@ Work through Section 9 in this order of importance: O1 and O2 (the heat problem 
 - `Noah's Pangea v2/Model.md`, `data/`, `model/`, `sources/README.md` (S01-S23). Clean-room; raw data unmodified; Hasterok et al. 2022 provinces and cratons, ETOPO 2022, Mortimer et al. 2017, Hirth and Kohlstedt 2000.
 - Literature named in v1 and v2 and not yet re-read in full: Pearson et al. 2021, Wang, Liu and Zhou 2022, Liu et al. 2022 (*Geology* 50:891), Jollands et al. 2017/2018, Gleeson et al. 2016, Bird 1978/1979.
 - Numbers marked "my estimate" in v2 or "assumption" here are placeholders for Phase A.
+
+---
+
+## 14. Phase A results: re-verification of scientific attributes (2026-11-24)
+
+**Method.** Each input was checked by web search against the primary paper or a reputable summary, and by recomputing where the check is arithmetic. Search snippets are not full papers, so "Verified" means the figure was confirmed in the abstract or summary seen, not that the full paper was read. Codes: **V** verified; **C** verified with a caveat; **X** corrected; **U** still unverified; **F** free parameter or assumption.
+
+### 14.1 Attribute table
+| # | Attribute | Model value | Code | Finding |
+|---|-----------|-------------|------|---------|
+| 1 | Ocean volume | 1.335×10⁹ km³ | V | NOAA/Eakins & Sharman 2010: 1.335×10⁹ km³; Charette & Smith 2010: 1.332×10⁹ (0.2% lower). Mean depth 3,688 m matches the 3.68 km basin case. |
+| 2 | Ocean heat capacity | 5.59×10²⁴ J/K | V | Recomputed (ρ 1030, c_p 3990): 5.49×10²⁴ J/K, 2% lower. B recomputes to 1.37×10²⁶ J vs 1.40×10²⁶ J. |
+| 3 | Ocean temperature cap | 40 °C bulk, 15 °C start | F | Assumption. Sensitivity: 30/40/50 °C gives B = 8.4×10²⁵ / 1.4×10²⁶ / 2.0×10²⁶ J. |
+| 4 | Heat per m² of new oceanic lithosphere | 3.9×10¹⁴ J/m² | C | Furlong & Chapman 2013 exists (Earth total about 47 TW) but the figure was not seen. Independent check: plate model, ρ 3300, c_p 1200, 1,300 K, 100 km, heat released = ρc_pΔT·L/2 = 2.6×10¹⁴ J/m² (sensible heat only), so 3.9×10¹⁴ is within 1.5× once crust and latent heat are added. 3.9×10¹⁴ × 3.6×10¹¹ m² = 1.40×10²⁶ J, so H1 is self-consistent. |
+| 5 | Continental groundwater to 2 km | 2.3×10⁷ km³ | V | Gleeson et al.: 22.6×10⁶ km³. |
+| 6 | Sediment pore water; serpentinite | 6×10⁷; 5×10⁷ km³ | F | Still my parametric guesses, not sourced. |
+| 7 | Transition-zone water | 1.5 wt% (one inclusion); capacity 2.5 wt% | C | Pearson et al. 2014: inclusion about 1.5 wt%; paper concludes the zone is hydrous to about 1 wt% at least locally; capacity up to about 2.5 wt%. One 30-40 µm sample; global hydration is disputed. |
+| 8 | Zealandia | 4.9×10⁶ km², 94% submerged | V | Mortimer et al. 2017 (GSA Today 27:27-35); modal elevation about −1,100 m. The paper explains the submergence with deep-time thinning; only the area and elevation data are used here. |
+| 9 | Province count | 914 polygons, 893 names | U | The search did not reach the 899 figure. Dataset counts stand; the mismatch with the prompt stays open. |
+| 10 | Craton keel thickness | 150-250 km | V | A 2025 surface-wave study gives a mean craton lithosphere base of 228 km. |
+| 11 | Keel base temperature | 1,500-1,650 K used | C | Same study uses 1,290 °C = **1,563 K** as the base. The 1,650 K case is about 90 K hotter than the keel base; the 1,500 K case is inside the range. |
+| 12 | Thermal expansion α | 3.2×10⁻⁵ /K | C | Forsterite α rises from 2.8 to 4.5×10⁻⁵ over 400-2,160 K (Bouhifd et al. 1996). 3.2×10⁻⁵ is inside the range. |
+| 13 | Mean keel temperature deficit | 718 K | U | A linear-geotherm check gives about 675 K, same order. Not sourced. |
+| 14 | Chemical lightness of keel | scanned 0.5-2.5% | V | Kaban et al. 2003: average 1.1-1.5%, maximum 1.7-2.5% (Archean cores). Isopycnic hypothesis (Jordan 1988) says thermal and chemical cancel and is still debated; Debayle & Ricard (2025) argue a compositional density decrease is required. |
+| 15 | Wet dislocation creep law | A = 90, n = 3.5, r = 1.2, E = 480 kJ/mol, V = 11 cm³/mol (constant C_OH) | V | Hirth & Kohlstedt 2003 table and footnote. Recomputed this phase: 2.475×10⁻¹² /s vs the paper's 2.5×10⁻¹². |
+| 16 | Dry dislocation activation volume | 15 cm³/mol (v2 assumed) | U | The table text extracts garbled; not resolved. |
+| 17 | "Wet" = 1,000 H/10⁶ Si | about 60 ppm wt H₂O | C | Standard conversion (about 16 H/10⁶ Si per ppm wt, from memory) agrees with v2's 60 ppm. |
+| 18 | Natural keel water | not in v2 | V | Kaapvaal base olivine <10 ppm at >6 GPa; Siberian (Udachnaya) 6-323 ppm; diamond-hosted olivine <20 ppm. Metasomatism controls water, and xenoliths may be biased to wetter rock. |
+| 19 | Earthquake stress drop | median 4 MPa, 0.3-50 MPa | V | Allmann & Shearer 2009 (about 2,000 events, Mb ≥ 5.5). Values depend on the source model; strike-slip and intraplate events are higher. They describe crustal faults. |
+| 20 | McKenzie initial subsidence | 755/1,511/2,266 m | **X** | v2's code applied (1 − αT_m) twice. Corrected: 722 / 1,445 / 2,167 m for β = 1.2 / 1.5 / 2 (35 km crust, 125 km lithosphere, ρ_m 3330, α 3.28×10⁻⁵, T_m 1333 °C). The formula is the textbook form; the original paper's PDF was unreadable in search, so a direct check against it is still pending. |
+| 21 | Present mean plate speed | 5 cm/yr | **X** | NNR-MORVEL56 map captions: mean 3.7 cm/yr, maximum 19.5 (secondary source). The 150-day speed (0.30 m/s) does not depend on it; "× present rate" multiples rise by 1.35×. |
+| 22 | Ridge push; slab pull | 2.5×10¹²; 3.3×10¹³ N/m | C / U | Ridge push about 2×10¹² N/m (up to 6×10¹² over a hotspot) in lecture notes: same order. Slab pull: sources span orders of magnitude; 3.3×10¹³ not confirmed. |
+| 23 | Mantle solidus | not sourced | U | Search returned no values (Hirschmann 2000, Katz et al. 2003 hold them). Needed for the H10 melting statement. |
+| 24 | Pangea mean elevation; peak | 200 m; 610 m | F | Premise P5. Sensitivity: 100-300 m gives 839-980 m of subsidence. |
+| 25 | Cubit length | 0.457 m (15 cubits = 6.86 m) | F | Assumption, not checked. A different cubit changes the flood depth by only a few metres. |
+| 26 | Water per 10⁸ km³ released | saves about 330 m of subsidence | V | Recomputed: 10⁸ km³ over Earth = 196 m of sea level; ÷ (1 − 0.413) = 334 m. |
+
+### 14.2 What Phase A changes
+1. **Stretching numbers corrected** by −4.6% (row 20). Conclusions unchanged: β of about 1.5-1.6 explains the transitional crust.
+2. **Plate-speed multiples corrected** (row 21): 23,800× for a 4,370-year drift. This makes O2 slightly worse.
+3. **Keel sign narrowed.** Sourced chemical depletion (row 14) plus the thermal excess (rows 12-13) gives a net-dense keel of +0.8 to +1.2%, or zero if the isopycnic view holds. Nothing sourced supports a net-light keel. CKDT-II (dense drip) is the only consistent form, with ε of 0 to about 1.2%. If ε is near 0, CKDT-II's subsidence is near 0 too.
+4. **The fast wet-failure case is harder than v2 said.** The 66-day result needs about 60 ppm water and 1,650 K (rows 11, 17). The keel base is about 1,563 K, and Kaapvaal's base measures <10 ppm. Scaling the flow law by C_OH^1.2 (same stress and temperature) makes 10 ppm about 9× slower, so about 590 days, still far below millions of years but outside the 150-day window. Siberian samples (up to 323 ppm) are wetter than the wet case. The result depends on which craton and on how much heating precedes failure. This is now O3.
+5. **Still unverified, passed to later phases:** slab pull, solidus, dry activation volume, mean keel temperature deficit, sediment and serpentinite reservoirs, the 40 °C cap, cubit, McKenzie against the original paper, the province count.
+6. **Deep-time wording to avoid.** Several sources explain their data with deep-time ages (Zealandia thinning, keels "foundering at about 1 km per Gyr"). Only the measured quantities are used; the ages are not.
+
+### 14.3 Sources (Phase A)
+NOAA/Eakins & Sharman 2010 and Charette & Smith 2010 (ocean volume); Gleeson et al. 2016, *Nature Geoscience* 9; Pearson et al. 2014, *Nature* 507; Mortimer et al. 2017, *GSA Today* 27(3); Kaban et al. 2003, *EPSL*; Hirth & Kohlstedt 2003 (local copy in v2 `data/rheology/`); Allmann & Shearer 2009, *JGR*; Bouhifd et al. 1996, *GRL*; McKenzie 1978, *EPSL* 40; Furlong & Chapman 2013, *Annu. Rev. Earth Planet. Sci.* 41; NNR-MORVEL56 map captions (UT Austin); Sydney University lecture notes on plate forces; xenolith-water abstracts (NASA NTRS 20160006653 and Udachnaya FTIR study); 2025 craton LAB study (surface waves).
