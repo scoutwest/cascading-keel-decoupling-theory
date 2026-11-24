@@ -1,6 +1,6 @@
 # Cascading Moho Collapse Theory (CMCT): a young-earth Flood model that avoids the CPT "heat problem"
 
-**Status:** Draft 5. The keel-drip mechanism (CKDT-II) and Moho peeling are **struck** under premise P9 (no mechanism may conflict with the deep keels cratons have today). The theory currently has **no keel-based subsidence mechanism**; what survives is the heat analysis, the flood geometry, stretching and shallow released water. The one untested idea left is collapse or densification of a layer at the crust base (O15). Phase A (attribute re-verification) is done (Section 14). Phases B-E have not been run. Draft 1 was written 2026-11-24 by merging `Noah's Pangea v1` (`Theories.md`, `Model.md` Phase 13) and `Noah's Pangea v2` (`Model.md` Phases 1, 3-6). Numbers not listed in Section 14 are still carried over from v1 or v2 and are not yet re-verified.
+**Status:** Draft 5. The keel-drip mechanism (CKDT-II) and Moho peeling are **struck** under premise P9 (no mechanism may conflict with the deep keels cratons have today). The theory currently has **no keel-based subsidence mechanism**; what survives is the heat analysis, the flood geometry, stretching and shallow released water. The one untested idea left is collapse or densification of a layer at the crust base (O15). Phase A (attribute re-verification) is done (Section 14). Phase B step 1 (the crust-base collapse test) is done (Section 15). The rest of Phases B-E has not been run. Draft 1 was written 2026-11-24 by merging `Noah's Pangea v1` (`Theories.md`, `Model.md` Phase 13) and `Noah's Pangea v2` (`Model.md` Phases 1, 3-6). Numbers not listed in Section 14 are still carried over from v1 or v2 and are not yet re-verified.
 **Name:** renamed in draft 5 from Cascading Keel Delamination Theory (CKDT) after the keel-removal mechanisms were struck (P9). "CMCT" is a working name until Phase B reports on the crust-base collapse idea (Section 4.8). Earlier files and v1/v2 notes use the old name; "CKDT-II" refers to the struck keel-drip version.
 **Nature:** a speculative young-earth creation-science model. Mainstream geoscience rejects its premises. Where a number fails, the failure is stated.
 
@@ -118,7 +118,7 @@ The one idea left that satisfies P9. A layer between the crust and the keel was 
 
 **Heat (rough):** crust sinking about 0.9 km releases about 1.5×10²⁶ J over all land, about 1.1 times the heat budget B, at about 35 km depth (conduction time about 40 million years, so it passes H3).
 
-**Status:** untested. Phase B checks are listed in Section 11.
+**Status (updated after Phase B step 1, Section 15):** not ruled out, not shown. The 27% collapse and 3.3 km layer in the table and image above **exceed what a density-raising phase change gives** (9-17% thickness loss). If the collapse is a phase change, the layer must have been about 5.5-10 km thick (2.8-5.1 km with released water) and be about 5-9 km thick today. The image `images/crust_base_collapse_diagram.png` was redrawn with the corrected middle case (7.0 km before, 6.1 km after, 13% collapse, 15% density increase).
 
 ---
 
@@ -200,7 +200,7 @@ Cool, conductive xenolith geotherms show no recent catastrophic heating. Fine de
 | O9 | Unverified inputs: ocean volume 1.335×10⁹ km³; 40 °C cap; 15 °C start; 5 cm/yr present speed; slab pull 3.3×10¹³ N/m; ridge push 2.5×10¹² N/m; crust heat 3.2×10¹³ J/m²; sediment and serpentinite reservoir sizes | Many results rest on these | v2 10 |
 | O11 | Post-Flood ice age (P8) and the 40-day "windows of heaven" water | Not modelled | v2 Phase 9 |
 | O12 | Recession: lasting uplift after collision; fragment paths | Belongs to DTAT | v2 |
-| O15 | **No subsidence mechanism for keel-bearing interiors that satisfies P9.** The drip and peeling are struck. Stretching (margins) and released water (partial) are the only surviving sources. One untested idea: collapse or densification of a 3-9 km (if fully converted) layer at the crust base, which removes no keel (limits: little pore space at about 1 GPa, needs a density-raising phase change, trigger and speed unknown) | Direct conflict with present-day data and with P9 | Raised by the user; 4.3 |
+| O15 | **No subsidence mechanism for keel-bearing interiors that satisfies P9.** The drip and peeling are struck. Stretching (margins) and released water (partial) are the only surviving sources. One untested idea: collapse or densification of a 3-9 km (if fully converted) layer at the crust base, which removes no keel (limits: little pore space at about 1 GPa, needs a density-raising phase change, trigger and speed unknown) | Direct conflict with present-day data and with P9 | Raised by the user; 4.3 | **Phase B step 1:** not ruled out; main gaps are reaction speed (4.7-7 orders too slow, indirect rates) and a mafic layer 5-10 km thick that is debated (Section 15).
 | O13 | Ten highest peaks need 7.5-8.2 km of uplift from under 610 m | Phase 7 target | v2 2.3 |
 
 Removed with the drip in draft 5: keel water (old O3), dynamic-subsidence factor (O5), cross-craton propagation (O6), stalling (O7), keel density sign (O8), shear-localization width (O10).
@@ -236,7 +236,7 @@ Check every property used as an input against a primary source or a stated publi
 Test each claim, not each number:
 - Compare predicted flooded area and submerged fraction with ETOPO 2022 and the 647/136 province data.
 - Check post-failure uplift against GIA and isostatic rebound data.
-- Test the crust-base collapse idea (O15): thickness and density change needed for 0.5-0.9 km of surface drop, pre-Flood plausibility of such a layer, reaction speed under cold cratons, and evidence in lower-crust xenoliths and high-velocity lower-crust layers.
+- Test the crust-base collapse idea (O15): **done in step 1, results in Section 15.**
 - Decide whether any mechanism satisfies P9, or state plainly that none does.
 Output: claim register with verdicts (supported, unsupported, contradicted, unresolved).
 
@@ -322,3 +322,46 @@ Work through Section 9 in this order of importance: O1 and O2 (the heat problem 
 
 ### 14.3 Sources (Phase A)
 NOAA/Eakins & Sharman 2010 and Charette & Smith 2010 (ocean volume); Gleeson et al. 2016, *Nature Geoscience* 9; Pearson et al. 2014, *Nature* 507; Mortimer et al. 2017, *GSA Today* 27(3); Kaban et al. 2003, *EPSL*; Hirth & Kohlstedt 2003 (local copy in v2 `data/rheology/`); Allmann & Shearer 2009, *JGR*; Bouhifd et al. 1996, *GRL*; McKenzie 1978, *EPSL* 40; Furlong & Chapman 2013, *Annu. Rev. Earth Planet. Sci.* 41; NNR-MORVEL56 map captions (UT Austin); Sydney University lecture notes on plate forces; xenolith-water abstracts (NASA NTRS 20160006653 and Udachnaya FTIR study); 2025 craton LAB study (surface waves).
+
+---
+
+## 15. Phase B step 1: test of the crust-base collapse (2026-11-24)
+
+**Question.** Can a layer at the crust base collapse enough to give 0.46-0.91 km of subsidence, without touching the keel (P9)? **Method.** Web search of abstracts and summaries (not full papers), plus arithmetic I did myself. Codes as in Section 14.
+
+### 15.1 Findings
+| # | Requirement | Finding | Code |
+|---|-------------|---------|------|
+| 1 | Density change from gabbro to eclogite | Eclogite 3.4-3.5 g/cm³ (up to 3.45-3.75 in one review); granulite stage 3.2-3.3. The jump is about 10% (one summary), about 15% (a conference abstract) and up to about 20% where calcic plagioclase breaks down. I did not find a source for a 2.9-3.0 g/cm³ starting density. | C |
+| 2 | Is a metastable mafic layer possible at Moho depth? | Cratonic lower crust at about 500-600 °C and 1.3-1.6 GPa is expected to be in the eclogite field. At 1 GPa (35-40 km) on a cratonic geotherm, granulite has been described persisting metastably inside the eclogite field. Eclogite facies is also quoted at 1.8-2.2 GPa (60-70 km). Granulite and eclogite coexist over 35-75 km in Australian xenoliths. So the transition is set by temperature, composition and kinetics, not one boundary. | C |
+| 3 | Is there a mafic layer thick enough? | Rudnick & Gao: lower crust 17 km thick and 80% mafic. Huang et al. 2013: about 10 km of mafic lower crust. Hacker et al. 2015: the lower crust need not be mafic at all. The field is divided. | C |
+| 4 | Reaction speed | Dry granulites stay metastable until fluid arrives. Eclogitization is fluid-limited and mostly occurs along shear zones. Indirect duration estimates run from about 20 thousand years to 1-4 million years (some from age-based methods, which P1 does not accept). No direct lab rate was found. | U |
+| 5 | Stability of the product | Eclogite is denser than mantle peridotite (3.45-3.75 vs 3.3-3.47 g/cm³), so it can founder, but Jull & Kelemen (2001) find this needs more than about 700 °C (more than about 500 °C with strain). Cold cratons stay stable. | C |
+| 6 | What it would look like today | Fennoscandian Shield: a thinned high-velocity lowermost crust (Vp 7.3-7.4 km/s) over more than 350 km, which the authors link to 50-70% eclogitization, and a 6-8 km body with Vp 8.5-8.6 km/s below it. The same authors say eclogitization can create a seismic Moho that does not coincide with the petrological crust-mantle boundary. Seen in one craton only, interpreted in the authors' own timeline. | C |
+
+### 15.2 Arithmetic (mine)
+Subsidence equals the thickness the layer loses (mass is conserved and the keel does not move). A phase change that raises density by fraction d shrinks the layer by d/(1+d).
+| Density increase | Thickness loss | Layer needed for 0.91 km | Layer needed for 0.46 km (with shallow water) |
+|------------------|----------------|--------------------------|-----------------------------------------------|
+| 10% | 9.1% | 10.0 km (6.2 mi) | 5.1 km (3.2 mi) |
+| 15% | 13.0% | 7.0 km (4.3 mi) | 3.5 km (2.2 mi) |
+| 20% | 16.7% | 5.5 km (3.4 mi) | 2.8 km (1.7 mi) |
+
+- **Correction to Section 4.8 and the image.** A 27% collapse of a 3.3 km layer is more than a phase change can give. The layer must have been about 3-10 km thick before and about 2.5-9 km thick after. A thickness after collapse of 5-9 km is in the range of the 6-8 km high-velocity bodies reported in the Fennoscandian Shield, but it is thicker than the 0.1-few km Moho transition zone, so "the layer we see today" would be the eclogitized layer, not the thin Moho transition.
+- **Speed gap:** 20 thousand to 4 million years against 150 days is 4.7 to 7.0 orders of magnitude too slow. It is the same kind of gap the keel drip had.
+- **Heat:** sinking the crust 0.91 km releases about 1.5×10²⁶ J over all continental crust (1.1 B), 3.6×10²⁵ J over cratons alone (0.25 B), at about 35 km depth, where conduction takes about 40 million years. It passes H3.
+- **Where the layer is eclogite-stable:** 35-40 km is 1.0-1.2 GPa. Only a cold lower crust (cratons) reaches the eclogite field there. So the idea would work mainly under cratons, which is where stretching does not act and where P9 forbids removing keel. Warm lower crust (stretched or young regions) would stay granulite. This is my inference and is unchecked.
+
+### 15.3 Verdict
+**Not ruled out, not shown.** It satisfies P9, it targets the keel-bearing interiors that stretching cannot reach, it passes H3, and a similar structure (a partly eclogitized layer 6-8 km thick) has been reported in one craton. It is weakest on three points:
+1. **Speed:** 4.7-7 orders too slow on indirect numbers. Fluid supply is the controlling factor, and the model's released shallow water is a possible but unexamined source.
+2. **Thickness:** it needs a 3-10 km mafic layer at the crust base before the Flood, and whether the lower crust is mafic at all is disputed.
+3. **Coverage:** it probably works only where the lower crust is cold.
+
+### 15.4 Follow-up
+- ~~Redraw the collapse diagram with the corrected thicknesses~~ (done: 7.0 km before, 6.1 km after, 13% collapse).
+- Phase B step 2: how much of the subsidence stretching and shallow water cover, and where. Combined with 15.2, this shows how much remains for the collapse.
+- Look for a faster route (higher temperature, fluid flooding) and check whether the Fennoscandian observation is typical.
+
+### 15.5 Sources (Phase B step 1)
+Ahrens & Schubert (gabbro-eclogite reaction rate and geophysical significance); JpGU 2006 and EGU 2013 abstracts on eclogitization density; Hacker et al. 2011, 2015; Rudnick & Gao 2003; Huang et al. 2013; Jull & Kelemen 2001, *JGR* 106; Buntin, Artemieva, Thybo et al. 2021, *Nature Communications*; Erambert & Austrheim 1993; Bjørnerud et al. 2002; Kaatz et al. 2021, 2022; Zertani et al. 2019; Athabasca granulite and Fiordland studies; Australian lower-crust xenolith study. Figures are from search summaries, not full-paper reads.
