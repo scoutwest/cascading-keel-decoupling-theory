@@ -1,6 +1,6 @@
 # Cascading Keel Delamination Theory (CKDT): a young-earth Flood model that avoids the CPT "heat problem"
 
-**Status:** Draft 2. Phase A (attribute re-verification) is done; results are in Section 14 and have been applied to Sections 4, 9 and 12. Phases B-E have not been run. Draft 1 was written 2026-11-24 by merging `Noah's Pangea v1` (`Theories.md`, `Model.md` Phase 13) and `Noah's Pangea v2` (`Model.md` Phases 1, 3-6). Follow-on phases A-E (Section 11) have **not** been run. Numbers not listed in Section 14 are still carried over from v1 or v2 and are not yet re-verified.
+**Status:** Draft 3 (Moho peeling restored as an alternative geometry, Section 4.7). Phase A (attribute re-verification) is done; results are in Section 14 and have been applied to Sections 4, 9 and 12. Phases B-E have not been run. Draft 1 was written 2026-11-24 by merging `Noah's Pangea v1` (`Theories.md`, `Model.md` Phase 13) and `Noah's Pangea v2` (`Model.md` Phases 1, 3-6). Follow-on phases A-E (Section 11) have **not** been run. Numbers not listed in Section 14 are still carried over from v1 or v2 and are not yet re-verified.
 **Nature:** a speculative young-earth creation-science model. Mainstream geoscience rejects its premises. Where a number fails, the failure is stated.
 
 ---
@@ -121,8 +121,43 @@ McKenzie-type initial subsidence (textbook form; v2's code applied the factor (1
 
 ### 4.6 Trigger and cascade
 - **Cascade (stress transfer).** One failure loads its neighbours. v1 used the median earthquake stress drop (4 MPa) against low ambient shear-zone stress (1 MPa) for a 5× multiplier. *(v1 13.5; checked against literature, but see O6.)*
-- **Trigger.** **Unresolved.** Candidates checked and not working as proposed: eclogitization (wrong material: it acts on mafic crust, not depleted peridotite, and needs prior thickening); plume arrival (10-30 My by default, 540-27,000 yr at the extreme edge, covers arrival only); Moho peeling (faster baseline, still needs an external trigger). See Section 9, item O4.
+- **Trigger.** **Unresolved.** Candidates checked and not working as proposed: eclogitization (wrong material: it acts on mafic crust, not depleted peridotite, and needs prior thickening); plume arrival (10-30 My by default, 540-27,000 yr at the extreme edge, covers arrival only); Moho peeling (faster baseline, still needs an external trigger; kept as an alternative geometry, Section 4.7). See Section 9, item O4.
 - **Stalling risk.** Real numerical models show delamination can stall when cooling of inflowing asthenosphere outpaces instability growth (Colorado Plateau example). "Self-sustaining" has not been shown. See O7.
+
+### 4.7 Alternative geometry: Moho peeling (restored from v1 Section 13.6.1)
+v1 proposed a second way for the keel to leave. Instead of a dense blob dripping from the keel's base (4.3-4.4), the whole mantle part of the keel **peels off along the Moho** like a flap pulled away from the crust (Bird 1978, 1979, "delamination sensu stricto"). The popular picture is wobbly stilts giving way between the crust and the keel. It is a different geometry from the drip, not a variant of it. **Status: kept as an alternative, not adopted and not rejected.** It has not been tested against the v2 checks (Phase B).
+
+**Geometry** (images: `images/ckdt_moho_peeling_diagram.png` and `.svg`; the drip is `images/ckdt_drip_diagram.png`):
+| Layer | Thickness | In miles |
+|-------|-----------|----------|
+| Crust | 35 km | 21.7 mi |
+| Weak Moho transition layer (the surface that peels) | 0.1 to a few km; up to about 20 km in unusual non-cratonic settings; v1 used 2.4 km | 0.06 to a few mi; v1: 1.5 mi |
+| Keel mantle that peels off (to a 200 km keel base) | 165 km | 102.5 mi |
+
+**What v1 found** (v1 13.6.1; not re-derived):
+- **Baseline speed is better.** Published dynamical models give peeling about 10 times faster than dripping (rates, not ages). That leaves a gap of about 3.9 orders of magnitude to the Flood timescale, against 4-7 for dripping.
+- **v1's shear-heating lever does not transfer.** Applied to a layer 0.1-20 km thick it gives absurd local temperatures (594 K at 20 km, over 100,000 K at 0.1 km). It only works for 50-100 km shear zones in the drip geometry.
+- **Stress amplification does transfer, but is weaker here.** Peeling rate scales as viscosity^(-2/3), so closing 3.9 orders of timescale needs about 5.8 orders of viscosity reduction. The modest 5× stress boost (4 MPa on 1 MPa) gives only 1.6 orders. Only the extreme combination (50 MPa stress drop on 1 MPa, 51×) gives 4.0 orders, just clearing the target.
+- **Trigger unresolved**, same as the drip (O4). The literature's own examples (slab rollback, subduction migration, strain migrating in) are external.
+
+**Requirements (v1):** (1) the mantle lithosphere must already be thin enough that hot asthenosphere sits next to the weak Moho layer; (2) the Moho or lower-crust layer must be mechanically weak (hot or hydrated).
+
+**New observations from merging with v2 (my reasoning, not yet checked against data):**
+1. **The buoyancy-sign problem applies equally.** Removing the whole 165 km mantle keel with a net-dense excess of +0.8 to +1.2% (Section 14.2) would raise the surface by about 1.3 to 2.0 km (0.8 to 1.2 mi) afterwards. Subsidence would occur only while the flap is peeling. So peeling gives the same sink-then-rebound behaviour as CKDT-II, not a permanent drop.
+2. **Requirement (1) conflicts with an intact keel.** A craton with its full 150-250 km keel has no asthenosphere beside the Moho. Peeling can only begin where the keel is already thinned (for example near margins or after a first partial loss). So it cannot be the first failure on an intact craton. It may instead be a second stage after a drip or stretching has thinned the keel.
+3. **Weak Moho layer:** no data in the model say the Moho layer under cratons is weak or wet. Cratonic lower crust is generally cold. This is open (O14).
+
+**How it compares with the drip (for Phase B and D):**
+| | Drip (4.3-4.4) | Moho peeling (4.7) |
+|---|---|---|
+| What leaves | Dense lower keel base, 100 km (assumed) | Whole mantle keel, 165 km |
+| Where it breaks | Inside the keel | Along the Moho |
+| Baseline speed (literature) | slower | about 10× faster |
+| Shear-heating lever | works for 50-100 km zones | fails (absurd temperatures) |
+| Extra requirement | wet, hot, stressed keel base | pre-thinned keel and weak Moho layer |
+| Buoyancy sign | net dense: sink then rebound | same |
+| Tested with v2 flow laws | yes | no |
+
 
 ---
 
@@ -194,6 +229,7 @@ Cool, conductive xenolith geotherms show no recent catastrophic heating. Fine de
 | C9 | Data provenance | mixed local and fetched files | clean-room, traceable to source IDs | v2 |
 | C10 | Province count | 914 provinces, 647 continental | 914 polygons, 893 distinct names (prompt said 899) | 914/893 |
 | C11 | DTAT status | integrated into animation, outcome illustrated | candidate theory, basics only | DTAT is a separate theory; CKDT keeps only a handoff note (5.2) |
+| C13 | Keel-loss geometry | v1: drip, plus Moho peeling explored (13.6.1) | v2: drip only (CKDT-II); peeling untested | Drip primary; peeling restored as alternative (4.7) |
 | C12 | Uplift curve | damped oscillator reused from Phase 4 | to be derived by Stokes-flow check | v2 |
 
 ---
@@ -214,6 +250,7 @@ Cool, conductive xenolith geotherms show no recent catastrophic heating. Fine de
 | O10 | Shear-localization width in real rock | Needed for v1 lever 1 | v1 13.6 |
 | O11 | Post-Flood ice age (P8) and the 40-day "windows of heaven" water | Not modelled | v2 Phase 9 |
 | O12 | Recession: lasting uplift after collision; fragment paths | Belongs to DTAT | v2 |
+| O14 | Weak, wet or hot Moho layer under cratons (needed for peeling); and whether peeling can start on an intact keel | Peeling requires both | v1 13.6.1; 4.7 |
 | O13 | Ten highest peaks need 7.5-8.2 km of uplift from under 610 m | Phase 7 target | v2 2.3 |
 
 ---
@@ -250,6 +287,7 @@ Test each claim, not each number:
 - Compare predicted flooded area and submerged fraction with ETOPO 2022 and the 647/136 province data.
 - Check stress-transfer and cascade claims against published rheology of ductile shear zones (O6, O7, O10).
 - Check post-failure uplift against GIA and isostatic rebound data.
+- Test Moho peeling (4.7) against the same checks as the drip: v2 flow laws with a Moho-layer thickness and water content, the net buoyancy sign, and whether a weak cratonic Moho layer exists in the data (O14). Decide whether it is a second stage after the drip or a separate route.
 Output: claim register with verdicts (supported, unsupported, contradicted, unresolved).
 
 ### Phase C: Rebuild the Python math files
