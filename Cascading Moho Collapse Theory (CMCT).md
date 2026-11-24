@@ -1,6 +1,7 @@
-# Cascading Keel Delamination Theory (CKDT): a young-earth Flood model that avoids the CPT "heat problem"
+# Cascading Moho Collapse Theory (CMCT): a young-earth Flood model that avoids the CPT "heat problem"
 
-**Status:** Draft 5. The keel-drip mechanism (CKDT-II) and Moho peeling are **struck** under premise P9 (no mechanism may conflict with the deep keels cratons have today). The theory currently has **no keel-based subsidence mechanism**; what survives is the heat analysis, the flood geometry, stretching and shallow released water. The one untested idea left is collapse or densification of a layer at the crust base (O15). The name "Cascading Keel Delamination Theory" no longer fits and is kept only until a decision is made. Phase A (attribute re-verification) is done (Section 14). Phases B-E have not been run. Draft 1 was written 2026-11-24 by merging `Noah's Pangea v1` (`Theories.md`, `Model.md` Phase 13) and `Noah's Pangea v2` (`Model.md` Phases 1, 3-6). Numbers not listed in Section 14 are still carried over from v1 or v2 and are not yet re-verified.
+**Status:** Draft 5. The keel-drip mechanism (CKDT-II) and Moho peeling are **struck** under premise P9 (no mechanism may conflict with the deep keels cratons have today). The theory currently has **no keel-based subsidence mechanism**; what survives is the heat analysis, the flood geometry, stretching and shallow released water. The one untested idea left is collapse or densification of a layer at the crust base (O15). Phase A (attribute re-verification) is done (Section 14). Phases B-E have not been run. Draft 1 was written 2026-11-24 by merging `Noah's Pangea v1` (`Theories.md`, `Model.md` Phase 13) and `Noah's Pangea v2` (`Model.md` Phases 1, 3-6). Numbers not listed in Section 14 are still carried over from v1 or v2 and are not yet re-verified.
+**Name:** renamed in draft 5 from Cascading Keel Delamination Theory (CKDT) after the keel-removal mechanisms were struck (P9). "CMCT" is a working name until Phase B reports on the crust-base collapse idea (Section 4.8). Earlier files and v1/v2 notes use the old name; "CKDT-II" refers to the struck keel-drip version.
 **Nature:** a speculative young-earth creation-science model. Mainstream geoscience rejects its premises. Where a number fails, the failure is stated.
 
 ---
@@ -11,9 +12,9 @@
 
 **Core claim, current state.** The original claim was that continents sit on deep, cold mantle roots (keels), and that the dense lower part of a keel breaks away and sinks, pulling the land down so that it floods without new ocean floor. **That claim is struck** (Section 4.3): any mechanism that removes keel material leaves a keel thinner than the 150-250 km observed under cratons today, which conflicts with premise P9. What remains is the flood geometry (about 0.91 km of subsidence floods a 610 m peak), stretching of the margins (Section 4.5), shallow cool released water (Section 5.1), and the heat constraints. The subsidence mechanism for the keel-bearing continental interiors is **vacant** (O15). The one untested idea is collapse or densification of a layer at the crust base, which removes no keel.
 
-**What CKDT is for, and what it is not for.**
+**What CMCT is for, and what it is not for.**
 - **It is a flood (submergence) mechanism.** It lowers land relative to sea level. It adds no water and makes no ocean floor.
-- **It is not a continent-making or continental-drift mechanism.** CKDT covers only subsidence and destabilization. Making the continents, moving them, and everything after that is handed to DTAT (Section 5.2). Opening the Atlantic and Indian oceans (H9) and moving continents 3,800 km (H10) are therefore outside CKDT (Section 9, items O1 and O2), and the heat limits H9 and H10 still have to be met by DTAT. Any version of this model that claims CKDT also solves them is wrong by v2's results.
+- **It is not a continent-making or continental-drift mechanism.** CMCT covers only subsidence and destabilization. Making the continents, moving them, and everything after that is handed to DTAT (Section 5.2). Opening the Atlantic and Indian oceans (H9) and moving continents 3,800 km (H10) are therefore outside CMCT (Section 9, items O1 and O2), and the heat limits H9 and H10 still have to be met by DTAT. Any version of this model that claims CMCT also solves them is wrong by v2's results.
 
 ---
 
@@ -29,7 +30,7 @@
 | P6 | Target end state: seven continents, today's ten highest peaks (all Himalaya-Karakoram, 8,091-8,849 m), isostatic uplift with overshoot and rebound, and a post-Flood ice age (P8). |
 | P7 | CPT runaway subduction is rejected as a mechanism. Its heat figure is kept only to show the scale of the problem. |
 | P8 | The model must leave room for a post-Flood ice age (warm oceans, volcanic aerosols). Not built yet. |
-| P9 | **Keel preservation.** CKDT does not consider any mechanism that conflicts with the deep keels (150-250 km) that cratons have today. A mechanism that leaves less keel than is observed is rejected. |
+| P9 | **Keel preservation.** CMCT does not consider any mechanism that conflicts with the deep keels (150-250 km) that cratons have today. A mechanism that leaves less keel than is observed is rejected. |
 | R1 | Obstacles and failures are written down with their solution or status (Section 10). |
 | R2 | Use they/them for anyone whose pronouns are not stated. |
 
@@ -78,7 +79,7 @@ v1 and v2 disagree on several points (Section 8). Where they conflict, this sect
 ### 4.2 How much subsidence is needed: about 1 km, not 3-9 km
 v1 assumed 3,000-9,000 m of subsidence was needed. **v2's geometry replaces that.** With Pangea covering 41.3% of the Earth (2.105×10⁸ km²) and mean elevation 200 m, covering a 610 m peak by 15 cubits (6.86 m) needs **D ≈ 910 m** of uniform subsidence (839-980 m for 100-300 m mean elevation), with ocean floor fixed. Sea level elsewhere falls 220-360 m. *(v2 3.4; arithmetic checked in v2)*
 
-This lowers CKDT's burden by a factor of 3-10 and is the main reason the model is more credible than v1's.
+This lowers CMCT's burden by a factor of 3-10 and is the main reason the model is more credible than v1's.
 
 ### 4.3 Keel drip (CKDT-II): struck under P9
 The keel-drip mechanism was struck in draft 5. A dense lower keel base breaking away and sinking removes keel material. Removing the 0.1-0.9 km of subsidence the model needs takes tens of km of keel (surface change = ε·t, with a net density excess ε of 0.3-1%), and the drip as drawn left about 65 km of a 200 km keel. Observed cratons have 150-250 km today (Section 4.1), so it conflicts with P9. It would only be allowed if the pre-Flood keel were thicker than any observed keel, and nothing in the data supports that.
@@ -98,11 +99,30 @@ McKenzie-type initial subsidence (textbook form; v2's code applied the factor (1
 Whatever replaces the drip still needs something to start it and a way to spread it. The drip-specific analysis (stress-transfer cascade, stalling, cross-craton propagation) is struck. Triggers checked in v1 and found not to work for keel failure: eclogitization (acts on mafic lower crust, needs prior thickening), plume arrival (10-30 My by default). Eclogitization of lower crust is relevant again only for the untested crust-base collapse idea (O15). See Section 9, item O4.
 
 ### 4.7 Moho peeling: struck under P9
-Moho peeling (the keel's mantle peeling off along the Moho; v1 Section 13.6.1) was restored in draft 3 and struck in draft 4. It removes the whole 165 km keel mantle, so it leaves no keel and conflicts with P9. v1's analysis remains in `Noah's Pangea v1/Model.md` Section 13.6.1 for reference. The drip and peeling images were deleted from `images/` in draft 5 (recoverable from git history).
+Moho peeling (the keel's mantle peeling off along the Moho; v1 Section 13.6.1) was restored in draft 3 and struck in draft 4. It removes the whole 165 km keel mantle, so it leaves no keel and conflicts with P9. v1's analysis remains in `Noah's Pangea v1/Model.md` Section 13.6.1 for reference. The drip and peeling images were deleted in draft 5 (recoverable from git history). `images/` now holds the diagram for the idea in 4.8.
+
+### 4.8 Candidate: collapse of a thick layer at the crust base (untested)
+The one idea left that satisfies P9. A layer between the crust and the keel was thicker before the Flood and collapses to its present thickness in a cascade. The crust drops onto the keel, which is not touched. Image: `images/crust_base_collapse_diagram.png` (and `.svg`).
+
+**Arithmetic (mine, not checked against data).** Subsidence equals the thickness the layer loses, because mass is conserved and the keel does not move. Taking today's layer as 2.4 km (v1's estimate; published Moho transition zones run 0.1 to a few km):
+| Case | Subsidence needed | Layer before | Layer after | Collapse |
+|------|-------------------|--------------|-------------|----------|
+| No released water | 0.91 km (0.57 mi) | 3.31 km (2.06 mi) | 2.4 km (1.5 mi) | 27% |
+| With 1.3×10⁸ km³ shallow water released (5.1) | 0.46 km (0.29 mi) | 2.86 km (1.78 mi) | 2.4 km (1.5 mi) | 16% |
+
+**Why it is not yet a mechanism:**
+1. **No pore space to crush.** Rock at about 35 km depth (about 1 GPa) has almost no void space. A 16-27% collapse needs a density-raising change in the rock itself. The usual example is gabbro turning to eclogite, which is roughly 10-15% denser (from memory, unverified). A layer of 3-9 km fully converted would give 0.46-0.91 km. That is thicker than the measured layer today.
+2. **Trigger, spread and speed are unknown** (O4). Fluids can start such reactions and cold, dry lower crust can stay unreacted for a long time (from memory, not checked), but cratonic lower crust is cold and the reaction is slow in dry rock.
+3. **It has to happen under all the land**, not only cratons. The model has no data on lower crust everywhere.
+4. **What it would leave today:** a dense layer that seismics might read as mantle. Reported high-velocity lower-crust layers at the base of many cratons are a possible match, not checked.
+
+**Heat (rough):** crust sinking about 0.9 km releases about 1.5×10²⁶ J over all land, about 1.1 times the heat budget B, at about 35 km depth (conduction time about 40 million years, so it passes H3).
+
+**Status:** untested. Phase B checks are listed in Section 11.
 
 ---
 
-## 5. Companion mechanisms (used only where CKDT cannot cover the budget)
+## 5. Companion mechanisms (used only where CMCT cannot cover the budget)
 
 ### 5.1 Water from shallow, cool sources (v2 Phase 4)
 Present-depth ocean (3.68 km basin): 2.3×10⁸ km³ must start underground. Shallow reservoirs (<5 km) sum to about 1.3×10⁸ km³:
@@ -112,16 +132,16 @@ Present-depth ocean (3.68 km basin): 2.3×10⁸ km³ must start underground. Sha
 | Ocean sediment pore water (0.5 km, 40%; my assumption) | 6×10⁷ km³ |
 | Serpentinized oceanic lithosphere (5 km, 10%, 13 wt%; my assumption) | 5×10⁷ km³ (to 1.5×10⁸) |
 
-Every 10⁸ km³ released saves about 330 m of subsidence, so 1.3×10⁸ km³ leaves only about 465 m for CKDT and stretching. A water-only flood needs 2.7×10⁸ km³. Deep (transition-zone) water is too hot (H5). The shallow-ocean pre-Flood case needs 78% of all water underground and cannot be met, so **the model uses the present-depth case**. Venting at 100 m/s needs a slot about 1.8 m wide along 99,700 km of ridge.
+Every 10⁸ km³ released saves about 330 m of subsidence, so 1.3×10⁸ km³ leaves only about 465 m for CMCT and stretching. A water-only flood needs 2.7×10⁸ km³. Deep (transition-zone) water is too hot (H5). The shallow-ocean pre-Flood case needs 78% of all water underground and cannot be met, so **the model uses the present-depth case**. Venting at 100 m/s needs a slot about 1.8 m wide along 99,700 km of ridge.
 
 ### 5.2 Handoff to DTAT (note only)
-Continent-making is the job of a separate theory, the Differential Terrane Accretion Theory (DTAT; see `Differential Terrane Accretion Theory (DTAT).md` if and when it is written). CKDT stops once subsidence and destabilization are done. DTAT takes over from there. This model gives DTAT no content and no numbers.
+Continent-making is the job of a separate theory, the Differential Terrane Accretion Theory (DTAT; see `Differential Terrane Accretion Theory (DTAT).md` if and when it is written). CMCT stops once subsidence and destabilization are done. DTAT takes over from there. This model gives DTAT no content and no numbers.
 
-Open problems that now belong to DTAT, not CKDT: O1 (new ocean floor), O2 (moving the blocks), O12 (recession and lasting uplift) and O13 (the ten highest peaks). The handoff conditions, such as the state of the crust DTAT inherits, are to be defined when DTAT is written.
+Open problems that now belong to DTAT, not CMCT: O1 (new ocean floor), O2 (moving the blocks), O12 (recession and lasting uplift) and O13 (the ten highest peaks). The handoff conditions, such as the state of the crust DTAT inherits, are to be defined when DTAT is written.
 
 ---
 
-## 6. Energy and heat accounting for CKDT (summary table)
+## 6. Energy and heat accounting for CMCT (summary table)
 
 | Process | Energy | Depth of dissipation | Result |
 |---------|--------|----------------------|--------|
@@ -134,7 +154,7 @@ Honest reading: stretching and shallow water together can flood part of the land
 
 ---
 
-## 7. Evidence check: what supports and what cuts against CKDT
+## 7. Evidence check: what supports and what cuts against CMCT
 
 ### 7.1 Supports
 - Keels exist and are large (4.1), and cool xenolith geotherms say they are intact today. This is consistent with P9.
@@ -164,7 +184,7 @@ Cool, conductive xenolith geotherms show no recent catastrophic heating. Fine de
 | C8 | Radiometric dates | Karoo/Paraná/Deccan dates used to test the plume redirect | rejects deep-time ages as inputs | v2 rule; v1 argument kept only as internal-coherence check |
 | C9 | Data provenance | mixed local and fetched files | clean-room, traceable to source IDs | v2 |
 | C10 | Province count | 914 provinces, 647 continental | 914 polygons, 893 distinct names (prompt said 899) | 914/893 |
-| C11 | DTAT status | integrated into animation, outcome illustrated | candidate theory, basics only | DTAT is a separate theory; CKDT keeps only a handoff note (5.2) |
+| C11 | DTAT status | integrated into animation, outcome illustrated | candidate theory, basics only | DTAT is a separate theory; CMCT keeps only a handoff note (5.2) |
 | C13 | Keel-loss geometry | v1: drip, plus Moho peeling explored (13.6.1) | v2: drip only (CKDT-II); peeling untested | Both struck under P9 |
 | C12 | Uplift curve | damped oscillator reused from Phase 4 | to be derived by Stokes-flow check | v2 |
 
@@ -174,7 +194,7 @@ Cool, conductive xenolith geotherms show no recent catastrophic heating. Fine de
 
 | ID | Problem | Why it matters | Source |
 |----|---------|----------------|--------|
-| O1 | **H9: origin of 1.64×10⁸ km² of ocean floor between separated continents.** Rotating blocks back leaves ≥1.08×10⁸ km² uncovered (302× H1). Exhumed mantle margins cover 21-85% at assumed 100-400 km widths. Intact new floor passes heat only if heat extraction stays above about 300 m. | Without it, CKDT floods Pangea but does not make today's oceans | v2 6.2 |
+| O1 | **H9: origin of 1.64×10⁸ km² of ocean floor between separated continents.** Rotating blocks back leaves ≥1.08×10⁸ km² uncovered (302× H1). Exhumed mantle margins cover 21-85% at assumed 100-400 km widths. Intact new floor passes heat only if heat extraction stays above about 300 m. | Without it, CMCT floods Pangea but does not make today's oceans | v2 6.2 |
 | O2 | **H10: moving blocks about 3,841 km.** In 150 days that is 0.3 m/s and basal drag costs ≥ 350 B with no named energy source. Spread over 4,370 yr it still needs about 23,800× the present mean plate speed (3.7 cm/yr; v2's 5 cm/yr gave 17,600×). | Heat problem returns here | v2 6.1 |
 | O4 | Trigger for any new subsidence mechanism | No candidate works for keel failure; relevant again if crust-base collapse is pursued | v1 13.6, v2 |
 | O9 | Unverified inputs: ocean volume 1.335×10⁹ km³; 40 °C cap; 15 °C start; 5 cm/yr present speed; slab pull 3.3×10¹³ N/m; ridge push 2.5×10¹² N/m; crust heat 3.2×10¹³ J/m²; sediment and serpentinite reservoir sizes | Many results rest on these | v2 10 |
@@ -227,7 +247,7 @@ Rebuild from scratch into one clean package with a shared `sphere.py`, one scrip
 Work through Section 8 row by row. For each conflict, state the evidence for both sides, pick one, and record why. Update Section 4 to the single winning version. Remove withdrawn text. Output: Section 8 with every row marked resolved.
 
 ### Phase E: Solve outstanding issues
-Work through Section 9 in this order of importance: O1 and O2 (the heat problem returns here), then O15 (subsidence mechanism under P9), O4 (trigger), O13 (peaks), O11 (ice age). For each, either propose a physical mechanism that passes H1-H10 or write down plainly that it fails. If O1 or O2 cannot be solved without breaking H1-H4, say so in Section 1: CKDT would then be a partial answer to the heat problem (flood without heat), not a full one.
+Work through Section 9 in this order of importance: O1 and O2 (the heat problem returns here), then O15 (subsidence mechanism under P9), O4 (trigger), O13 (peaks), O11 (ice age). For each, either propose a physical mechanism that passes H1-H10 or write down plainly that it fails. If O1 or O2 cannot be solved without breaking H1-H4, say so in Section 1: CMCT would then be a partial answer to the heat problem (flood without heat), not a full one.
 
 ---
 
