@@ -1,6 +1,6 @@
 # Cascading Moho Collapse Theory (CMCT): a young-earth Flood model that avoids the CPT "heat problem"
 
-**Status:** Draft 5. The keel-drip mechanism (CKDT-II) and Moho peeling are **struck** under premise P9 (no mechanism may conflict with the deep keels cratons have today). The theory currently has **no keel-based subsidence mechanism**; what survives is the heat analysis, the flood geometry, stretching and shallow released water. The one untested idea left is collapse or densification of a layer at the crust base (O15). Phase A (attribute re-verification) is done (Section 14). Phase B step 1 (the crust-base collapse test) is done (Section 15). The rest of Phases B-E has not been run. Draft 1 was written 2026-11-24 by merging `Noah's Pangea v1` (`Theories.md`, `Model.md` Phase 13) and `Noah's Pangea v2` (`Model.md` Phases 1, 3-6). Numbers not listed in Section 14 are still carried over from v1 or v2 and are not yet re-verified.
+**Status:** Draft 5. The keel-drip mechanism (CKDT-II) and Moho peeling are **struck** under premise P9 (no mechanism may conflict with the deep keels cratons have today). The theory currently has **no keel-based subsidence mechanism**; what survives is the heat analysis, the flood geometry, stretching and shallow released water. The one untested idea left is collapse or densification of a layer at the crust base (O15). Phase A (attribute re-verification) is done (Section 14). Phase B steps 1 and 2 (the crust-base collapse test and the stretching-plus-water coverage test) are done (Sections 15 and 16). The rest of Phases B-E has not been run. Draft 1 was written 2026-11-24 by merging `Noah's Pangea v1` (`Theories.md`, `Model.md` Phase 13) and `Noah's Pangea v2` (`Model.md` Phases 1, 3-6). Numbers not listed in Section 14 are still carried over from v1 or v2 and are not yet re-verified.
 **Name:** renamed in draft 5 from Cascading Keel Delamination Theory (CKDT) after the keel-removal mechanisms were struck (P9). "CMCT" is a working name until Phase B reports on the crust-base collapse idea (Section 4.8). Earlier files and v1/v2 notes use the old name; "CKDT-II" refers to the struck keel-drip version.
 **Nature:** a speculative young-earth creation-science model. Mainstream geoscience rejects its premises. Where a number fails, the failure is stated.
 
@@ -92,7 +92,7 @@ Findings from the drip work that remain useful for any future keel-related idea:
 ### 4.4 Struck with the drip
 The fast-failure creep and shear-heating analysis (formerly Section 4.4) is removed. See 4.3.
 
-### 4.5 Second subsidence source: stretching (no keel physics needed)
+### 4.5 Stretching of the margins (explains the submerged margins, does not help flood the interior; see Section 16)
 McKenzie-type initial subsidence (textbook form; v2's code applied the factor (1 − αT_m) twice, which overstated results by 4.6%, corrected in Phase A): β = 1.2 → 722 m; β = 1.5 → 1,445 m; β = 2 → 2,167 m (water-loaded; 35 km crust, 125 km lithosphere). The dataset's transitional crust (136 provinces, 3.8×10⁷ km², 18% of continental plus transitional) has mean elevation −1,360 m and is 92.6% submerged, a fall of about 1,560 m from a +200 m start, consistent with β of about 1.5-1.6 (corrected values). Zealandia (4.9×10⁶ km², about 94% submerged; Mortimer et al. 2017) is the real example of stretched, permanently submerged continent. Stretching energy (3.1×10²⁷ J if all transitional crust) stays deep and passes H3, unless decompression melt erupts (then it counts against H1).
 
 ### 4.6 Trigger (open for any mechanism)
@@ -200,7 +200,7 @@ Cool, conductive xenolith geotherms show no recent catastrophic heating. Fine de
 | O9 | Unverified inputs: ocean volume 1.335×10⁹ km³; 40 °C cap; 15 °C start; 5 cm/yr present speed; slab pull 3.3×10¹³ N/m; ridge push 2.5×10¹² N/m; crust heat 3.2×10¹³ J/m²; sediment and serpentinite reservoir sizes | Many results rest on these | v2 10 |
 | O11 | Post-Flood ice age (P8) and the 40-day "windows of heaven" water | Not modelled | v2 Phase 9 |
 | O12 | Recession: lasting uplift after collision; fragment paths | Belongs to DTAT | v2 |
-| O15 | **No subsidence mechanism for keel-bearing interiors that satisfies P9.** The drip and peeling are struck. Stretching (margins) and released water (partial) are the only surviving sources. One untested idea: collapse or densification of a 3-9 km (if fully converted) layer at the crust base, which removes no keel (limits: little pore space at about 1 GPa, needs a density-raising phase change, trigger and speed unknown) | Direct conflict with present-day data and with P9 | Raised by the user; 4.3 | **Phase B step 1:** not ruled out; main gaps are reaction speed (4.7-7 orders too slow, indirect rates) and a mafic layer 5-10 km thick that is debated (Section 15).
+| O15 | **No subsidence mechanism for keel-bearing interiors that satisfies P9.** The drip and peeling are struck. Stretching (margins) and released water (partial) are the only surviving sources. One untested idea: collapse or densification of a 3-9 km (if fully converted) layer at the crust base, which removes no keel (limits: little pore space at about 1 GPa, needs a density-raising phase change, trigger and speed unknown) | Direct conflict with present-day data and with P9 | Raised by the user; 4.3 | **Phase B step 1:** not ruled out; main gaps are reaction speed (4.7-7 orders too slow, indirect rates) and a mafic layer 5-10 km thick that is debated (Section 15). **Phase B step 2:** the interior still needs 0.28-0.97 km at its highest ground even with all shallow water released; stretching does not reduce this (Section 16).
 | O13 | Ten highest peaks need 7.5-8.2 km of uplift from under 610 m | Phase 7 target | v2 2.3 |
 
 Removed with the drip in draft 5: keel water (old O3), dynamic-subsidence factor (O5), cross-craton propagation (O6), stalling (O7), keel density sign (O8), shear-localization width (O10).
@@ -234,6 +234,7 @@ Check every property used as an input against a primary source or a stated publi
 
 ### Phase B: Re-verify claims against real scientific data
 Test each claim, not each number:
+- Stretching plus shallow water coverage: **done in step 2, results in Section 16.**
 - Compare predicted flooded area and submerged fraction with ETOPO 2022 and the 647/136 province data.
 - Check post-failure uplift against GIA and isostatic rebound data.
 - Test the crust-base collapse idea (O15): **done in step 1, results in Section 15.**
@@ -365,3 +366,51 @@ Subsidence equals the thickness the layer loses (mass is conserved and the keel 
 
 ### 15.5 Sources (Phase B step 1)
 Ahrens & Schubert (gabbro-eclogite reaction rate and geophysical significance); JpGU 2006 and EGU 2013 abstracts on eclogitization density; Hacker et al. 2011, 2015; Rudnick & Gao 2003; Huang et al. 2013; Jull & Kelemen 2001, *JGR* 106; Buntin, Artemieva, Thybo et al. 2021, *Nature Communications*; Erambert & Austrheim 1993; Bjørnerud et al. 2002; Kaatz et al. 2021, 2022; Zertani et al. 2019; Athabasca granulite and Fiordland studies; Australian lower-crust xenolith study. Figures are from search summaries, not full-paper reads.
+
+---
+
+## 16. Phase B step 2: how much do stretching and shallow water cover? (2026-11-24)
+
+**Question.** With stretching of the margins and shallow released water, how much subsidence is still missing in the continental interior, where P9 forbids removing keel? **Method.** Arithmetic only, using the water-budget geometry of Section 4.2 (water volume conserved, ocean floor fixed). No new literature.
+
+### 16.1 Setup
+- Pangea is 2.105×10⁸ km² (fraction f = 0.4127 of Earth's 5.10×10⁸ km²). The transitional (margin) share is w = 0.181 (3.8×10⁷ km²); the rest (82%) is interior.
+- Mean pre-Flood land 200 m; highest peak 610 m; flood depth over the peak 6.86 m (15 cubits at 0.457 m, assumed).
+- When all land is submerged, the final sea level (relative to the old one) is h = V_r/A_Earth + f × (mean land height after subsidence). Water released V_r raises it by 196 m per 10⁸ km³.
+- Stretching: β = 1.5 lowers the margins by 1.445 km (Section 4.5, corrected).
+- Two bounds for the interior: **uniform** (all interior drops by D) and **peaks only** (only the highest ground drops, so the mean barely moves). The truth lies between, and depends on the pre-Flood hypsometry, which is unknown.
+
+### 16.2 Result
+| Water released | Margins | Sea-level rise from water | Sea level before any interior subsidence | Interior must drop (uniform) | Highest ground must drop (peaks only) |
+|----------------|---------|---------------------------|-------------------------------------------|------------------------------|----------------------------------------|
+| none | stay put | 0 | 83 m | 807 m | 534 m |
+| none | β = 1.5 | 0 | -25 m | 970 m | 642 m |
+| 2.26×10⁷ km³ (groundwater, verified) | stay put | 44 m | 127 m | 740 m | 490 m |
+| 2.26×10⁷ km³ | β = 1.5 | 44 m | 19 m | 903 m | 598 m |
+| 1.3×10⁸ km³ (all shallow reservoirs; two of three assumed) | stay put | 255 m | 337 m | 422 m | 279 m |
+| 1.3×10⁸ km³ | β = 1.5 | 255 m | 230 m | 585 m | 387 m |
+| 2.3×10⁸ km³ (present-depth requirement, Section 5.1) | stay put | 451 m | 534 m | 126 m | 83 m |
+| 2.3×10⁸ km³ | β = 1.5 | 451 m | 426 m | 289 m | 191 m |
+
+### 16.3 Findings
+1. **Stretching does not help flood the interior. It hurts.** Dropping the margins by 1.4 km pulls water out of the ocean to fill the new space, which lowers sea level and raises the interior's requirement by 108-163 m. Stretching explains why the margins are under water today (Section 4.5), not how the interior floods. Section 4.5's earlier role as a "second subsidence source" for the flood is withdrawn.
+2. **Released water is the main lever.** Verified groundwater alone gives only 44 m. The full shallow sum gives 255 m, but two of its three reservoirs (sediment pore water, serpentinite) are my assumptions. The 2.3×10⁸ km³ the present-depth ocean requires is more than the shallow sources supply (1.3×10⁸ km³).
+3. **The interior still needs subsidence in every case except the most generous.** With all shallow water and margin stretching, the interior must drop 0.39 km (peaks only) to 0.59 km (uniform). With no stretching it is 0.28-0.42 km. With no water it is 0.53-0.97 km.
+4. **What this asks of the collapse (Section 15.2):** layer thickness needed before collapse, for a 9-17% thickness loss.
+| Interior drop | Layer needed (20% density rise to 10%) |
+|---------------|----------------------------------------|
+| 0.28 km | 1.7-3.1 km |
+| 0.39 km | 2.3-4.3 km |
+| 0.59 km | 3.5-6.4 km |
+| 0.64 km | 3.8-7.0 km |
+| 0.97 km | 5.8-10.7 km |
+So with generous water the collapse needs a layer of about 2-6 km, much closer to the thin end of published thicknesses; with little water it needs 4-11 km.
+
+### 16.4 Limits
+- Pre-Flood hypsometry (the spread of land heights between the mean 200 m and the peak 610 m) is a free parameter. The two bounds bracket it.
+- The water reservoirs are mostly my parametric guesses (Section 14, row 6). Only groundwater is verified.
+- It assumes the ocean floor stays fixed and the shallow-ocean pre-Flood case is excluded (Section 5.1).
+- Whether the margins were land with a 200 m mean before the Flood is assumed.
+
+### 16.5 Consequence for the model
+The model's burden shifts from "subsidence" to **water plus interior subsidence**. The more shallow water the model can justify, the smaller the layer the collapse idea needs. Verifying the sediment and serpentinite water reservoirs (O9) is now as important as testing the collapse.
