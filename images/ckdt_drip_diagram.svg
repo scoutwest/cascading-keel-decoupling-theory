@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-24T14:42:38.713389</dc:date>
+    <dc:date>2026-11-24T15:10:12.647018</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -35,7 +35,7 @@ L 445.041509 75.6
 L 445.041509 173.597383 
 L 194.4 173.597383 
 z
-" clip-path="url(#p841eb5535e)" style="fill: #f4f8fc; stroke: #f4f8fc; stroke-linejoin: miter"/>
+" clip-path="url(#p7352b7415d)" style="fill: #f4f8fc; stroke: #f4f8fc; stroke-linejoin: miter"/>
    </g>
    <g id="patch_3">
     <path d="M 206.932075 235.490467 
@@ -43,7 +43,7 @@ L 432.509434 235.490467
 L 432.509434 627.48 
 L 206.932075 627.48 
 z
-" clip-path="url(#p841eb5535e)" style="fill: #e8a35a; opacity: 0.9"/>
+" clip-path="url(#p7352b7415d)" style="fill: #e8a35a; opacity: 0.9"/>
    </g>
    <g id="patch_4">
     <path d="M 194.4 173.597383 
@@ -51,7 +51,7 @@ L 206.932075 173.597383
 L 206.932075 173.597383 
 L 194.4 173.597383 
 z
-" clip-path="url(#p841eb5535e)" style="fill: #7fb8e6; stroke: #7fb8e6; stroke-linejoin: miter"/>
+" clip-path="url(#p7352b7415d)" style="fill: #7fb8e6; stroke: #7fb8e6; stroke-linejoin: miter"/>
    </g>
    <g id="patch_5">
     <path d="M 194.4 172.565832 
@@ -59,7 +59,7 @@ L 445.041509 172.565832
 L 445.041509 172.565832 
 L 194.4 172.565832 
 z
-" clip-path="url(#p841eb5535e)" style="fill: #7fb8e6; stroke: #7fb8e6; stroke-linejoin: miter"/>
+" clip-path="url(#p7352b7415d)" style="fill: #7fb8e6; stroke: #7fb8e6; stroke-linejoin: miter"/>
    </g>
    <g id="matplotlib.axis_1"/>
    <g id="matplotlib.axis_2"/>
@@ -69,7 +69,7 @@ L 414.964528 235.490467
 L 402.432453 359.276636 
 L 237.009057 359.276636 
 z
-" clip-path="url(#p841eb5535e)" style="fill: #5b7aa6; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter"/>
+" clip-path="url(#p7352b7415d)" style="fill: #5b7aa6; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
    <g id="patch_7">
     <path d="M 237.009057 359.276636 
@@ -77,7 +77,7 @@ L 402.432453 359.276636
 L 392.406792 483.062804 
 L 247.034717 483.062804 
 z
-" clip-path="url(#p841eb5535e)" style="fill: #2f4a7a; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter"/>
+" clip-path="url(#p7352b7415d)" style="fill: #2f4a7a; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
    <g id="patch_8">
     <path d="M 206.932075 173.597383 
@@ -481,7 +481,7 @@ L 209.199185 235.490467
 L 208.06563 235.490467 
 L 206.932075 235.490467 
 z
-" clip-path="url(#p841eb5535e)" style="fill: #b08a5a; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter"/>
+" clip-path="url(#p7352b7415d)" style="fill: #b08a5a; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
    <g id="text_1">
     <!-- Crust base (Moho) -->
@@ -1732,7 +1732,7 @@ z
    <g id="line2d_1">
     <path d="M 194.4 173.597383 
 L 445.041509 173.597383 
-" clip-path="url(#p841eb5535e)" style="fill: none; stroke: #1f6fb2; stroke-width: 2; stroke-linecap: square"/>
+" clip-path="url(#p7352b7415d)" style="fill: none; stroke: #1f6fb2; stroke-width: 2; stroke-linecap: square"/>
    </g>
    <g id="text_5">
     <!-- Land: mean 0.2 km (0.12 mi) above sea level, -->
@@ -2359,17 +2359,17 @@ z
    <g id="line2d_2">
     <path d="M 194.4 235.490467 
 L 221.970566 235.490467 
-" clip-path="url(#p841eb5535e)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #000000; stroke-width: 0.8"/>
+" clip-path="url(#p7352b7415d)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #000000; stroke-width: 0.8"/>
    </g>
    <g id="line2d_3">
     <path d="M 194.4 359.276636 
 L 221.970566 359.276636 
-" clip-path="url(#p841eb5535e)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #000000; stroke-width: 0.8"/>
+" clip-path="url(#p7352b7415d)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #000000; stroke-width: 0.8"/>
    </g>
    <g id="line2d_4">
     <path d="M 194.4 483.062804 
 L 221.970566 483.062804 
-" clip-path="url(#p841eb5535e)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #000000; stroke-width: 0.8"/>
+" clip-path="url(#p7352b7415d)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #000000; stroke-width: 0.8"/>
    </g>
   </g>
   <g id="axes_2">
@@ -2379,7 +2379,7 @@ L 851.080755 75.6
 L 851.080755 173.597383 
 L 600.439245 173.597383 
 z
-" clip-path="url(#p4760b66e7b)" style="fill: #f4f8fc; stroke: #f4f8fc; stroke-linejoin: miter"/>
+" clip-path="url(#pd41f429dd6)" style="fill: #f4f8fc; stroke: #f4f8fc; stroke-linejoin: miter"/>
    </g>
    <g id="patch_10">
     <path d="M 612.971321 235.490467 
@@ -2387,7 +2387,7 @@ L 838.548679 235.490467
 L 838.548679 627.48 
 L 612.971321 627.48 
 z
-" clip-path="url(#p4760b66e7b)" style="fill: #e8a35a; opacity: 0.9"/>
+" clip-path="url(#pd41f429dd6)" style="fill: #e8a35a; opacity: 0.9"/>
    </g>
    <g id="patch_11">
     <path d="M 600.439245 172.565832 
@@ -2395,7 +2395,7 @@ L 851.080755 172.565832
 L 851.080755 173.597383 
 L 600.439245 173.597383 
 z
-" clip-path="url(#p4760b66e7b)" style="fill: #7fb8e6; stroke: #7fb8e6; stroke-linejoin: miter"/>
+" clip-path="url(#pd41f429dd6)" style="fill: #7fb8e6; stroke: #7fb8e6; stroke-linejoin: miter"/>
    </g>
    <g id="matplotlib.axis_3"/>
    <g id="matplotlib.axis_4"/>
@@ -2405,7 +2405,7 @@ L 821.003774 235.490467
 L 808.471698 359.276636 
 L 643.048302 359.276636 
 z
-" clip-path="url(#p4760b66e7b)" style="fill: #5b7aa6; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter"/>
+" clip-path="url(#pd41f429dd6)" style="fill: #5b7aa6; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
    <g id="patch_13">
     <path d="M 643.048302 359.276636 
@@ -2415,7 +2415,7 @@ L 740.798491 560.429159
 L 710.721509 560.429159 
 L 690.670189 503.693832 
 z
-" clip-path="url(#p4760b66e7b)" style="fill: #2f4a7a; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter"/>
+" clip-path="url(#pd41f429dd6)" style="fill: #2f4a7a; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
    <g id="patch_14">
     <path d="M 612.971321 173.872483 
@@ -2819,7 +2819,7 @@ L 615.23843 235.685432
 L 614.104875 235.669933 
 L 612.971321 235.655527 
 z
-" clip-path="url(#p4760b66e7b)" style="fill: #b08a5a; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter"/>
+" clip-path="url(#pd41f429dd6)" style="fill: #b08a5a; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
    <g id="patch_15">
     <path d="M 844.814717 232.150448 
@@ -3402,7 +3402,7 @@ z
    <g id="line2d_5">
     <path d="M 600.439245 173.597383 
 L 851.080755 173.597383 
-" clip-path="url(#p4760b66e7b)" style="fill: none; stroke: #1f6fb2; stroke-width: 2; stroke-linecap: square"/>
+" clip-path="url(#pd41f429dd6)" style="fill: none; stroke: #1f6fb2; stroke-width: 2; stroke-linecap: square"/>
    </g>
    <g id="text_14">
     <!-- Land sags as the dense drip descends -->
@@ -3677,7 +3677,7 @@ L 1257.12 75.6
 L 1257.12 173.597383 
 L 1006.478491 173.597383 
 z
-" clip-path="url(#p7ae16d8e64)" style="fill: #f4f8fc; stroke: #f4f8fc; stroke-linejoin: miter"/>
+" clip-path="url(#pdc5317634b)" style="fill: #f4f8fc; stroke: #f4f8fc; stroke-linejoin: miter"/>
    </g>
    <g id="patch_19">
     <path d="M 1019.010566 235.490467 
@@ -3685,7 +3685,7 @@ L 1244.587925 235.490467
 L 1244.587925 627.48 
 L 1019.010566 627.48 
 z
-" clip-path="url(#p7ae16d8e64)" style="fill: #e8a35a; opacity: 0.9"/>
+" clip-path="url(#pdc5317634b)" style="fill: #e8a35a; opacity: 0.9"/>
    </g>
    <g id="matplotlib.axis_5"/>
    <g id="matplotlib.axis_6"/>
@@ -3695,7 +3695,7 @@ L 1227.043019 252.511065
 L 1214.510943 359.276636 
 L 1049.087547 359.276636 
 z
-" clip-path="url(#p7ae16d8e64)" style="fill: #5b7aa6; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter"/>
+" clip-path="url(#pdc5317634b)" style="fill: #5b7aa6; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
    <g id="patch_21">
     <path d="M 1141.824906 575.90243 
@@ -3703,7 +3703,7 @@ L 1191.953208 575.90243
 L 1196.966038 606.848972 
 L 1136.812075 606.848972 
 z
-" clip-path="url(#p7ae16d8e64)" style="fill: #2f4a7a; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter"/>
+" clip-path="url(#pdc5317634b)" style="fill: #2f4a7a; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
    <g id="patch_22">
     <path d="M 1019.010566 201.798398 
@@ -4107,7 +4107,7 @@ L 1021.277675 252.397316
 L 1020.144121 252.404383 
 L 1019.010566 252.411076 
 z
-" clip-path="url(#p7ae16d8e64)" style="fill: #b08a5a; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter"/>
+" clip-path="url(#pdc5317634b)" style="fill: #b08a5a; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
    <g id="text_19">
     <!-- 3. AFTER -->
@@ -4241,7 +4241,7 @@ L 1244.587925 173.597383
 L 1244.587925 201.965047 
 L 1019.010566 201.965047 
 z
-" clip-path="url(#p7ae16d8e64)" style="fill: #7fb8e6; opacity: 0.85; stroke: #7fb8e6; stroke-linejoin: miter"/>
+" clip-path="url(#pdc5317634b)" style="fill: #7fb8e6; opacity: 0.85; stroke: #7fb8e6; stroke-linejoin: miter"/>
    </g>
    <g id="patch_24">
     <path d="M 1166.889057 603.68865 
@@ -4256,7 +4256,7 @@ z
    <g id="line2d_6">
     <path d="M 1006.478491 171.018505 
 L 1257.12 171.018505 
-" clip-path="url(#p7ae16d8e64)" style="fill: none; stroke: #1f6fb2; stroke-width: 2; stroke-linecap: square"/>
+" clip-path="url(#pdc5317634b)" style="fill: none; stroke: #1f6fb2; stroke-width: 2; stroke-linecap: square"/>
    </g>
    <g id="text_20">
     <!-- Land about 0.91 km (0.57 mi) lower; sea level falls elsewhere. -->
@@ -4584,8 +4584,18 @@ z
      <use xlink:href="#DejaVuSans-Bold-c" transform="translate(600.390625 0)"/>
     </g>
    </g>
+   <g id="text_25">
+    <!-- OCEAN -->
+    <g style="fill: #0b3d6e" transform="translate(1108.531433 190.898402) scale(0.12 -0.12)">
+     <use xlink:href="#DejaVuSans-Bold-32"/>
+     <use xlink:href="#DejaVuSans-Bold-26" transform="translate(85.015625 0)"/>
+     <use xlink:href="#DejaVuSans-Bold-28" transform="translate(158.40625 0)"/>
+     <use xlink:href="#DejaVuSans-Bold-24" transform="translate(226.71875 0)"/>
+     <use xlink:href="#DejaVuSans-Bold-31" transform="translate(304.109375 0)"/>
+    </g>
+   </g>
   </g>
-  <g id="text_25">
+  <g id="text_26">
    <!-- Cascading Keel Delamination Theory (CKDT): how land goes under water without making new ocean floor -->
    <g transform="translate(171.1875 23.4975) scale(0.16 -0.16)">
     <use xlink:href="#DejaVuSans-Bold-26"/>
@@ -4688,7 +4698,7 @@ z
     <use xlink:href="#DejaVuSans-Bold-55" transform="translate(5910.84375 0)"/>
    </g>
   </g>
-  <g id="text_26">
+  <g id="text_27">
    <g id="patch_25">
     <path d="M 123.55625 686.084609 
 L 1172.44375 686.084609 
@@ -5229,7 +5239,7 @@ z
     <use xlink:href="#DejaVuSans-Bold-11" transform="translate(6567.3125 0)"/>
    </g>
   </g>
-  <g id="text_27">
+  <g id="text_28">
    <!-- Vertical positions are schematic, NOT to scale: real depths are written next to each layer, and the 0.91 km (0.57 mi) of subsidence is drawn about 12 times too large to be visible. -->
    <g transform="translate(223.401211 722.526846) scale(0.095 -0.095)">
     <defs>
@@ -5738,13 +5748,13 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p841eb5535e">
+  <clipPath id="p7352b7415d">
    <rect x="194.4" y="75.6" width="250.641509" height="551.88"/>
   </clipPath>
-  <clipPath id="p4760b66e7b">
+  <clipPath id="pd41f429dd6">
    <rect x="600.439245" y="75.6" width="250.641509" height="551.88"/>
   </clipPath>
-  <clipPath id="p7ae16d8e64">
+  <clipPath id="pdc5317634b">
    <rect x="1006.478491" y="75.6" width="250.641509" height="551.88"/>
   </clipPath>
  </defs>
