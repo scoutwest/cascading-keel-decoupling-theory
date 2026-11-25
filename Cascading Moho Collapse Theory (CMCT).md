@@ -208,7 +208,7 @@ Cool, conductive xenolith geotherms show no recent catastrophic heating. Fine de
 | O12 | Recession: lasting uplift after collision; fragment paths | Belongs to DTAT | v2 |
 | O15 | **No subsidence mechanism for keel-bearing interiors that satisfies P9.** The drip and peeling are struck. Released water (partial) is the only surviving source; stretching is not a flood source (Section 16). One untested idea: collapse or densification of a 3-9 km (if fully converted) layer at the crust base, which removes no keel (limits: little pore space at about 1 GPa, needs a density-raising phase change, trigger and speed unknown) | Direct conflict with present-day data and with P9 | Raised by the user; 4.3 | **Phase B step 1:** not ruled out; main gaps are reaction speed (4.7-7 orders too slow, indirect rates) and a mafic layer 5-10 km thick that is debated (Section 15). **Phase B step 2:** with collapse as the only subsidence, all Pangea must drop 0.48-0.91 km (uniform) or 0.28-0.53 km at the highest ground (Section 16). **Phase B step 3:** best-case literature (weeks, fluid-saturated shear zones) fits the 150-day window; typical indirect estimates do not; fluid supply is unresolved (Section 17).
 | O16 | **Coverage of the margins.** The crust-base collapse probably acts only where the lower crust is cold (cratons). Warm, stretched margins (18% of Pangea) are not covered by it, and stretching is no longer a flood source. Needs the collapse to work there, another source, or a flood that does not cover the margins | A global flood needs all land covered | Phase B step 2; 16.3 |
-| O17 | **Fluid supply at the crust base (35-42 km).** Eclogitization is fluid-limited and needs water in contact with dry lower-crust granulite. The model's shallow water is released near the surface; a source or path to 35-42 km is not identified. Heat is not a problem there (it stays deep, H3) | The reaction cannot start or spread without it | Phase B step 3; 17.3 |
+| O17 | **Fluid supply at the crust base (35-42 km).** Eclogitization is fluid-limited and needs water in contact with dry lower-crust granulite. The model's shallow water is released near the surface; a source or path to 35-42 km is not identified. Heat is not a problem there (it stays deep, H3) | The reaction cannot start or spread without it | Phase B step 3; 17.3 | **Analog (17.7):** a study of subducting slab gabbros argues that fluid from the slab mantle accumulates beneath the Moho until the lower crust is breached by dynamic fluid vents, after which eclogitization starts. That is a fluid-supply-and-breach mechanism, but its fluid comes from slab dehydration, which a craton interior lacks.
 | O13 | Ten highest peaks need 7.5-8.2 km of uplift from under 610 m | Phase 7 target | v2 2.3 |
 
 Removed with the drip in draft 5: keel water (old O3), dynamic-subsidence factor (O5), cross-craton propagation (O6), stalling (O7), keel density sign (O8), shear-localization width (O10).
@@ -434,7 +434,7 @@ The model's burden is water plus collapse subsidence everywhere on Pangea. The m
 | # | Finding | Code |
 |---|---------|------|
 | 1 | Ahrens & Schubert (1975): dry solid-state diffusion cannot finish the transformation in "geologically meaningful" time below about 600-800 °C. They propose a water-film mechanism in which the reaction proceeds rapidly if water pressure is at least about 0.5-1 kbar, with ion solubility the rate-limiting step. They say almost no direct rate data existed beyond rough times at two temperatures (Ito & Kennedy 1971). | C |
-| 2 | Natural examples (Bergen Arcs): the transformation stays overstepped until fluid arrives. A summary reports shear zones letting fluids reach gabbro and driving partial eclogitization "over only weeks". One study says the reaction was limited by dissolution-precipitation kinetics, not by pressure-temperature. | C (single snippet for "weeks") |
+| 2 | Natural examples (Bergen Arcs): the transformation stays overstepped until fluid arrives. One study says the reaction was limited by dissolution-precipitation kinetics, not by pressure-temperature. A separate abstract on partially eclogitized slab gabbros (not the Bergen Arcs) gives "a few weeks" for the shear-zone network to develop and fluids to traverse it (see 17.7 for what that does and does not cover). | C |
 | 3 | Lower-crustal earthquakes in dry, strong granulite are described as the first step: faulting and melting produce fine fragments and fluid pathways, and metamorphism and shear zones follow. | C |
 | 4 | A proposed feedback: the volume decrease of the reaction creates porosity that keeps the fluid pathways open until the whole rock is converted. | C |
 | 5 | Laboratory work: deformation speeds the reaction compared with static runs (preliminary); fluid-present runs at 700 °C and 2 GPa reproduce natural textures (durations not seen); an albite-to-jadeite reaction ran quickly at 400-500 °C both with and without water (preliminary). | C |
@@ -451,12 +451,30 @@ The model's burden is water plus collapse subsidence everywhere on Pangea. The m
 3. **Coverage is still limited.** The loop works where the lower crust is cold, dry and brittle, so it does not cover the warm margins (O16).
 
 ### 17.4 Verdict
-**The speed objection weakens but is not closed.** Best-case literature (weeks, fluid-saturated) fits the 150-day window. Typical estimates do not. The reaction can be fast where fluid and fracturing are present. Whether that holds across a whole craton depends on fluid supply, which is now the weakest point (O17).
+**The speed objection weakens but is not closed.** Best-case literature (a few weeks, for the shear network and fluid traversal; see 17.7 for its limits) fits the 150-day window. Typical estimates do not. The reaction can be fast where fluid and fracturing are present. Whether that holds across a whole craton depends on fluid supply, which is now the weakest point (O17).
 
 ### 17.5 Follow-up
-- Find the primary paper behind the "weeks" figure and check its method (P1: rate-based or age-based).
+- ~~Find the primary paper behind the "weeks" figure~~ (abstract found, see 17.7). Still to do: read Smit & Pogge von Strandmann (2020, EPSL 534, 116046) and check whether the lithium timescale is diffusion-based (P1).
 - Source the fluid: does deep water reach the crust base at a usable rate, and does it carry heat limits (H3, H5)?
 - Check whether deep earthquakes in the cold lower crust of cratons are observed (not only in Norway).
 
 ### 17.6 Sources (Phase B step 3)
 Ahrens & Schubert 1975, *Reviews of Geophysics* 13(2); Ito & Kennedy 1971; Austrheim and colleagues on Bergen Arcs earthquakes and pseudotachylyte (2012, 2017, 2018); Malvoisin et al. (EGU 2018) on the porosity feedback; Kaatz et al. 2021; Zertani et al. 2019; a GSA 2020 abstract on shear-zone eclogitization over weeks; Smit & Pogge von Strandmann on fluid-limited overstepping; deformation and fluid-present experiment abstracts. Figures are from search summaries, not full-paper reads.
+
+### 17.7 Addendum: the primary source behind the "weeks" figure (2026-11-24)
+**Source.** Smit, M. A. and Pogge von Strandmann, P., "Rapid reaction-induced breaching of the slab lower crust sparks deep fluid release beneath arcs", GSA Annual Meeting 2020, abstract 109-7 (doi 10.1130/abs/2020AM-357180). The abstract cites a full paper, Smit & Pogge von Strandmann (2020), *Earth and Planetary Science Letters* 534, 116046, which I have not read.
+
+**Exact claim.** "Lithium chronometry indicates that it took only a few weeks for the shear zone network to develop and for the externally derived fluids to traverse this network and drive eclogitization."
+
+**What it covers, and what it does not**
+- It covers the time for a shear-zone network to form and for fluids to cross it and drive the reaction, in gabbros that were **partially** transformed to hydrous ultrahigh-pressure eclogite along shear zones. The degree of conversion is not quantified.
+- It does not give the time to convert a whole 3-10 km layer by 9-17%.
+- The rocks are from a subducting slab, with re-equilibration at about 90 km depth. The CMCT layer is at 35-42 km under a cold craton. The locality is not named in the abstract.
+- The abstract frames its larger conclusion as a hypothesis ("It is possible that...", "Our data suggest that...").
+- The method is named only as "Li chemical and isotope chronometry". The abstract gives no model. Whether it is diffusion-based (a rate, acceptable under P1) or not is not stated; lithium chronometry is usually diffusion-based, but that is my inference.
+
+**Conflicting evidence.** A 2025 study of Holsnøy (Bergen Arcs) garnets reports that diffusion-based estimates for that rock span hundreds of years to millions of years and that the metamorphism lasted longer than 10⁶ years with short, pulsed eclogite episodes. So "a few weeks" describes one stage in particular rocks, not the whole transformation.
+
+**A useful analog for O17.** The same abstract argues that fluids from the slab mantle accumulate beneath the Moho until the lower crust is breached by dynamic fluid vents, after which the delayed transformation starts. That is a fluid-supply-and-breach mechanism at the crust base. Its fluid comes from slab dehydration, which a craton interior does not have, so CMCT would still need its own source.
+
+**Effect on the verdict.** The speed gap is narrower than "4.7 to 7 orders" only for the network-and-fluid-traversal stage. The time to complete the conversion over a craton is still unmeasured. The "weeks" figure is a supporting data point, not a measurement of the collapse.
