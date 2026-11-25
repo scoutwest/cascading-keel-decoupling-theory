@@ -248,6 +248,8 @@ Removed with the drip in draft 5: keel water (old O3), dynamic-subsidence factor
 
 ## 11. Follow-on phases (not yet run)
 
+**The live next-steps list is Section 37.**
+
 Run in this order. Each phase ends with findings and an updated Sections 9-10.
 
 ### Phase A: Re-verify scientific attributes (DONE, see Section 14)
@@ -1497,3 +1499,36 @@ Those addenda asked whether the hot lower crust is **unreacted today**. Under th
 - Mark Sections 24, 25, 29-31 and 34 in the text as steady-state results (done below as a header note; individual rows are not rewritten).
 - Check DTAT Section 12 and its Moho-temperature item.
 - Use C1-C4 and the S and G rows as the test list for Phase E.
+
+
+---
+
+## 37. Next steps and pending decisions (written 2026-11-25; present this section when asked "what's next?")
+
+Update this section whenever a step is done or a decision is made. The rest of the spec is the record; this section is the live list.
+
+### 37.1 Pending decision: the thermal state at depth (blocks steps 2-3)
+Sections 24, 25 and 29-31 infer Moho temperature from surface heat flow with a steady-state geotherm, which a 6,000-year Earth (P1) cannot have (Section 36.2). Four ways to set the thermal state at depth:
+| Option | Assumes | Allows | Cost |
+|---|---|---|---|
+| **A. Direct measurements only** | Moho temperature is what the xenoliths show: below 400 °C (Siberia), 500-600 °C (Tanzania), above 650 °C (Mozambique Belt). Surface heat flow is ignored for depth | Consistent with H3 (the Flood's deep heat stays deep) | No map; known at three or four sites |
+| **B. Steady state as a created condition** | The Earth was created already in a steady thermal state | Restores Sections 24-31 and 34 | A new premise about created appearance of age; may sit awkwardly with P3; the owner's decision; H3 stays inconsistent with the equilibrium it assumes |
+| **C. A young, non-steady profile** | An initial profile at creation plus 6,000 years of conduction and radiogenic heating | A real thermal model | The initial profile is unknown, so it only moves the assumption |
+| **D. Moho temperature as a requirement** | Each candidate states the temperature it needs; compare with the xenolith values | Fits the Section 36.4 table; uses only checkable data; sets no premise | Gives requirements, not predictions |
+**Recommended: D, constrained by A.** First reading under D: the serpentinite window needs about 425-525 °C. Tanzania (500-600 °C) is at or above it; Siberia (below 400 °C) is below it and needs 100-200 °C of added heat (O20). The garnet-granulite mode needs 600-900 °C, which only the Mozambique Belt reaches, and that is not a craton. **Decision: not yet made.**
+
+### 37.2 Steps, in order
+1. **Decide 37.1.**
+2. **If D (or A):** rewrite the verdicts that used the heat-flow maps around the requirements table (Sections 24, 25, 29-31, 34 and the K11, K12, K16 rows). Check DTAT Section 12 and its Moho-temperature item (DTAT file, not edited so far).
+3. **Water not under the ocean floor (Section 35.6):** deeper continental water, hydrous continental minerals, the Moho water, and raising sea level by displacing water. Each must be tested against the heat budget (O21). Look for a global inventory of oceanic-crust water and read LaRowe et al. 2017.
+4. **Source the garnet-granulite boundary** for gabbro as a curve, and the mafic fraction of the lower crust (Sections 34.7-34.9).
+5. **Look for a collapse fingerprint** in cratons today: reaction fronts or pseudotachylyte at Moho depth, a dense or high-velocity base to the crust, fractures along province boundaries (Sections 22, 33).
+6. **Smaller open items:** the eclogite boundary at 500-600 °C (Section 20), the Matsuishi OCR (obstacle 13), chlorite and brucite limits at 1 GPa (Section 32.5), the Fujita brucite paper.
+7. **Phases C, D and E as in Section 11:** rebuild the scripts as a tested package (C), resolve the Section 8 conflicts (D), and continue the Section 9 problems (E).
+8. **Section 1 decision:** when steps 2-4 are done, state in Section 1 whether CKDT is a full answer or a partial one (flood geometry and heat analysis with no mechanism shown to cover the land), as Phase E requires.
+
+### 37.3 Where the model stands (one line each)
+- No mechanism is shown to satisfy P9 with the flood requirement (Section 28.2).
+- Shallow water nets to about 3×10⁷ km³, not 1.3×10⁸ (Section 35), so most of Pangea must be lowered by up to about 0.5 km (uniform 0.8 km).
+- The map-based coverage numbers are present-day, steady-state results (Section 36).
+- The requirements table (Section 36.4) has one consistent row (keels preserved), a few partly shown, and the rest not shown. None is contradicted by a direct measurement.
