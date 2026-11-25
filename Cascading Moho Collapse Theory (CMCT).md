@@ -1,6 +1,6 @@
 # Cascading Moho Collapse Theory (CMCT): a young-earth Flood model that avoids the CPT "heat problem"
 
-**Status:** Draft 6 (stretching removed as a flood source: all flood subsidence is now assigned to the collapsed Moho layer plus released water). The keel-drip mechanism (CKDT-II) and Moho peeling are **struck** under premise P9 (no mechanism may conflict with the deep keels cratons have today). The theory currently has **no keel-based subsidence mechanism**; what survives is the heat analysis, the flood geometry and shallow released water. Stretching is kept only as a note explaining the major geological provinces (Section 4.5). The one untested idea left is collapse or densification of a layer at the crust base (O15). Phase A (attribute re-verification) is done (Section 14). Phase B steps 1 and 2 (the crust-base collapse test and the stretching-plus-water coverage test) are done (Sections 15 and 16). The rest of Phases B-E has not been run. Draft 1 was written 2026-11-24 by merging `Noah's Pangea v1` (`Theories.md`, `Model.md` Phase 13) and `Noah's Pangea v2` (`Model.md` Phases 1, 3-6). Numbers not listed in Section 14 are still carried over from v1 or v2 and are not yet re-verified.
+**Status:** Draft 6 (stretching removed as a flood source: all flood subsidence is now assigned to the collapsed Moho layer plus released water). The keel-drip mechanism (CKDT-II) and Moho peeling are **struck** under premise P9 (no mechanism may conflict with the deep keels cratons have today). The theory currently has **no keel-based subsidence mechanism**; what survives is the heat analysis, the flood geometry and shallow released water. Stretching is kept only as a note explaining the major geological provinces (Section 4.5). The one untested idea left is collapse or densification of a layer at the crust base (O15). Phase A (attribute re-verification) is done (Section 14). Phase B steps 1-3 (the crust-base collapse test, the stretching-plus-water coverage test and the reaction-speed test) are done (Sections 15, 16 and 17). The rest of Phases B-E has not been run. Draft 1 was written 2026-11-24 by merging `Noah's Pangea v1` (`Theories.md`, `Model.md` Phase 13) and `Noah's Pangea v2` (`Model.md` Phases 1, 3-6). Numbers not listed in Section 14 are still carried over from v1 or v2 and are not yet re-verified.
 **Name:** renamed in draft 5 from Cascading Keel Delamination Theory (CKDT) after the keel-removal mechanisms were struck (P9). "CMCT" is a working name until Phase B reports on the crust-base collapse idea (Section 4.8). Earlier files and v1/v2 notes use the old name; "CKDT-II" refers to the struck keel-drip version.
 **Nature:** a speculative young-earth creation-science model. Mainstream geoscience rejects its premises. Where a number fails, the failure is stated.
 
@@ -202,12 +202,13 @@ Cool, conductive xenolith geotherms show no recent catastrophic heating. Fine de
 |----|---------|----------------|--------|
 | O1 | **H9: origin of 1.64×10⁸ km² of ocean floor between separated continents.** Rotating blocks back leaves ≥1.08×10⁸ km² uncovered (302× H1). Exhumed mantle margins cover 21-85% at assumed 100-400 km widths. Intact new floor passes heat only if heat extraction stays above about 300 m. | Without it, CMCT floods Pangea but does not make today's oceans | v2 6.2 |
 | O2 | **H10: moving blocks about 3,841 km.** In 150 days that is 0.3 m/s and basal drag costs ≥ 350 B with no named energy source. Spread over 4,370 yr it still needs about 23,800× the present mean plate speed (3.7 cm/yr; v2's 5 cm/yr gave 17,600×). | Heat problem returns here | v2 6.1 |
-| O4 | Trigger for any new subsidence mechanism | No candidate works for keel failure; relevant again if crust-base collapse is pursued | v1 13.6, v2 |
+| O4 | Trigger for the first collapse. **Candidate (Section 17):** a lower-crustal earthquake in the cold, dry crust that opens fluid pathways; the volume loss then keeps the pathways open and the stress change triggers the next one. Needs fluid at 35-42 km (O17) | Without a trigger there is no cascade | v1 13.6, v2; Phase B step 3 |
 | O9 | Unverified inputs: ocean volume 1.335×10⁹ km³; 40 °C cap; 15 °C start; 5 cm/yr present speed; slab pull 3.3×10¹³ N/m; ridge push 2.5×10¹² N/m; crust heat 3.2×10¹³ J/m²; sediment and serpentinite reservoir sizes | Many results rest on these | v2 10 |
 | O11 | Post-Flood ice age (P8) and the 40-day "windows of heaven" water | Not modelled | v2 Phase 9 |
 | O12 | Recession: lasting uplift after collision; fragment paths | Belongs to DTAT | v2 |
-| O15 | **No subsidence mechanism for keel-bearing interiors that satisfies P9.** The drip and peeling are struck. Released water (partial) is the only surviving source; stretching is not a flood source (Section 16). One untested idea: collapse or densification of a 3-9 km (if fully converted) layer at the crust base, which removes no keel (limits: little pore space at about 1 GPa, needs a density-raising phase change, trigger and speed unknown) | Direct conflict with present-day data and with P9 | Raised by the user; 4.3 | **Phase B step 1:** not ruled out; main gaps are reaction speed (4.7-7 orders too slow, indirect rates) and a mafic layer 5-10 km thick that is debated (Section 15). **Phase B step 2:** with collapse as the only subsidence, all Pangea must drop 0.48-0.91 km (uniform) or 0.28-0.53 km at the highest ground (Section 16).
+| O15 | **No subsidence mechanism for keel-bearing interiors that satisfies P9.** The drip and peeling are struck. Released water (partial) is the only surviving source; stretching is not a flood source (Section 16). One untested idea: collapse or densification of a 3-9 km (if fully converted) layer at the crust base, which removes no keel (limits: little pore space at about 1 GPa, needs a density-raising phase change, trigger and speed unknown) | Direct conflict with present-day data and with P9 | Raised by the user; 4.3 | **Phase B step 1:** not ruled out; main gaps are reaction speed (4.7-7 orders too slow, indirect rates) and a mafic layer 5-10 km thick that is debated (Section 15). **Phase B step 2:** with collapse as the only subsidence, all Pangea must drop 0.48-0.91 km (uniform) or 0.28-0.53 km at the highest ground (Section 16). **Phase B step 3:** best-case literature (weeks, fluid-saturated shear zones) fits the 150-day window; typical indirect estimates do not; fluid supply is unresolved (Section 17).
 | O16 | **Coverage of the margins.** The crust-base collapse probably acts only where the lower crust is cold (cratons). Warm, stretched margins (18% of Pangea) are not covered by it, and stretching is no longer a flood source. Needs the collapse to work there, another source, or a flood that does not cover the margins | A global flood needs all land covered | Phase B step 2; 16.3 |
+| O17 | **Fluid supply at the crust base (35-42 km).** Eclogitization is fluid-limited and needs water in contact with dry lower-crust granulite. The model's shallow water is released near the surface; a source or path to 35-42 km is not identified. Heat is not a problem there (it stays deep, H3) | The reaction cannot start or spread without it | Phase B step 3; 17.3 |
 | O13 | Ten highest peaks need 7.5-8.2 km of uplift from under 610 m | Phase 7 target | v2 2.3 |
 
 Removed with the drip in draft 5: keel water (old O3), dynamic-subsidence factor (O5), cross-craton propagation (O6), stalling (O7), keel density sign (O8), shear-localization width (O10).
@@ -362,7 +363,7 @@ Subsidence equals the thickness the layer loses (mass is conserved and the keel 
 
 ### 15.3 Verdict
 **Not ruled out, not shown.** It satisfies P9, it targets the keel-bearing interiors that stretching cannot reach, it passes H3, and a similar structure (a partly eclogitized layer 6-8 km thick) has been reported in one craton. It is weakest on three points:
-1. **Speed:** 4.7-7 orders too slow on indirect numbers. Fluid supply is the controlling factor, and the model's released shallow water is a possible but unexamined source.
+1. **Speed:** 4.7-7 orders too slow on indirect numbers. Fluid supply is the controlling factor, and the model's released shallow water is a possible but unexamined source. Revised in Section 17: the best-case literature (weeks) fits the window.
 2. **Thickness:** it needs a 3-10 km mafic layer at the crust base before the Flood, and whether the lower crust is mafic at all is disputed.
 3. **Coverage:** it probably works only where the lower crust is cold.
 
@@ -422,3 +423,40 @@ Cases A and B are the model as now defined (collapse is the only subsidence). Ca
 
 ### 16.5 Consequence for the model
 The model's burden is water plus collapse subsidence everywhere on Pangea. The more shallow water the model can justify, the smaller the layer the collapse needs. Verifying the sediment and serpentinite water reservoirs (O9) is as important as testing the collapse. Whether the collapse can act under the margins is open (O16).
+
+---
+
+## 17. Phase B step 3: can the collapse reaction be fast enough? (2026-11-24)
+
+**Question.** Section 15 found the gabbro-to-eclogite reaction 4.7-7 orders too slow on indirect numbers. Is there a physical route that closes the gap? **Method.** Web search of abstracts and summaries (not full papers) plus arithmetic. Codes as in Section 14.
+
+### 17.1 Findings
+| # | Finding | Code |
+|---|---------|------|
+| 1 | Ahrens & Schubert (1975): dry solid-state diffusion cannot finish the transformation in "geologically meaningful" time below about 600-800 °C. They propose a water-film mechanism in which the reaction proceeds rapidly if water pressure is at least about 0.5-1 kbar, with ion solubility the rate-limiting step. They say almost no direct rate data existed beyond rough times at two temperatures (Ito & Kennedy 1971). | C |
+| 2 | Natural examples (Bergen Arcs): the transformation stays overstepped until fluid arrives. A summary reports shear zones letting fluids reach gabbro and driving partial eclogitization "over only weeks". One study says the reaction was limited by dissolution-precipitation kinetics, not by pressure-temperature. | C (single snippet for "weeks") |
+| 3 | Lower-crustal earthquakes in dry, strong granulite are described as the first step: faulting and melting produce fine fragments and fluid pathways, and metamorphism and shear zones follow. | C |
+| 4 | A proposed feedback: the volume decrease of the reaction creates porosity that keeps the fluid pathways open until the whole rock is converted. | C |
+| 5 | Laboratory work: deformation speeds the reaction compared with static runs (preliminary); fluid-present runs at 700 °C and 2 GPa reproduce natural textures (durations not seen); an albite-to-jadeite reaction ran quickly at 400-500 °C both with and without water (preliminary). | C |
+| 6 | Heat from the reaction is mentioned as a possible accelerator ("thermal runaway" is cited as one idea, mechanisms unclear). Not quantified. | U |
+| 7 | Indirect duration estimates remain 20 thousand years to 1-4 million years (Section 15.1), some from age-based methods that P1 does not accept. | C |
+
+### 17.2 Arithmetic (mine)
+- 150 days = 1.3×10⁷ s. "Weeks" (2-4 weeks) is 1.2-2.4×10⁶ s, so about 5-10 times faster than the window. The indirect estimates (20 thousand years to 4 million years) are 4.7-7.0 orders slower.
+- So the speed gap ranges from **none** (best-case, fluid-saturated shear zones, partial conversion) to **7 orders** (indirect estimates). The reaction cannot be called too slow, but it has not been shown fast over a whole craton.
+
+### 17.3 What the findings add to the model
+1. **A physical cascade.** Findings 3 and 4 give a loop: a lower-crustal earthquake opens fluid pathways → eclogitization begins → the layer densifies and shrinks (crust drops, and porosity opens) → the stress change loads neighbouring crust → the next earthquake. This is my synthesis from the cited findings, not a result in any one source. It would give the theory's "cascade" a basis, and it addresses the earlier worry (Section 15) that earthquake triggering describes brittle rock. Cold, dry lower crust under cratons is brittle (observed in the Bergen Arcs). It would also supply a candidate trigger for O4.
+2. **Fluid supply is now the controlling unknown (O17).** The reaction needs water in contact with dry granulite at 35-42 km. The shallow water in Section 5.1 is released near the surface, so a source or path to the crust base is not identified. The heat of any deep fluid stays deep (H3), so hot water at that depth is not excluded by the model's own limits. Whether deep mantle water could reach the crust base (Genesis 7:11, "fountains of the great deep") is not examined here. The earlier model (v2) rejected deep water only because it would reach the ocean too hot.
+3. **Coverage is still limited.** The loop works where the lower crust is cold, dry and brittle, so it does not cover the warm margins (O16).
+
+### 17.4 Verdict
+**The speed objection weakens but is not closed.** Best-case literature (weeks, fluid-saturated) fits the 150-day window. Typical estimates do not. The reaction can be fast where fluid and fracturing are present. Whether that holds across a whole craton depends on fluid supply, which is now the weakest point (O17).
+
+### 17.5 Follow-up
+- Find the primary paper behind the "weeks" figure and check its method (P1: rate-based or age-based).
+- Source the fluid: does deep water reach the crust base at a usable rate, and does it carry heat limits (H3, H5)?
+- Check whether deep earthquakes in the cold lower crust of cratons are observed (not only in Norway).
+
+### 17.6 Sources (Phase B step 3)
+Ahrens & Schubert 1975, *Reviews of Geophysics* 13(2); Ito & Kennedy 1971; Austrheim and colleagues on Bergen Arcs earthquakes and pseudotachylyte (2012, 2017, 2018); Malvoisin et al. (EGU 2018) on the porosity feedback; Kaatz et al. 2021; Zertani et al. 2019; a GSA 2020 abstract on shear-zone eclogitization over weeks; Smit & Pogge von Strandmann on fluid-limited overstepping; deformation and fluid-present experiment abstracts. Figures are from search summaries, not full-paper reads.
