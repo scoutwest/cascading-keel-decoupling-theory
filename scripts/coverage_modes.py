@@ -99,3 +99,15 @@ edges = (0.0, 0.2, 0.4, 0.6, 0.8, 1.0)
 for lo_, hi_ in zip(edges[:-1], edges[1:]):
     sel = ix[o][(cs > lo_) & (cs <= hi_)]
     print("  elevation rank %3d-%3d%% (highest first): median elevation %5.0f m, capable %.0f%% of its area" % (100 * lo_, 100 * hi_, np.median(elev[sel]), 100 * cell_area[sel][cap[sel]].sum() / cell_area[sel].sum()))
+
+# Section 36: post-collapse fingerprint. If G (garnet-granulite densification) acted, today's lower crust there should be dense (3.2-3.3 g/cm3, Section 19.2).
+rho_lc = rho[:, 7]
+def dens(mask, lab):
+    m = mask & cont
+    o = np.argsort(rho_lc[m]); c = np.cumsum(cell_area[m][o]) / cell_area[m].sum()
+    print("  %-46s median %.2f g/cm3 (10/90%%: %.2f / %.2f); share >= 3.15: %.1f%%" % (lab, rho_lc[m][o][np.searchsorted(c, .5)], rho_lc[m][o][np.searchsorted(c, .1)], rho_lc[m][o][np.searchsorted(c, .9)], 100 * cell_area[m][rho_lc[m] >= 3.15].sum() / cell_area[m].sum()))
+print("\nCRUST1.0 lower-crust density by class (continental crust; gabbro about 2.9-3.0, garnet granulite 3.2-3.3):")
+dens(cont, "all continental crust")
+dens(Gm, "G candidate cells (T and P met)")
+dens(~Gm, "other continental cells")
+dens(S, "S window cells")

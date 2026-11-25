@@ -1,6 +1,6 @@
 # Cascading Keel Decoupling Theory (CKDT): a young-earth Flood model that avoids the CPT "heat problem"
 
-**Status:** Draft 9 (Section 35: the shallow water budget was gross, not net; net supply is about 3×10⁷ km³, which closes the highest-ground route of Section 34). Draft 8 (Phase B closed: claim register and P9 decision in Section 28; no mechanism is shown to satisfy P9 with the flood requirement). Draft 7 (stretching removed as a flood source: all flood subsidence is now assigned to the collapsed Moho layer plus released water). The keel-drip mechanism and Moho peeling are **struck** under premise P9 (no mechanism may conflict with the deep keels cratons have today). The theory currently has **no keel-based subsidence mechanism**; what survives is the heat analysis, the flood geometry and shallow released water. Stretching is kept only as a note explaining the major geological provinces (Section 4.5). The one untested idea left is collapse or densification of a layer at the crust base (O15). Phase A (attribute re-verification) is done (Section 14). Phase B steps 1-5 (the crust-base collapse test, the stretching-plus-water coverage test, the reaction-speed test, the craton-temperature speed test and the eclogite-field depth test) are done (Sections 15-19). Phase B steps 6-9 are done or partly done: the gabbro-to-eclogite boundary (Section 20, partial), serpentinite as the collapsing layer (Section 21), cracks along province boundaries as vent routes (Section 22, geometry only) and the craton Moho temperature (Section 24, inputs assumed). Section 23 sets out the interface with DTAT, which is kept as a separate theory. Steps 10-12 follow: the craton selection test for a serpentinite layer (Section 25), the heat carried by water vented from the crust base (Section 26) and the free-water-layer and steam-route calculations (Section 27, with an interface note for a separate ice-age study). The rest of Phases B-E has not been run. The main open problem is now heat (O20, O21). Draft 1 was written 2026-11-24 by merging `Noah's Pangea v1` (`Theories.md`, `Model.md` Phase 13) and `Noah's Pangea v2` (`Model.md` Phases 1, 3-6). Numbers not listed in Section 14 are still carried over from v1 or v2 and are not yet re-verified. **DTAT now has its own document** (written 2026-11-25): `..\Differential Terrane Accretion Theory (DTAT)\Differential Terrane Accretion Theory (DTAT).md`. It takes over motion, fragments, collisions, uplift and recession (Sections 5.2 and 23), and holds a new, untested idea that crust slips at the Moho over fixed keels. No CKDT verdict has changed.
+**Status:** Draft 10 (Section 36: what carries over to pre-Flood Pangea; the heat-flow maps are steady-state results and do not describe the pre-Flood crust; requirements table). Draft 9 (Section 35: the shallow water budget was gross, not net; net supply is about 3×10⁷ km³, which closes the highest-ground route of Section 34). Draft 8 (Phase B closed: claim register and P9 decision in Section 28; no mechanism is shown to satisfy P9 with the flood requirement). Draft 7 (stretching removed as a flood source: all flood subsidence is now assigned to the collapsed Moho layer plus released water). The keel-drip mechanism and Moho peeling are **struck** under premise P9 (no mechanism may conflict with the deep keels cratons have today). The theory currently has **no keel-based subsidence mechanism**; what survives is the heat analysis, the flood geometry and shallow released water. Stretching is kept only as a note explaining the major geological provinces (Section 4.5). The one untested idea left is collapse or densification of a layer at the crust base (O15). Phase A (attribute re-verification) is done (Section 14). Phase B steps 1-5 (the crust-base collapse test, the stretching-plus-water coverage test, the reaction-speed test, the craton-temperature speed test and the eclogite-field depth test) are done (Sections 15-19). Phase B steps 6-9 are done or partly done: the gabbro-to-eclogite boundary (Section 20, partial), serpentinite as the collapsing layer (Section 21), cracks along province boundaries as vent routes (Section 22, geometry only) and the craton Moho temperature (Section 24, inputs assumed). Section 23 sets out the interface with DTAT, which is kept as a separate theory. Steps 10-12 follow: the craton selection test for a serpentinite layer (Section 25), the heat carried by water vented from the crust base (Section 26) and the free-water-layer and steam-route calculations (Section 27, with an interface note for a separate ice-age study). The rest of Phases B-E has not been run. The main open problem is now heat (O20, O21). Draft 1 was written 2026-11-24 by merging `Noah's Pangea v1` (`Theories.md`, `Model.md` Phase 13) and `Noah's Pangea v2` (`Model.md` Phases 1, 3-6). Numbers not listed in Section 14 are still carried over from v1 or v2 and are not yet re-verified. **DTAT now has its own document** (written 2026-11-25): `..\Differential Terrane Accretion Theory (DTAT)\Differential Terrane Accretion Theory (DTAT).md`. It takes over motion, fragments, collisions, uplift and recession (Sections 5.2 and 23), and holds a new, untested idea that crust slips at the Moho over fixed keels. No CKDT verdict has changed.
 **Name:** Cascading Keel Decoupling Theory (CKDT): the crust decouples from a keel that stays in place (the fixed-keel crust slip, DTAT document Section 8), and the crust-base collapse studied here is the vertical side of the picture. Whether the slip and the collapse are one event is still open (DTAT D10).
 **Nature:** a speculative young-earth creation-science model. Mainstream geoscience rejects its premises. Where a number fails, the failure is stated.
 
@@ -800,6 +800,8 @@ CKDT and the Differential Terrane Accretion Theory (DTAT; `..\Differential Terra
 
 ## 24. Phase B step 9: craton Moho temperature from a conductive geotherm (2026-11-24, COMPUTED, INPUTS ASSUMED)
 
+**Note (Section 36):** the Moho temperatures and coverage shares here come from a steady-state geotherm built on present surface heat flow, and use present-day crust as a stand-in for pre-Flood Pangea. Read them as the present-day picture, not as statements about the crust before the Flood (Section 36.1-36.2). Measured xenolith temperatures (Section 24.6) are not affected.
+
 **Question.** Sections 19-21 need the temperature at the craton Moho (about 1.0-1.25 GPa). No source gave a present-day value (Section 21.7). **Method.** `scripts/craton_geotherm.py`: steady-state conduction with exponentially decreasing crustal heat production, T(z) = T0 + q_m z/k + (A0 hr²/k)(1 - e^(-z/hr)), where q_m = q0 - A0 hr. **Inputs from searches:** surface heat flow q0 = 40, 44, 47 mW/m² (Archean mean 41; Kalahari 47 ± 2); Moho depth 35-42 km (35-40 from search, 39 median from Section 19). **Inputs assumed from memory, not sourced:** surface temperature 15 °C, surface heat production A0 = 0.8-1.6 µW/m³, its decay depth hr = 8-12 km, conductivity k = 2.5-3.0 W/m/K. All 162 combinations are valid (reduced heat flow q_m 8-40 mW/m²). Nothing is fitted.
 
 ### 24.1 Results: Moho temperature (°C)
@@ -892,6 +894,8 @@ This turns the heat problem (O20) into a **selection problem**: the craton must 
 ---
 
 ## 25. Phase B step 10: the craton selection problem tested (2026-11-24, FIRST PASS)
+
+**Note (Section 36):** the Moho temperatures and coverage shares here come from a steady-state geotherm built on present surface heat flow, and use present-day crust as a stand-in for pre-Flood Pangea. Read them as the present-day picture, not as statements about the crust before the Flood (Section 36.1-36.2). Measured xenolith temperatures (Section 24.6) are not affected.
 
 **Question (from Section 24.8).** A craton can hold a serpentinite layer at the crust base only if its Moho is below the antigorite limit L, and can trigger it only if the heat to be added (L minus Moho temperature) is small. How many cratons fit that window? **Method.** `scripts/craton_selection.py`. Moho depth in each of the 5,709 craton cells from CRUST1.0 (median 39.0 km, as in Section 19); Moho temperature from the Section 24 conductive geotherm with the measured heat production (0.3-0.6 µW/m³), median over decay depth 8-12 km and conductivity 2.5-3.0 W/m/K; surface heat flow is the free variable. **No global heat-flow grid is on disk**, so I cannot yet say which real craton has which heat flow. The Lucazeau (2019) global heat-flow grid (0.5° × 0.5°, Geochem. Geophys. Geosyst. 20) is the obvious source; I did not find a direct download. Limits for L: **595 °C** (middle of the 570-620 °C bracket, added after Section 21.2's check), and the two extremes **525 °C** (500-550 °C, long runs, Gemba and Nakamura 2006) and **625 °C** (600-650 °C, one-week runs, Gemba and Nakamura 2005). Both are from conference abstracts (Section 21.2).
 
@@ -1061,7 +1065,7 @@ Phase B asked for a verdict on each claim and a plain answer to the P9 question.
 | K9 | Gabbro turns to eclogite at the craton Moho | **Unsupported** | Boundary for basic rock about 1.9 GPa; craton Moho median 1.07 GPa, 3% of craton area reaches 1.3 GPa (Sections 19, 20); temperature below the 600-800 °C needed (24) |
 | K10 | A serpentinized layer shrinks enough (23-25% of the solid) | **Supported** (volume only) | 2-4 km of layer is enough (21.2) |
 | K11 | That layer exists under cratons | **Unsupported** | Serpentinite forms where water meets mantle rock, not under cratons (21.4, O19); not tested with seismic or magnetic data |
-| K12 | The craton Moho is hot enough for the reaction to start | **Unsupported** | Measured 500-600 °C (Tanzania) or below 400 °C (Siberia), at or below the antigorite limit of 500-550 °C at 1.2 GPa; extra heat needed 0-200 °C (24.6-24.8, O20) |
+| K12 | The craton Moho is hot enough for the reaction to start | **Unsupported** (rests on Section 24.6 xenolith measurements only; Sections 29-31 are steady-state results, see Section 36) | Measured 500-600 °C (Tanzania) or below 400 °C (Siberia), at or below the antigorite limit of 500-550 °C at 1.2 GPa; extra heat needed 0-200 °C (24.6-24.8, O20) |
 | K13 | The reaction can finish within 150 days | **Unresolved** | 12 days to 15 years at craton temperature; best case needs fluid-saturated shear zones (17, 18) |
 | K14 | Fluid reaches 35-42 km | **Unresolved** | No source found (O17); the slab analog depends on a subducting slab (17.7) |
 | K15 | A lower-crustal earthquake triggers the first collapse and the cascade follows | **Unresolved** | A candidate only (17, O4); no data that cratons have such earthquakes (17.5) |
@@ -1104,6 +1108,8 @@ The order of importance in Section 11 stays, with one change: the collapse condi
 
 ## 29. Phase E step 1: craton heat flow from the Lucazeau grid (2026-11-25, FIRST PASS)
 
+**Note (Section 36):** the Moho temperatures and coverage shares here come from a steady-state geotherm built on present surface heat flow, and use present-day crust as a stand-in for pre-Flood Pangea. Read them as the present-day picture, not as statements about the crust before the Flood (Section 36.1-36.2). Measured xenolith temperatures (Section 24.6) are not affected.
+
 **Question.** Section 25 used surface heat flow as a free variable (Archean value 41 ± 11 mW/m², from an unverified snippet). With measured heat flow inside the 114 craton polygons, how much craton area has a Moho cold enough to hold serpentinite (T ≤ antigorite limit L) and warm enough that the heat to add (L − T) is small? **Method.** `scripts/craton_heatflow.py`: the Lucazeau (2019, *G-cubed* 20:4001, doi:10.1029/2019GC008389) 0.5° grid, `HFgrid14.csv` (predicted heat flow `HF_pred` plus the observed value where one exists), averaged to the 1° CRUST1.0 cells used in Sections 19 and 25, inside the 114 Hasterok craton polygons (5,709 cells, median Moho depth 39.0 km). Each cell's Moho temperature uses the Section 24 conductive geotherm with its own heat flow and the same assumed rock parameters (heat production 0.3-0.6 µW/m³, decay depth 8-12 km, conductivity 2.5-3.0 W/m/K; median over the parameter sets). Data are kept in this folder's `data/heatflow/` (git-ignored): the grid, the NGHF point file and the supplement PDF, all from the paper's Supporting Information.
 
 ### 29.1 Results
@@ -1140,6 +1146,8 @@ The order of importance in Section 11 stays, with one change: the collapse condi
 ---
 
 ## 30. Phase E step 2: resolving the heat-flow disagreement (2026-11-25, FIRST PASS)
+
+**Note (Section 36):** the Moho temperatures and coverage shares here come from a steady-state geotherm built on present surface heat flow, and use present-day crust as a stand-in for pre-Flood Pangea. Read them as the present-day picture, not as statements about the crust before the Flood (Section 36.1-36.2). Measured xenolith temperatures (Section 24.6) are not affected.
 
 **Question.** Section 29 gave a craton median Moho of about 770 °C from the Lucazeau grid, against measured xenolith values of below 400 °C (Siberia) and 500-600 °C (Tanzania, Section 24.6). Is the grid wrong, are the xenolith sites unrepresentative, or is the geotherm wrong? **Method.** `scripts/craton_heatflow_points.py`: the NGHF point measurements (Lucazeau 2019, supplement S02, 69,377 records with heat flow) inside the 114 craton polygons, compared with the grid at the same points, at the two xenolith sites, and against measured heat production; Moho temperature at 39 km from the Section 24.7 geotherm.
 
@@ -1189,6 +1197,8 @@ The order of importance in Section 11 stays, with one change: the collapse condi
 ---
 
 ## 31. Phase E step 3: per-craton Moho temperature and the serpentinite window (2026-11-25, FIRST PASS)
+
+**Note (Section 36):** the Moho temperatures and coverage shares here come from a steady-state geotherm built on present surface heat flow, and use present-day crust as a stand-in for pre-Flood Pangea. Read them as the present-day picture, not as statements about the crust before the Flood (Section 36.1-36.2). Measured xenolith temperatures (Section 24.6) are not affected.
 
 **Question.** Section 30 showed the craton Moho is a spread. Which named polygons fall where? **Method.** `scripts/craton_table.py`: for each of the 114 Hasterok polygons, CRUST1.0 median Moho depth, the NGHF measured median heat flow (66 polygons with 3 or more points) or, where fewer, the Lucazeau grid median (48 polygons), and the Section 24.7 geotherm (heat production 0.3-0.6 µW/m³, decay depth and conductivity swept, median). Window: Moho T at or below the antigorite limit L = 525 °C (long runs, Section 21.2) and no more than 100 °C below it.
 
@@ -1295,6 +1305,8 @@ Two searches, excerpts only, no focal-depth catalogue, and no study specific to 
 
 ## 34. Phase E step 6: exploring solutions to what hurts (2026-11-25, FIRST PASS, ASSUMED BOUNDARIES)
 
+**Note (Section 36):** the Moho temperatures and coverage shares here come from a steady-state geotherm built on present surface heat flow, and use present-day crust as a stand-in for pre-Flood Pangea. Read them as the present-day picture, not as statements about the crust before the Flood (Section 36.1-36.2). Measured xenolith temperatures (Section 24.6) are not affected.
+
 **Problems taken from the Phase E results.** (1) Coverage: the serpentinite window is about 2% of Pangea (Sections 29-31). (2) 84% of craton area is above the antigorite limit (Section 31). (3) O21: no cooler water source (Section 32). (4) The unsupported links (layer, fluid, trigger). **Method.** `scripts/flood_fraction_needed.py` (how much land must be lowered) and `scripts/coverage_modes.py` (what each mode can reach), on CRUST1.0 cells with the Lucazeau grid heat flow and the Section 24.7 geotherm. Continental crust here is CRUST1.0 cells with crust 25 km or thicker: 1.715×10⁸ km², against Pangea's 2.105×10⁸ km², so shares are of continental area.
 
 ### 34.1 Two modes, one assumed boundary
@@ -1354,6 +1366,7 @@ The 1.3×10⁸ km³ row agrees with the "highest ground only" case of Section 16
 - Ask whether pre-Flood high ground (thick-crust interiors) can be placed from a source other than present elevation.
 
 ### 34.8 Addendum: the garnet-granulite boundary search (2026-11-25, one extended search, abstracts only)
+**Timeline correction (Section 36.3):** the "unreacted today" condition below should read unreacted before the Flood and reacted today where the collapse acted.
 - **The transition is wide and gradual, not a line.** An experimental study of the gabbro-eclogite transformation (*Tectonophysics* 1966, authors not shown in the excerpt) puts the garnet-granulite transitional zone at about 3.4 to 12 kbar (0.34-1.2 GPa) at 1,100 °C. The pressure at which garnet appears and plagioclase disappears depends on the bulk composition. Density and seismic velocity change gradually across it.
 - **Eclogite** is commonly described as forming above about 500 °C and 1.2 GPa for natural rocks (*Scientific Reports* excerpt). Mineral-equilibria modelling shows the granulite-eclogite transition is sensitive to ferric iron and bulk composition.
 - **What this does to mode G:**
@@ -1419,3 +1432,68 @@ Coverage by the two collapse modes of Section 34 for a drop of 0.52 km at the hi
 - Check whether the model could instead raise sea level by displacing water (basins that fill, rising floor) rather than adding it; this was not examined.
 - Open and read LaRowe et al. 2017; look for a global water inventory of the oceanic crust.
 - Re-run Sections 16, 26.1a and 34 with net water (the key figures are in 35.2).
+
+
+---
+
+## 36. What carries over to pre-Flood Pangea, and what each candidate requires (2026-11-25, REVIEW)
+
+**Why this section.** Sections 19 and 24-35 used present-day crust (CRUST1.0), present heat flow and the present craton polygons as stand-ins for the crust before the Flood. A global flood would have reconfigured the landmasses, and under the model's own timeline today is the state after the collapse. This section sorts what holds, records one conflict in the method, and replaces the map-based analysis with a table of requirements.
+
+### 36.1 What carries over
+| Item | Where | Status for pre-Flood Pangea |
+|---|---|---|
+| Flood geometry (Pangea area, mean height, water, cubits) | 4.2, 16, 34.3, 35 | **Carries.** Uses only P5 values and water volumes |
+| Net-water logic (water leaving rock under the ocean floor adds little) | 35 | **Carries** as geometry |
+| Sizes of the water reservoirs | 5.1, 14.1, 35 | **Do not carry.** Today's groundwater and sediment are post-Flood values; much sediment may be Flood deposit. Sediment is net zero anyway |
+| Heat physics (water, steam, budget B, H1-H5) | 3, 26, 27 | **Carries** |
+| Reaction physics (serpentinite shrink, antigorite limits, kinetics, density gain) | 17, 18, 21, 32, 34 | **Carries** as properties |
+| Craton polygons as rigid cores with keels (P9) | 4.1, 31 | **Carries as identities**; the numbers attached to them are today's |
+| Moho depth, pressure and lower-crust thickness (CRUST1.0) | 19, 31, 34 | **Proxy.** Reasonable inside stable cratons (the collapse thins a layer by under 1 km); weak for margins and orogens, which DTAT treats as partly built after the Flood |
+| Moho temperature from surface heat flow | 24, 25, 29, 30, 31, 34 | **Does not carry.** See 36.2 |
+| Coverage figures (2%, 12%, 28-37%) and "84% above the limit" | 29, 31, 34, 35 | **Present-day, steady-state results; not statements about pre-Flood Pangea** |
+| Measured xenolith Moho temperatures (below 400 °C, 500-600 °C, above 650 °C) | 24.6 | **Direct measurements**, but at the time of eruption, not necessarily before the Flood |
+| Present elevation as a proxy for the high ground | 34.4 | Already flagged weak; **does not carry** |
+
+### 36.2 A conflict in the method
+Sections 24, 25 and 29-31 infer the Moho temperature from the surface heat flow by assuming a **steady conduction profile**. Section 3.2 gives the conduction time through 10 km as about 3 million years and through 100 km as about 300 million. Under P1 (about 6,000 years) a steady profile cannot have formed, and a surface heat flow constrains only the top few hundred metres (√(κt) for κ = 10⁻⁶ m²/s and 4,370 years is about 0.37 km). The thermal state at depth is then an initial condition, not something surface heat flow measures. The H3 argument (heat released at 35 km stays deep for about 40 million years) uses the same slow conduction, so the two parts of the model disagree.
+- **Consequence.** Only direct measurements (the xenolith temperatures of Section 24.6) can be used for Moho temperature. The heat-flow maps stay as a picture of what a steady-state Earth would show.
+- **DTAT.** DTAT Section 12 lists "the Moho temperature of cratons (CKDT 24-25)" as an item handed to it. That item carries the same limit.
+
+### 36.3 A correction to the timeline in 34.8-34.9
+Those addenda asked whether the hot lower crust is **unreacted today**. Under the model's timeline it must be unreacted **before the Flood** and already reacted **today** in places where the collapse acted. The fingerprint to look for is therefore a dense lower crust (garnet granulite, 3.2-3.3 g/cm³, Section 19.2) in the collapsed places.
+- **Check made (`scripts/coverage_modes.py`):** CRUST1.0 lower-crust density is 2.92 g/cm³ (10-90%: 2.86-3.03) over continental crust, **2.92 in the G candidate cells** and 2.91 in the S window cells, with **0.0% at 3.15 or more** anywhere.
+- **Reading:** if mode G had acted over the cells that meet its conditions, a dense lower crust would be expected there. It is not seen, but CRUST1.0 densities come from assumed velocity-density relations and are almost uniform, so **the test cannot discriminate**. It is a weak point against G, not a contradiction.
+
+### 36.4 Requirements table: what pre-Flood Pangea must have been, and what can check it
+| # | Requirement | Needed by | Check available now | Status |
+|---|---|---|---|---|
+| C1 | At least about 3×10⁷ km³ of net water, or more from sources not under the ocean floor | both | none for pre-Flood values | **Not shown** (O9, Section 35) |
+| C2 | The collapse leaves every craton keel at 150-250 km (P9) | both | keels today are 150-250 km | **Consistent** |
+| C3 | Heat released stays deep or leaves the ocean within budget (H3-H5) | both | physics only | **Open** (O21) |
+| C4 | The state after the collapse matches today's data (P4): Moho depth, lower-crust density and thickness, no leftover signs of a cascade that today's data contradict | both | CRUST1.0, seismic data | **Not contradicted, not tested** (36.3) |
+| S1 | A serpentinized layer 2-4 km thick at the crust base, under the high ground at least | S | none | **Not shown** (O19) |
+| S2 | Moho temperature of about 425-525 °C before the Flood, with no more than 100 °C to add | S | xenoliths only: below 400 °C (Siberia), 500-600 °C (Tanzania) | **At the edge or below** for the two measured cratons |
+| S3 | A source of water at the Moho to make the layer, and an exit for the water when it breaks down | S | none | **Not shown** (O17, O19) |
+| S4 | A trigger and a cascade | both | observation of lower-crustal rupture in cratonic Africa (Section 33); today's quiet cannot test a Flood-time trigger | **Not shown** (O4) |
+| G1 | Lower crust at least 10 km thick, with a mafic fraction of at least 0.3-0.5 | G | CRUST1.0 median 11.2 km; mafic fraction unknown or lower under cratons (34.9) | **Partly shown** |
+| G2 | Moho at or above about 1.0 GPa and 600-900 °C before the Flood | G | pressure from CRUST1.0 (proxy); temperature not measurable | **Pressure shown for cratons; temperature not shown** |
+| G3 | Gabbro unreacted before the Flood and reacting in the Flood | G | density fingerprint is non-discriminating (36.3) | **Not shown** |
+| G4 | Fluid to start the reaction, and a trigger | G | Holsnøy analog only | **Not shown** (O17, O4) |
+
+### 36.5 What this does to the model
+1. **The map-based "hurts" become "unknown", not "shown to hurt".** The 2% coverage, the 12% craton window and the 84% above the limit were computed from a present steady geotherm. Treat them as the present-day picture only.
+2. **K12 rests on Section 24.6 only** (measured xenolith temperatures); Sections 29-31 are not evidence for or against it.
+3. **What was not touched:** the heat physics, the reaction physics, the net-water correction (35), and the flood geometry. Section 35, the largest setback, stands.
+4. **The model now has a requirements table (36.4) with 12 rows.** Of these, only C2 is consistent with data; two are partly shown (G1, G2 pressure); the rest are not shown. None is contradicted by a direct measurement.
+
+### 36.6 Limits
+- This is a review, not a new calculation, apart from the density check in 36.3.
+- Whether the Flood changed crustal thickness or Moho depth by more than the collapse itself is unexamined (DTAT collisions and orogeny).
+- The xenolith temperatures are the only direct temperature data; they are three regions plus the Mozambique Belt, and the source was an abstract (Section 24.6).
+
+### 36.7 Follow-up
+- Decide the thermal state at depth the model will assume (an initial condition, stated as such) and whether the H3 argument and the Moho temperature argument can share one consistent assumption.
+- Mark Sections 24, 25, 29-31 and 34 in the text as steady-state results (done below as a header note; individual rows are not rewritten).
+- Check DTAT Section 12 and its Moho-temperature item.
+- Use C1-C4 and the S and G rows as the test list for Phase E.
