@@ -434,7 +434,7 @@ The model's burden is water plus collapse subsidence everywhere on Pangea. The m
 | # | Finding | Code |
 |---|---------|------|
 | 1 | Ahrens & Schubert (1975): dry solid-state diffusion cannot finish the transformation in "geologically meaningful" time below about 600-800 °C. They propose a water-film mechanism in which the reaction proceeds rapidly if water pressure is at least about 0.5-1 kbar, with ion solubility the rate-limiting step. They say almost no direct rate data existed beyond rough times at two temperatures (Ito & Kennedy 1971). | C |
-| 2 | Natural examples (Bergen Arcs): the transformation stays overstepped until fluid arrives. One study says the reaction was limited by dissolution-precipitation kinetics, not by pressure-temperature. A separate abstract on partially eclogitized slab gabbros (not the Bergen Arcs) gives "a few weeks" for the shear-zone network to develop and fluids to traverse it (see 17.7 for what that does and does not cover). | C |
+| 2 | Natural examples (Bergen Arcs): the transformation stays overstepped until fluid arrives. One study says the reaction was limited by dissolution-precipitation kinetics, not by pressure-temperature. A separate abstract on partially eclogitized slab gabbros (not the Bergen Arcs) gives "a few weeks" (conference abstract) or days to "a few months" (full paper) for fluid flow through a shear zone (see 17.7 and 17.8 for what that does and does not cover). | C |
 | 3 | Lower-crustal earthquakes in dry, strong granulite are described as the first step: faulting and melting produce fine fragments and fluid pathways, and metamorphism and shear zones follow. | C |
 | 4 | A proposed feedback: the volume decrease of the reaction creates porosity that keeps the fluid pathways open until the whole rock is converted. | C |
 | 5 | Laboratory work: deformation speeds the reaction compared with static runs (preliminary); fluid-present runs at 700 °C and 2 GPa reproduce natural textures (durations not seen); an albite-to-jadeite reaction ran quickly at 400-500 °C both with and without water (preliminary). | C |
@@ -451,10 +451,10 @@ The model's burden is water plus collapse subsidence everywhere on Pangea. The m
 3. **Coverage is still limited.** The loop works where the lower crust is cold, dry and brittle, so it does not cover the warm margins (O16).
 
 ### 17.4 Verdict
-**The speed objection weakens but is not closed.** Best-case literature (a few weeks, for the shear network and fluid traversal; see 17.7 for its limits) fits the 150-day window. Typical estimates do not. The reaction can be fast where fluid and fracturing are present. Whether that holds across a whole craton depends on fluid supply, which is now the weakest point (O17).
+**The speed objection weakens but is not closed.** Best-case literature (about 7-14 days of fluid flow through one shear zone, at 820 °C and 90-110 km, in one study; see 17.8 for its limits) fits the 150-day window. Typical estimates do not. The reaction can be fast where fluid and fracturing are present. Whether that holds across a whole craton depends on fluid supply, which is now the weakest point (O17).
 
 ### 17.5 Follow-up
-- ~~Find the primary paper behind the "weeks" figure~~ (abstract found, see 17.7). Still to do: read Smit & Pogge von Strandmann (2020, EPSL 534, 116046) and check whether the lithium timescale is diffusion-based (P1).
+- ~~Find the primary paper behind the "weeks" figure and check its method~~ (done, see 17.8: diffusion-based, acceptable under P1). Still to do: estimate how much slower the reaction is at craton temperatures (500-600 °C) than at the study's 820 °C, and check whether a fluid reservoir can exist beneath a craton Moho.
 - Source the fluid: does deep water reach the crust base at a usable rate, and does it carry heat limits (H3, H5)?
 - Check whether deep earthquakes in the cold lower crust of cratons are observed (not only in Norway).
 
@@ -478,3 +478,26 @@ Ahrens & Schubert 1975, *Reviews of Geophysics* 13(2); Ito & Kennedy 1971; Austr
 **A useful analog for O17.** The same abstract argues that fluids from the slab mantle accumulate beneath the Moho until the lower crust is breached by dynamic fluid vents, after which the delayed transformation starts. That is a fluid-supply-and-breach mechanism at the crust base. Its fluid comes from slab dehydration, which a craton interior does not have, so CMCT would still need its own source.
 
 **Effect on the verdict.** The speed gap is narrower than "4.7 to 7 orders" only for the network-and-fluid-traversal stage. The time to complete the conversion over a craton is still unmeasured. The "weeks" figure is a supporting data point, not a measurement of the collapse.
+
+### 17.8 Addendum 2: the full paper (2026-11-24)
+**Source read.** Smit & Pogge von Strandmann, "Deep fluid release in warm subduction zones from a breached slab seal" (accepted manuscript of *EPSL* 534, 116046, 2020; the open-access PDF's metadata carries a different title but its text matches). I read the abstract, Section 5.2 (duration) and the methods; the figures and the full discussion I did not study.
+
+**What the study is.** Eclogitized gabbros from the Western Gneiss Complex, Norway (the Seiholmen occurrence), exhumed from a Caledonian ultrahigh-pressure setting. Peak conditions about 820 °C and 3.0-3.6 GPa (90-110 km depth). These are subducted slab rocks, not Bergen Arcs rocks and not craton lower crust.
+
+**The timescale, as the paper gives it**
+| Statement | Where |
+|-----------|-------|
+| Duration of diffusive Li exchange (the time dynamic fluid-filled porosity existed across the shear zone): 7.1 (+4.3/-3.9) days from the ⁷Li profile and 13.6 (+6.0/-5.4) days from the Li concentration profile | Section 5.2 |
+| "Shearing, and by extension the associated reactions, occurred on very short timescales of days, perhaps months" | Section 5.2 |
+| "Breached and permeated within a few months" | Abstract |
+| The GSA conference abstract's "a few weeks" is a shorter wording of the same result; the paper itself says days to months | 17.7 vs the paper |
+
+**Method (P1 check).** Fick's-law diffusion modelling of a lithium profile: diffusion length scale 0.11-0.13 m, Li diffusivity in the fluid 1.98×10⁻⁸ m²/s (extrapolated from lab data to 820 °C and 3.0-3.6 GPa), rock-fluid partition coefficient 1.19 (from experiments), porosity 3×10⁻³. It is a rate calculation from laboratory diffusion data, not a radiometric age, so it is acceptable under P1. The authors say their estimate may be a maximum (shear heating and later solid-state diffusion would overestimate it), may miss delays in Li supply, and that true uncertainty may be larger than quoted.
+
+**What it supports, and what it does not**
+- It supports a rapid breach: dry, rigid gabbro stayed metastable, then a permeable shear-zone network developed and sustained fluid flow for days to months. That matches the idea of a metastable layer followed by a rapid, pulsed transformation.
+- It measures how long fluid flowed through a **decimetre-scale** shear zone, not the time to convert a layer kilometres across. The authors note the reaction front outran the lithium diffusion, so the reaction itself was at least that fast in that rock.
+- It was at **820 °C**. A cold craton Moho is about 500-600 °C (Section 15.1), 220-320 °C cooler. Reactions slow strongly with falling temperature, so these rates do not transfer directly. The slowing has not been estimated.
+- The fluid came from the deserpentinizing slab mantle, trapped at very high pore pressure beneath the slab Moho until the lower crust failed. A craton interior has no such reservoir under its Moho (a cold, depleted keel lies there), so the fluid question (O17) is unchanged.
+
+**Effect on the verdict.** The speed objection is weaker still for the breach stage (days to months at 820 °C) but remains open at craton temperature and over a whole layer. The "weeks" wording in earlier sections should be read as "days to a few months".
