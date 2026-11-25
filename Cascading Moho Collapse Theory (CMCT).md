@@ -924,3 +924,98 @@ Median geotherm per craton cell (not per craton); constant conductivity (true te
 - Get a global heat-flow grid (Lucazeau 2019; IHFC database) and sample it inside the 114 craton polygons, replacing the free heat-flow variable.
 - Obtain the antigorite limit at 1.0-1.25 GPa from a refereed source (Section 21.7).
 - Look for the layer itself (Section 21.7, magnetic and seismic tests).
+
+---
+
+## 26. Phase B step 11: the heat carried by vented water (2026-11-24, FIRST PASS, ASSUMED INPUTS)
+
+**Question.** Catastrophic cracks that vent water from the crust base (Sections 17, 21, 22) have never been tested against the heat constraint on released water (H5, Section 3.3: water must arrive at no more than about 159 °C for the present-depth ocean, or 47 °C for a shallow pre-Flood ocean). **Method.** `scripts/vent_water_heat.py`, first-order and with assumed inputs (listed in the script): water volume 1.3×10⁸ km³ (the model's shallow-water target, Section 5.1) or 1.75×10⁸ km³ (from a 3 km serpentinite layer over Pangea's 2.105×10⁸ km², 10.7 wt% water); source temperature 300-580 °C; ocean cap 40 °C; budget B = 1.4×10²⁶ J (heating the 1.335×10⁹ km³ ocean from 15 to 40 °C). B and the 40 °C cap are themselves unverified (O9). Specific heat is held at 4,186 J/kg/K; real hot water carries more, so the heat figures are lower bounds.
+
+### 26.1 Is a vent mechanism necessary?
+Partly. It is **necessary for the serpentinite candidate**, where subsidence happens only if the water leaves the layer (Section 21.2), and for **any flood water that comes from depth** ("fountains of the great deep", Genesis 7:11). It is **not needed for the gabbro candidate**, whose subsidence comes from the density change, and not for a flood that takes its water only from shallow sources. Since the serpentinite candidate is the stronger one, the vent problem is close to necessary for the model as it now stands.
+
+### 26.2 Results
+| Quantity | Result |
+|----------|--------|
+| Heat in 1.3×10⁸ km³ of water cooling from 580 °C to 40 °C | 2.9×10²⁶ J = **2.1 times B** |
+| Same at 500 °C / 400 °C / 300 °C | 1.8 / 1.4 / 1.0 times B |
+| Same for 1.75×10⁸ km³ (full 3 km layer) at 500-580 °C | 2.4-2.8 times B |
+| Highest source temperature that fits B (all of B used) | 297 °C (1.3×10⁸ km³); 231 °C (1.75×10⁸ km³) |
+| Ocean warming if 580 °C water mixes in | about 53 K (to about 70 °C) |
+| Cooling by crack walls in 150 days (conduction length 3.6 m, cracks every 160 km) | **0.08%** of the heat |
+
+Narrow cracks give essentially no cooling, so water vented that way arrives near its source temperature (less any boiling and decompression, not modelled). The craton Moho (about 400-600 °C, Section 24) is hotter than the 297 °C the budget allows.
+
+### 26.3 Possible solutions (none tested beyond the first-order numbers)
+1. **Take less water from depth, more subsidence from the collapse.** The most any source can supply within B is 6.2×10⁷ km³ at 580 °C, 7.3×10⁷ km³ at 500 °C and 9.3×10⁷ km³ at 400 °C (against the 1.3×10⁸ km³ target). The shortfall is made up by extra collapse subsidence at 330 m per 10⁸ km³ (Section 12): about 120 m more at 400 °C, 190 m at 500 °C, 225 m at 580 °C, which raises the collapse from about 0.48 km to 0.6-0.7 km. That needs a 2.5-3 km layer at 23-25% loss, within what Section 21.2 gives. **This is the simplest fix and costs the least.** One consequence: a 2.5-3 km layer holds about 1.5×10⁸ km³ of water (0.7-0.8 km³ per km²), more than can arrive hot at the surface. The collapse needs the water to leave the layer, not to reach the ocean, so the rest would have to move up and stay in the crust above (about 8×10⁷ km³, a water layer of about 0.4 km over Pangea, which the crust's pore and fracture space may or may not hold). That storage is unchecked.
+2. **Cool the water in the crust (diffuse flow, not cracks).** The crust can absorb the heat: cooling about 2 km of rock by 250 K over Pangea takes up all of it. Full heat exchange in 150 days needs flow paths no more than about 7 m apart (twice the 3.6 m conduction length). That needs a permeability of about 3.6×10⁻¹³ m² (from the Darcy flux of 6.4×10⁻⁵ m/s and assumed hot-water viscosity), or fractures about 0.3 mm wide every 7 m, against typical crustal permeability of 10⁻¹⁸ to 10⁻¹⁶ m². A crust that fractured is very extreme and contradicts "a few cracks along sutures".
+3. **A cooler source.** Water released from lower-temperature reactions (lizardite or brucite breakdown at well under 500 °C, or shallow sources already in Section 5.1) would carry less heat. The reaction temperatures were not checked.
+4. **Let the heat go to the atmosphere as steam.** Hot water decompressing to the surface partly boils; the latent heat goes to the air, not the ocean. This could lower the heat reaching the ocean but moves it to the atmosphere. Calculated in Section 27: the heat is moved, not removed.
+5. **Raise the heat budget.** B comes from an unverified 40 °C cap (O9). A higher cap helps, but it is a premise to defend, not a solution.
+6. **Spread the venting over a longer time.** The Flood's 150 days is fixed by P2, so this is not available.
+
+### 26.4 Verdict
+**A real problem, not a fatal one yet.** Crack-vented deep water exceeds the heat budget by about a factor of 2 and cannot be cooled by narrow cracks. The cheapest fix is accepting less deep water and about 0.1-0.2 km more collapse; the fracture-network fix needs an implausibly permeable crust. Status: open, with a candidate fix (solution 1) that needs the collapse to reach 0.6-0.7 km.
+
+### 26.5 Limits
+First-order only: constant specific heat (heat is understated); no boiling, decompression cooling or steam; assumed viscosity, rock properties and a single crack spacing taken from province boundaries (Section 22); the 150-day window is applied to cooling; the heat budget and the 40 °C cap are unverified. The Darcy flux uses the 3 km layer's water over 150 days.
+
+### 26.6 Follow-up
+- Compute the isenthalpic decompression of water from about 1 GPa and 500-580 °C: how much boils, and how hot it is on arrival.
+- Check lizardite, brucite and chlorite breakdown temperatures for a cooler water source.
+- Redo the Section 16 subsidence budget with the vented water capped at 6-9×10⁷ km³.
+- Test whether a fracture network could be that dense in the lower and upper crust (analogues: hydrothermal systems at ridges, geothermal fields).
+
+
+---
+
+## 27. Phase B step 12: free-water storage and the steam route (2026-11-24, FIRST PASS, ASSUMED INPUTS)
+
+### 27.1 Can water be stored as a free layer at the crust base?
+**Prompted by** a pasted search summary that assumed a "trapped water layer" at the Moho (unsourced, not read from a paper). `scripts/free_water_layer.py`. All inputs are from memory: fracture toughness 1-3 MPa·m^½, water 1.1 g/cm³ and viscosity 1×10⁻⁴ Pa·s at about 1 GPa, rock 2.8 g/cm³, lower-crust viscosity 10¹⁹-10²³ Pa·s, permeability 10⁻¹⁹-10⁻¹⁵ m², porosity 1-3%.
+| Check | Result |
+|-------|--------|
+| **Brittle crust:** height of a connected water body at which buoyancy alone drives a crack upward | about 15-32 m, so a layer 0.5-0.9 km thick would escape at once |
+| **Ductile crust:** time for buoyant water to cross 35 km by slow flow | 10²-10⁶ years; under 1,650 years only if permeability is above about 10⁻¹⁶ m² |
+| **Density inversion:** time for the crust to sink into a water layer (crust over lighter water) | 5×10² years at viscosity 10¹⁹ Pa·s; 5×10³ years at 10²⁰; 5×10⁴ years at 10²¹ |
+
+**Reading.** A free layer survives the pre-Flood centuries only in a narrow case: the rock must be ductile (not brittle), the permeability very low (below about 10⁻¹⁷ m², where ascent takes more than 6,000 years), and the lower crust stiff (viscosity of 10²⁰ Pa·s or more). In brittle or well-fractured crust the water escapes by itself. In any case the layer cannot be thick, since the crust above must be held up by the framework, not by water pressure. **Verdict: free-water storage is not supported; hydrous minerals (Section 21) remain the workable store.** The critical height is an order-of-magnitude estimate (a factor of 2 or so).
+
+### 27.2 What happens to the water at the surface (steam route)
+`scripts/vent_steam.py`, using IAPWS-95 (the `iapws` package, installed with your approval; valid to 1,000 MPa). Water leaves the Moho at 1,000 MPa (or less), rises 35 km with no loss to the walls (0.08% cooling, Section 26), loses only gravitational potential energy (343 kJ/kg), and arrives at 0.1 MPa. The solver gave numerical warnings at some points; the results are plausible but not cross-checked against a steam table.
+| Start (1,000 MPa) | Arrival state | Steam mass fraction | Heat to bring it to 40 °C liquid | Against budget B (1.3×10⁸ km³) |
+|-------------------|---------------|---------------------|----------------------------------|--------------------------------|
+| 400 °C | 100 °C, wet steam | 0.66 | 1,730 kJ/kg | 1.6 |
+| 500 °C | 100 °C, wet steam | 0.81 | 2,086 kJ/kg | 1.9 |
+| 580 °C | 100 °C, wet steam | 0.94 | 2,368 kJ/kg | 2.2 |
+| 700 °C | 240 °C, superheated steam | 1.00 | 2,788 kJ/kg | 2.6 |
+
+At a start pressure of 300-600 MPa the heat is 1.2-2.4 times B. The constant-specific-heat estimate in Section 26 (2.1 times B at 580 °C) is confirmed within 5%.
+
+### 27.3 What the steam route does
+- **Most of the heat leaves as latent heat.** At 580 °C, 94% of the water arrives as steam at 100 °C and about 89% of the heat is latent heat, released when the steam condenses.
+- **It does not remove the heat.** The heat stays in the system and is released into the air when the steam condenses. About 3.1×10²⁶ J would warm the atmosphere (5.2×10²¹ J/K) by about 59,000 K if it stayed there, so it cannot stay. It must be radiated to space.
+- **Radiating it takes decades.** At today's outgoing flux (240 W/m², 1.2×10¹⁷ W over the globe) it takes about 80 years. A hotter atmosphere would radiate faster, but not within 150 days.
+- **Scale.** The steam mass is 1.2×10²⁰ kg, about 10⁴ times the present atmospheric water vapour (1.3×10¹⁶ kg).
+- **Net effect for CMCT:** the steam route relieves the ocean, not the budget. **It converts "too much heat in the ocean" into "an atmospheric heat load lasting decades."** Whether the ocean stays at or below 40 °C then depends on how much of the condensation heat reaches the ocean and how much leaves to space.
+
+### 27.4 Verdict
+**Open, not solved.** The steam route is real physics and moves most of the heat into the atmosphere, but the total heat is unchanged and exceeds the budget by about 2. The best fix remains the one in Section 26.3 (take less deep water and more collapse subsidence). Status: no mechanism yet shown that gets rid of the heat within the Flood's 150 days.
+
+### 27.5 Interface with an ice-age study (kept separate)
+A study of whether the Flood could lead to an ice age is planned as a separate document and is not part of CMCT. This section lists only what CMCT would hand over. No CMCT verdict rests on ice-age data (P8 still reads "not built yet").
+| Direction | Item | Status |
+|-----------|------|--------|
+| CMCT gives the ice-age study | Heat released at the surface by the vented water: about 1.2-2.4 × 10²⁶ J (400-700 °C, 1.3×10⁸ km³), mostly as latent heat | Computed, assumed inputs |
+| CMCT gives | Water mass delivered as steam: about 10²⁰ kg in about 150 days (a rain equivalent of about 255 m over the globe, if all fell as rain) | Computed |
+| CMCT gives | A range of arrival temperatures and states (100 °C wet steam to 240 °C superheated) | Computed |
+| The ice-age study gives CMCT | Whether the ocean, atmosphere and space can take this heat without exceeding 40 °C, and over what time | Not examined |
+| Not in CMCT | Aerosols, cloud, albedo, ice-sheet growth, and any link between warm oceans and glaciation | Out of scope |
+
+### 27.6 Limits
+No heat lost in the rock above the Moho beyond the 0.08% wall cooling; start pressure capped at 1,000 MPa; one water volume (1.3×10⁸ km³); no kinetic energy, friction or crack-wall flashing; an isenthalpic path; IAPWS solver warnings; the atmosphere and radiation figures are from memory; the 40 °C cap and budget B are unverified (O9).
+
+### 27.7 Follow-up
+- Check the equation-of-state results against a published steam table at one or two points.
+- Redo the Section 16 subsidence budget with the vented water capped at 6-9×10⁷ km³ (Section 26.3, solution 1).
+- Check lizardite and brucite breakdown temperatures for a cooler water source.
