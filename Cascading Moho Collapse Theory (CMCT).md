@@ -106,10 +106,10 @@ What the stretching idea explains (from v2 Phase 5; the idea was added in v2, no
 Whatever replaces the drip still needs something to start it and a way to spread it. The drip-specific analysis (stress-transfer cascade, stalling, cross-craton propagation) is struck. Triggers checked in v1 and found not to work for keel failure: eclogitization (acts on mafic lower crust, needs prior thickening), plume arrival (10-30 My by default). Eclogitization of lower crust is relevant again only for the untested crust-base collapse idea (O15). See Section 9, item O4.
 
 ### 4.7 Moho peeling: struck under P9
-Moho peeling (the keel's mantle peeling off along the Moho; v1 Section 13.6.1) was restored in draft 3 and struck in draft 4. It removes the whole 165 km keel mantle, so it leaves no keel and conflicts with P9. v1's analysis remains in `Noah's Pangea v1/Model.md` Section 13.6.1 for reference. The drip and peeling images were deleted in draft 5 (recoverable from git history). `images/` now holds the diagram for the idea in 4.8.
+Moho peeling (the keel's mantle peeling off along the Moho; v1 Section 13.6.1) was restored in draft 3 and struck in draft 4. It removes the whole 165 km keel mantle, so it leaves no keel and conflicts with P9. v1's analysis remains in `Noah's Pangea v1/Model.md` Section 13.6.1 for reference. The drip and peeling images were deleted in draft 5 (recoverable from git history). `images/` now holds the numbered diagrams for the idea in 4.8 (01-03).
 
 ### 4.8 Candidate: collapse of a thick layer at the crust base (untested)
-The one idea left that satisfies P9. A layer between the crust and the keel was thicker before the Flood and collapses to its present thickness in a cascade. The crust drops onto the keel, which is not touched. Image: `images/crust_base_collapse_diagram.png` (and `.svg`).
+The one idea left that satisfies P9. A layer between the crust and the keel was thicker before the Flood and collapses to its present thickness in a cascade. The crust drops onto the keel, which is not touched. Images (numbered for sequential viewing, each as `.png` and `.svg`): `images/01_collapse_overview` (before, during, after), `images/02_craton_vs_margin` (where it can act and where it cannot, and the unresolved fluid source), `images/03_cascade_loop` (the five-step cascade with evidence levels).
 
 **Arithmetic (mine, not checked against data).** Subsidence equals the thickness the layer loses, because mass is conserved and the keel does not move. Taking today's layer as 2.4 km (v1's estimate; published Moho transition zones run 0.1 to a few km):
 | Case | Subsidence needed | Layer before | Layer after | Collapse |
@@ -125,7 +125,7 @@ The one idea left that satisfies P9. A layer between the crust and the keel was 
 
 **Heat (rough):** crust sinking about 0.9 km releases about 1.5×10²⁶ J over all land, about 1.1 times the heat budget B, at about 35 km depth (conduction time about 40 million years, so it passes H3).
 
-**Status (updated after Phase B step 1, Section 15):** not ruled out, not shown. The 27% collapse and 3.3 km layer in the table and image above **exceed what a density-raising phase change gives** (9-17% thickness loss). If the collapse is a phase change, the layer must have been about 5.5-10 km thick (2.9-5.3 km with released water) and be about 5-9 km thick today. The image `images/crust_base_collapse_diagram.png` was redrawn with the corrected middle case (7.0 km before, 6.1 km after, 13% collapse, 15% density increase).
+**Status (updated after Phase B step 1, Section 15):** not ruled out, not shown. The 27% collapse and 3.3 km layer in the table and image above **exceed what a density-raising phase change gives** (9-17% thickness loss). If the collapse is a phase change, the layer must have been about 5.5-10 km thick (2.9-5.3 km with released water) and be about 5-9 km thick today. The overview image `images/01_collapse_overview.png` was redrawn with the corrected middle case (7.0 km before, 6.1 km after, 13% collapse, 15% density increase).
 
 ---
 
