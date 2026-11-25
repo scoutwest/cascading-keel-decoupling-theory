@@ -6,6 +6,10 @@ Scripts that produce the images and the numbers quoted in `Cascading Moho Collap
 |--------|----------|--------|
 | `section_arithmetic.py` | The tables in Sections 14-18 (McKenzie subsidence, water sea-level equivalents, layer thickness, the Section 16 budgets, the Arrhenius scaling, pressure at depth) | none |
 | `craton_moho_stats.py` | The Section 19 statistics (craton Moho depth and pressure, lower-crust thickness) | CRUST1.0 and the Hasterok craton polygons |
+| `serpentinite_volume.py` | The Section 21 volume arithmetic for serpentinite breakdown | none |
+| `gas_volume.py` | The Section 21.3 upper bound on hydrogen volume in serpentinite | none |
+| `craton_geotherm.py` | The Section 24 Moho temperature sweep (conductive geotherm; heat production and conductivity assumed) | none |
+| `province_suture_distance.py` | The Section 22 distances from continental crust to province boundaries (`python province_suture_distance.py strict` for different-type boundaries only) | Hasterok provinces (`global_gprv.shp`); needs `scipy` too |
 | `draw_01_collapse_overview.py` | `images/01_collapse_overview` (.png, .svg) | none |
 | `draw_02_craton_vs_margin.py` | `images/02_craton_vs_margin` | none |
 | `draw_03_cascade_loop.py` | `images/03_cascade_loop` | none |

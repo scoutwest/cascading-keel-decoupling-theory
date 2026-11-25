@@ -1,6 +1,6 @@
 # Cascading Moho Collapse Theory (CMCT): a young-earth Flood model that avoids the CPT "heat problem"
 
-**Status:** Draft 6 (stretching removed as a flood source: all flood subsidence is now assigned to the collapsed Moho layer plus released water). The keel-drip mechanism (CKDT-II) and Moho peeling are **struck** under premise P9 (no mechanism may conflict with the deep keels cratons have today). The theory currently has **no keel-based subsidence mechanism**; what survives is the heat analysis, the flood geometry and shallow released water. Stretching is kept only as a note explaining the major geological provinces (Section 4.5). The one untested idea left is collapse or densification of a layer at the crust base (O15). Phase A (attribute re-verification) is done (Section 14). Phase B steps 1-5 (the crust-base collapse test, the stretching-plus-water coverage test, the reaction-speed test, the craton-temperature speed test and the eclogite-field depth test) are done (Sections 15-19). The rest of Phases B-E has not been run. Draft 1 was written 2026-11-24 by merging `Noah's Pangea v1` (`Theories.md`, `Model.md` Phase 13) and `Noah's Pangea v2` (`Model.md` Phases 1, 3-6). Numbers not listed in Section 14 are still carried over from v1 or v2 and are not yet re-verified.
+**Status:** Draft 7 (stretching removed as a flood source: all flood subsidence is now assigned to the collapsed Moho layer plus released water). The keel-drip mechanism (CKDT-II) and Moho peeling are **struck** under premise P9 (no mechanism may conflict with the deep keels cratons have today). The theory currently has **no keel-based subsidence mechanism**; what survives is the heat analysis, the flood geometry and shallow released water. Stretching is kept only as a note explaining the major geological provinces (Section 4.5). The one untested idea left is collapse or densification of a layer at the crust base (O15). Phase A (attribute re-verification) is done (Section 14). Phase B steps 1-5 (the crust-base collapse test, the stretching-plus-water coverage test, the reaction-speed test, the craton-temperature speed test and the eclogite-field depth test) are done (Sections 15-19). Phase B steps 6-9 are done or partly done: the gabbro-to-eclogite boundary (Section 20, partial), serpentinite as the collapsing layer (Section 21), cracks along province boundaries as vent routes (Section 22, geometry only) and the craton Moho temperature (Section 24, inputs assumed). Section 23 sets out the interface with DTAT, which is kept as a separate theory. The rest of Phases B-E has not been run. Draft 1 was written 2026-11-24 by merging `Noah's Pangea v1` (`Theories.md`, `Model.md` Phase 13) and `Noah's Pangea v2` (`Model.md` Phases 1, 3-6). Numbers not listed in Section 14 are still carried over from v1 or v2 and are not yet re-verified.
 **Name:** renamed in draft 5 from Cascading Keel Delamination Theory (CKDT) after the keel-removal mechanisms were struck (P9). "CMCT" is a working name until Phase B reports on the crust-base collapse idea (Section 4.8). Earlier files and v1/v2 notes use the old name; "CKDT-II" refers to the struck keel-drip version.
 **Nature:** a speculative young-earth creation-science model. Mainstream geoscience rejects its premises. Where a number fails, the failure is stated.
 
@@ -127,6 +127,11 @@ The one idea left that satisfies P9. A layer between the crust and the keel was 
 
 **Status (updated after Phase B step 1, Section 15):** not ruled out, not shown. The 27% collapse and 3.3 km layer in the table and image above **exceed what a density-raising phase change gives** (9-17% thickness loss). If the collapse is a phase change, the layer must have been about 5.5-10 km thick (2.9-5.3 km with released water) and be about 5-9 km thick today. The overview image `images/01_collapse_overview.png` was redrawn with the corrected middle case (7.0 km before, 6.1 km after, 13% collapse, 15% density increase).
 
+**Update after Phase B steps 6-9 (Sections 20-24):**
+- **Gabbro version (candidate A):** the eclogite boundary for basic rock is about 1.9 GPa at high temperature (Chapman et al. 2017) and needs more than 600-800 °C plus fluid in cool lithosphere (Buntin et al. 2021). The craton Moho is at a median 1.07 GPa and about 500 °C (Section 24, inputs assumed). It is the weakest candidate (O18).
+- **Serpentinite version (candidate B, user's suggestion):** a fragile, serpentinized layer. Dehydration shrinks the solid 28-31%, so 1.5-3.6 km of layer would be enough; trapped hydrogen adds at most about 2%. Subsidence needs the released water to escape through cracks. The layer is not shown to exist under cratons, and the craton Moho is 100-150 °C below the antigorite limit (Sections 21 and 24). Status: unresolved, a candidate, not supported.
+- **Both candidates need heat at the craton Moho** (O1, O2, O20).
+
 ---
 
 ## 5. Companion mechanisms (used only where CMCT cannot cover the budget)
@@ -142,7 +147,7 @@ Present-depth ocean (3.68 km basin): 2.3×10⁸ km³ must start underground. Sha
 Every 10⁸ km³ released saves about 330 m of subsidence, so 1.3×10⁸ km³ leaves only about 475 m for the collapse mechanism. A water-only flood needs 2.7×10⁸ km³. Deep (transition-zone) water is too hot (H5). The shallow-ocean pre-Flood case needs 78% of all water underground and cannot be met, so **the model uses the present-depth case**. Venting at 100 m/s needs a slot about 1.8 m wide along 99,700 km of ridge.
 
 ### 5.2 Handoff to DTAT (note only)
-Continent-making is the job of a separate theory, the Differential Terrane Accretion Theory (DTAT; see `Differential Terrane Accretion Theory (DTAT).md` if and when it is written). CMCT stops once subsidence and destabilization are done. DTAT takes over from there. This model gives DTAT no content and no numbers.
+Continent-making is the job of a separate theory, the Differential Terrane Accretion Theory (DTAT; see `Differential Terrane Accretion Theory (DTAT).md` if and when it is written). CMCT stops once subsidence and destabilization are done. DTAT takes over from there. CMCT gives DTAT no mechanism and no numbers of DTAT's own. It hands over only a cause for the submergence and the possible crack lines in Section 22, and the points where the two theories meet are listed in Section 23.
 
 Open problems that now belong to DTAT, not CMCT: O1 (new ocean floor), O2 (moving the blocks), O12 (recession and lasting uplift) and O13 (the ten highest peaks). The handoff conditions, such as the state of the crust DTAT inherits, are to be defined when DTAT is written. The stretching note in Section 4.5 may help DTAT define the major geological provinces.
 
@@ -209,7 +214,9 @@ Cool, conductive xenolith geotherms show no recent catastrophic heating. Fine de
 | O15 | **No subsidence mechanism for keel-bearing interiors that satisfies P9.** The drip and peeling are struck. Released water (partial) is the only surviving source; stretching is not a flood source (Section 16). One untested idea: collapse or densification of a 3-9 km (if fully converted) layer at the crust base, which removes no keel (limits: little pore space at about 1 GPa, needs a density-raising phase change, trigger and speed unknown) | Direct conflict with present-day data and with P9 | Raised by the user; 4.3 | **Phase B step 1:** not ruled out; main gaps are reaction speed (4.7-7 orders too slow, indirect rates) and a mafic layer 5-10 km thick that is debated (Section 15). **Phase B step 2:** with collapse as the only subsidence, all Pangea must drop 0.48-0.91 km (uniform) or 0.28-0.53 km at the highest ground (Section 16). **Phase B step 3:** best-case literature (weeks, fluid-saturated shear zones) fits the 150-day window; typical indirect estimates do not; fluid supply is unresolved (Section 17). **Phase B step 4:** scaled to craton temperature the speed ranges from about 12 days to 15 years for a decimetre-scale zone; the 150-day window is met only in the optimistic cases; a new concern is the driving force at 35-42 km (O18) (Section 18).
 | O16 | **Coverage of the margins.** The crust-base collapse probably acts only where the lower crust is cold (cratons). Warm, stretched margins (18% of Pangea) are not covered by it, and stretching is no longer a flood source. Needs the collapse to work there, another source, or a flood that does not cover the margins | A global flood needs all land covered | Phase B step 2; 16.3 |
 | O17 | **Fluid supply at the crust base (35-42 km).** Eclogitization is fluid-limited and needs water in contact with dry lower-crust granulite. The model's shallow water is released near the surface; a source or path to 35-42 km is not identified. Heat is not a problem there (it stays deep, H3) | The reaction cannot start or spread without it | Phase B step 3; 17.3 | **Analog (17.7):** a study of subducting slab gabbros argues that fluid from the slab mantle accumulates beneath the Moho until the lower crust is breached by dynamic fluid vents, after which eclogitization starts. That is a fluid-supply-and-breach mechanism, but its fluid comes from slab dehydration, which a craton interior lacks.
-| O18 | **Driving force at 35-42 km.** The eclogite field at craton temperature (500-600 °C) is expected at about 1.3-1.6 GPa, but the layer sits at 1.0-1.25 GPa. The reaction may stop at garnet granulite (about 10% denser) or not start, which limits the collapse to the low end of 9-17% and raises the layer thickness needed (Section 18.3) | Without enough driving force the density change and the drop shrink | Phase B step 4 | **Phase B step 5:** by CRUST1.0, the craton Moho is at a median 1.07 GPa and only 3% of craton area reaches 1.3 GPa; the lower-crust layer itself is thick enough (median 12.5 km). The driving force is the weak point (Section 19).
+| O18 | **Driving force at 35-42 km.** The eclogite field at craton temperature (500-600 °C) is expected at about 1.3-1.6 GPa, but the layer sits at 1.0-1.25 GPa. The reaction may stop at garnet granulite (about 10% denser) or not start, which limits the collapse to the low end of 9-17% and raises the layer thickness needed (Section 18.3) | Without enough driving force the density change and the drop shrink | Phase B step 4 | **Phase B step 5:** by CRUST1.0, the craton Moho is at a median 1.07 GPa and only 3% of craton area reaches 1.3 GPa; the lower-crust layer itself is thick enough (median 12.5 km). The driving force is the weak point (Section 19). **Phase B steps 6-9:** the boundary pressure at 500-600 °C was not found; the sourced boundary for basic rock is about 1.9 GPa, higher than the 1.0-1.25 GPa layer (Section 20). The present-day craton Moho is about 450-560 °C (Section 24, assumed inputs), below the 600-800 °C that eclogitization needs in cool lithosphere. The serpentinite alternative is in O19.
+| O19 | **Existence of a serpentinized layer and an exit for its water.** Serpentinite shrinks 28-31% on breakdown, enough with 1.5-3.6 km of layer, but it forms where seawater reaches mantle rock, not under cratons, and the volume loss needs the water to escape. Hydrogen and methane add at most about 2% | Without the layer and an exit there is no subsidence from this route | User; Phase B step 7; Section 21 |
+| O20 | **Heat to trigger a collapse at the craton Moho.** A conductive geotherm puts the Moho at about 500 °C (range 330-717 °C, assumed inputs). Antigorite breakdown is near 620-680 °C at 1.5-1.9 GPa (limit at 1.0-1.25 GPa not found); eclogitization needs more than 600-800 °C. Added heat of about 100-150 °C would be needed, which returns O1 and O2 | Without a heat source neither mechanism starts | Phase B step 9; Section 24 |
 | O13 | Ten highest peaks need 7.5-8.2 km of uplift from under 610 m | Phase 7 target | v2 2.3 |
 
 Removed with the drip in draft 5: keel water (old O3), dynamic-subsidence factor (O5), cross-craton propagation (O6), stalling (O7), keel density sign (O8), shear-localization width (O10).
@@ -231,6 +238,9 @@ Removed with the drip in draft 5: keel water (old O3), dynamic-subsidence factor
 | 9 | Hirth and Kohlstedt table garbled on extraction; dry activation volume partly assumed | Reproduced footnote example; verify in Phase B |
 | 10 | Python scripts broke three times on string escapes in my own edits | Use `chr(10)` and write scripts to files |
 | 11 | The drip (CKDT-II) and Moho peeling remove keel material and conflict with the deep keels observed under cratons today (P9) | Both struck in draft 5; O15 open |
+| 12 | My first hydrogen estimate (about 5% of the layer volume) was 2-20 times too high; the stoichiometric ceiling is 0.47 mol H₂ per kg of rock | Corrected to 0.2-2.2% (Section 21.3) |
+| 13 | Two papers (Hacker 2011, Matsuishi 2003) could not be read: Hacker had no boundary numbers; Matsuishi is a scanned PDF with no text layer | Hydrogen molar volume stays assumed; OCR needed |
+| 14 | A search summary said a 400-500 °C Moho "is not supported"; its sources were Archean-time geotherms, which the model does not use (P1) | Present-day value computed in Section 24 instead |
 
 ---
 
@@ -249,6 +259,10 @@ Test each claim, not each number:
 - Test the crust-base collapse idea (O15): **done in step 1, results in Section 15.**
 - Decide whether any mechanism satisfies P9, or state plainly that none does.
 Output: claim register with verdicts (supported, unsupported, contradicted, unresolved).
+- Eclogite boundary at craton conditions: **partly done, step 6, Section 20.**
+- Serpentinite as the collapsing layer: **done as a first pass, step 7, Section 21.**
+- Cracks along province boundaries as vent routes: **geometry done, step 8, Section 22.**
+- Craton Moho temperature: **computed with assumed inputs, step 9, Section 24.**
 
 ### Phase C: Rebuild the Python math files
 Rebuild from scratch into one clean package with a shared `sphere.py`, one script per calculation, fixed seed (1656), unit tests for each formula, and a single `run_all.py`. Cover: heat budget (3.2), water budget (4.2, 5.1), energy table (Section 6), and any math for a crust-base mechanism (O15). Every number in this file must be produced by a script. v1 files (`phase13_keel_delamination.py`, `test_math.py`, `phase13_dtat_terranes.py`) and v2 files (`phase1_heat.py` through `phase6c_fragments.py`) are inputs to the rebuild, not trusted outputs. Output: scripts, a results log, and a table showing each model number and its script.
@@ -274,6 +288,12 @@ Work through Section 9 in this order of importance: O1 and O2 (the heat problem 
 | Submerged share of continental plus transitional crust | 33.3% (transitional 92.6%) |
 | Unsolved: new ocean floor | 1.64×10⁸ km², 456 B if made new |
 | Unsolved: basal drag for 3,841 km in 150 d | ≥ 350 B |
+| Craton Moho: median depth, pressure | 39.0 km, 1.07 GPa (CRUST1.0; Section 19) |
+| Craton Moho temperature (conductive geotherm, assumed inputs) | about 500 °C (450-560 typical; 330-717 full range; Section 24) |
+| Eclogite boundary, basic rock (high temperature) | about 1.9 GPa (Chapman et al. 2017; Section 20) |
+| Serpentinite breakdown, solid volume lost | 28-31%; layer needed 1.5-3.6 km (Section 21) |
+| Hydrogen in serpentinite, volume share | at most about 2% (0.47 mol/kg ceiling; Section 21.3) |
+| Province-boundary reach: continental area within 250 km of a boundary | 89% (median distance 81 km; Section 22) |
 
 ---
 
@@ -599,3 +619,193 @@ Chart: `images/04_craton_moho_pressure.png` (and `.svg`).
 
 ### 19.5 Sources (Phase B step 5)
 CRUST1.0 (Laske et al.), local copy from v1; Hasterok et al. (2022) cratons, local copy from v2; eclogite-field pressure ranges from the cited studies in Section 15.1 (unverified in full). Computation is mine (`scripts/craton_moho_stats.py`).
+
+---
+
+## 20. Phase B step 6: where is the gabbro-to-eclogite boundary? (2026-11-24, PARTIAL)
+
+**Question.** Section 19.4 asked for the pressure and temperature of the gabbro-to-eclogite boundary at craton Moho conditions. **Status: not answered.** I searched and fetched sources, but none gave the boundary pressure at 500-600 °C. Two PDFs (Hacker et al. 2011; Chapman et al. 2017) could not be read, because the fetch returned unreadable PDF bytes and no PDF tool is installed here. This section records only what was found and what is still missing.
+
+### 20.1 What was found
+| Finding | Source | Status |
+|---------|--------|--------|
+| Gabbro-to-eclogite in cool cratonic lithosphere needs T > 600-800 °C plus a fluid phase to happen within geological time; the reaction rate "cannot be constrained in laboratory experiments" | Buntin et al. 2021 (Nat. Commun. 12:6553), introduction | Read in page text |
+| Geotherms of 45-60 mW/m² cross the eclogite field at depths > 45 km (about 1.3 GPa at 3.0 g/cm³, my conversion) | Buntin et al. 2021 | Read; the paper gives depth only, no GPa boundary |
+| Fennoscandian Moho is 45-60 km deep, deeper than the 39 km craton median in Section 19 | Buntin et al. 2021 | Read |
+| Eclogite density 3.45-3.50 g/cm³ (up to 3.75); lower crust 2.95-3.1 g/cm³ | Buntin et al. 2021 | Read |
+| Dry basalt: plagioclase disappears only above about 2.3 GPa at 1,100 °C; garnet-granulite transition zone about 1.1 GPa wide at 1,100 °C | Ito and Kennedy-type experiments, via search snippet | Snippet only, wrong temperature |
+| Gabbroic compositions move the granulite-eclogite transition about 0.4 GPa to higher pressure than dioritic ones | De Paoli et al. 2012 (J. Petrol. 53) | Abstract excerpt only |
+| Liou et al. (1998) mapped garnet-in and plagioclase-out for basalt + H₂O at 600-950 °C, 0.8-3.0 GPa | Search snippet | Numbers not retrieved |
+
+### 20.1b Added after reading Chapman et al. (2017) in full (pypdf, PDF saved locally)
+Chapman, Clarke, Piazolo and Daczko, Sci. Rep. 7:13039, pseudosections in NCKFMASHTO for Breaksea Orthogneiss (Fiordland) compositions. All read in the paper text:
+- The upper pressure stability of plagioclase marks the lower boundary of the eclogite facies. For a basite protolith it is at **1.9 GPa** (1.8 GPa for monzodiorite). I did not extract the temperature at which this is quoted (the pseudosection figure is not in the text); the rocks recrystallised at about 850 °C, so this is a high-temperature value, not a 500-600 °C one.
+- At 1.2 GPa, "even pure basite would need to cool and recrystallize below T ≈ 600 °C to be negatively buoyant" relative to upper mantle (3.33 g/cm³). Basic gneiss may be dense enough to founder about 0.5 GPa below the granulite-eclogite transition, so not strictly dependent on eclogite itself.
+- Densities: cumulate basite 3.45 g/cm³; garnet-omphacite granulite from monzodiorite 3.15 g/cm³; basic compositions run about 0.22 g/cm³ denser than intermediate ones at equal P-T.
+- The Breaksea rocks reached 1.8 GPa (65 km crust), far deeper than the 39 km craton median here.
+
+Hacker et al. (2011) text extracted but contains no boundary numbers (it is a relamination paper); nothing taken from it.
+
+### 20.2 What this does to O18
+- Nothing found puts eclogite at 1.0-1.25 GPa and 500-600 °C. Every source that gives a number places the field higher (about 1.3 GPa or more, and often 1.8-2.2 GPa) or requires 600-800 °C.
+- The De Paoli composition shift (+0.4 GPa for gabbro) goes the wrong way for the model.
+- The Section 19 verdict stands: O18 is still the main weakness. No new evidence helps it.
+- The Buntin result is useful in one way: it reports a partly eclogitized lower crust (50-70% of a 6-8 km body) under a cold shield with a Moho at 45-60 km. That supports eclogite existing at the base of old crust, but at 45-60 km, not at the 39 km craton median.
+
+### 20.3 Still to do
+- Get the Liou et al. (1998) plagioclase-out and garnet-in pressures at 600 °C, and the De Paoli et al. (2012) pseudosections, for the temperature dependence of the 1.9 GPa boundary. Both need readable full text (`pypdf` is now installed, user-approved).
+- Test the density route: Chapman suggests basic rock can be denser than 3.33 g/cm³ without crossing the eclogite boundary. CMCT only needs a volume loss (about 9-10% density gain, Section 19.2 item 4), so the garnet-granulite density at 1.0-1.25 GPa and 500-600 °C is the better question than the eclogite boundary.
+- Find a Moho temperature for cratons from a stated source. "500-700 °C" for the Fennoscandian Moho came from a summary and is unverified.
+- Then decide the O18 verdict with numbers: inside the field, outside it, or within the uncertainty.
+
+### 20.4 Sources (Phase B step 6)
+Buntin et al. (2021) https://pmc.ncbi.nlm.nih.gov/articles/PMC8589968 ; De Paoli, Clarke and Daczko (2012), J. Petrol. 53, doi:10.1093/petrology/egs004 (abstract only); Liou et al. (1998) (snippet only); Ito and Kennedy basalt-eclogite experiments (snippet only). Hacker et al. (2011, EPSL) and Chapman et al. (2017, Sci. Rep. 7) were fetched but not readable.
+
+---
+
+## 21. Phase B step 7: serpentinite as the collapsing layer (2026-11-24, rewritten after discussion)
+
+**Question.** Could a fragile, serpentinized layer at the crust base be the layer that collapses (Section 4.8), in place of gabbro (Sections 15-20)? **Premise as stated by the user:** (1) catastrophic cracks let the water out, and (2) hydrogen and methane trapped in the serpentinized rock make it compressible. The layer's collapse is the subsidence; water release is a consequence, not a separate driver.
+
+**Constraint on any version.** The keel does not move and the layer's mass is conserved, so the crust can only drop if the layer loses volume. A weak layer that flows sideways only moves material.
+
+### 21.1 The ways a fragile layer can lose volume
+| Route | Volume loss | Status |
+|-------|-------------|--------|
+| A. Dehydration (antigorite breaks down, water leaves) | 28-31% of the solid; net about 0 to -5% unless the water escapes (21.2) | Large enough; needs the water to escape and heat or a pressure change |
+| B. Release of trapped hydrogen and methane (21.3) | at most about 2% | Too small alone |
+| C. Crushing of pore space | very small at 1.0-1.25 GPa (Section 4.8, item 1) | Not a route |
+| D. Sideways ductile flow | none in net | Moves rock, no net subsidence |
+
+Routes A and B are linked: cracks that vent water also vent gas.
+
+### 21.2 Route A: dehydration (mine; inputs assumed)
+`scripts/serpentinite_volume.py`. Inputs: antigorite 2.55-2.60 g/cm³ (from memory, unverified), 12-13 wt% water released (search: antigorite holds 13-15 wt%), products (olivine + orthopyroxene) 3.2-3.3 g/cm³, fluid 1.0-1.1 g/cm³ (assumed).
+| Quantity | Result |
+|----------|--------|
+| Solid volume lost on breakdown | **28-31%** |
+| Net volume change if the water stays in the rock | about 0 to -5% |
+| Serpentinite needed for 0.91 km of subsidence | 2.9-3.6 km |
+| Serpentinite needed for 0.48 km (with shallow water, 5.1) | 1.5-1.9 km |
+
+This is about three times the loss for gabbro to eclogite (9-17%). An unchecked general summary says serpentinization swells rock by up to 40%; the reverse is 1 - 1/1.4 = 29%, which agrees with the figure above (a maximum, not a typical value). **Subsidence happens only if the water leaves the layer.** If it stays, the net change is near zero and the water pressure props the rock open. The cracks (premise 1) supply that exit.
+
+Stability (search snippets only): antigorite breaks down to forsterite + enstatite (or talc) + water, with an upper limit near 680 °C at 1.9 GPa; deformed samples began to dehydrate at 1.5 GPa and 620-670 °C; water-poor conditions lower the limit by 50-100 °C; aluminium and chromium raise it by 60-70 °C. The limit at 1.0-1.25 GPa, the pressure that matters here, was not found. The craton Moho temperature is unconfirmed (Section 20.3). If the Moho sits just below the limit, a modest temperature rise could trigger breakdown. That is a heat requirement, which returns O1 and O2.
+
+### 21.3 Route B: hydrogen and methane (premise 2)
+`scripts/gas_volume.py`. **Correction.** In discussion I first said a few tenths of a percent of the rock's mass could be hydrogen, giving about 5% of the volume. The sources show that was too high: hydrogen from serpentinization is limited by the iron in the rock.
+- **Ceiling:** about 0.47 mol H₂ per kg of peridotite (10 wt% FeO, all of it oxidized to magnetite), which is about 0.09 wt%. Real yields are lower because the Fe(III)/total iron ratio in serpentinites averages about 0.45. Modelled and measured values are about 0.1-0.35 mol/kg (a Frontiers 2021 study gives 120 to over 300 mmol/kg below 200 °C for some rocks, and 200-350 mmol/kg at slow-spreading ridges).
+- **Molar volume at about 1 GPa and 500-600 °C:** not found in any source. I assumed 10-20 cm³/mol (from memory). An ideal gas would give 5 cm³/mol, but real hydrogen is much less compressible at this pressure.
+- **Result:** hydrogen fills about **0.2-2.2%** of the serpentinite's volume (2.6 g/cm³ rock, 1.13 kg per kg of peridotite). Gas alone would need a layer of 22-42 km (best case) or 200-400 km (low case) to give 0.48-0.91 km of drop. Methane needs a carbon source and uses four hydrogen molecules per molecule formed, so it adds no more volume than the hydrogen it consumes (my reasoning, not from a source).
+- **So the gas is real but small.** It could add one to two percent to route A and could help trigger it (a pressure drop when gas vents), but it cannot carry the collapse.
+- **Other findings:** at high hydrogen concentration, hydrogen and methane separate into two fluids (immiscibility) under upper-mantle conditions (2026 EGU abstract), and no hydrogen-methane equation of state validated near 1 GPa and 600 K was found. Pores holding gas at 1 GPa must also stay open against creep, which I have not checked.
+
+### 21.4 Does the layer exist? (against the idea)
+- **No evidence found under cratons.** Serpentinized mantle is reported at subduction forearcs (Cascadia inverted Moho), rifted margins (Galicia, Porcupine) and in the Alps, where a serpentinite channel may be only a few km thick.
+- **Origin points to the sea floor.** A user-supplied search summary (unsourced) says serpentinization forms at about 100-500 °C where seawater or hydrothermal fluid enters mantle rock through cracks in the ocean floor. Craton mantle below the Moho is cold and dry and has no sea floor above it. The serpentinite would also have to be buried to the crust base with its gas still in it.
+- One craton study (2020, mid-lithosphere low-velocity zones at 60-150 km) lists hydrous phases as a candidate, not serpentine and not at the Moho. CRUST1.0 lower crust looks gabbroic (Section 19), so the seismic data do not call for serpentinite.
+
+### 21.5 What the layer's weakness does and does not do
+A weak, low-friction layer fails easily under stress, so one failure can load the next. That helps the cascade and the trigger (O4). It does not supply volume loss, which only routes A and B do.
+
+### 21.6 Verdict
+**Better on volume than gabbro, worse on existence. Status: unresolved, a candidate, not supported.** Route A is large enough (1.5-3.6 km of layer) and releases water, but it needs the layer to exist, the water to escape, and likely added heat. The gas (route B) is at most about 2% and cannot carry the collapse. The idea fits margins and forearcs better than craton interiors, which bears on the O16 coverage gap.
+
+### 21.7 Follow-up
+- **Antigorite limit at 1.0-1.25 GPa: still not found.** A second search gave only higher-pressure points: first breakdown step (with talc) at about 630-660 °C above 1.6 GPa, and dehydration in deformed samples at 1.5 GPa and 620-670 °C. Nothing on chrysotile, brucite-out, or 1.0-1.25 GPa.
+- **Craton Moho temperature: still unconfirmed.** A third search returned surface heat flow of about 40 mW/m² (mean 41 for Archean regions, 47 ± 2 for the Kalahari) and crustal thickness of 35-40 km, but the Moho temperatures it returned (700-900 °C) are for Archean-time geotherms, which this model does not use (P1), not for a present-day craton. A present-day conductive value is computed in Section 24 (about 450-560 °C, central 500 °C, inputs assumed). Direct constraints are few; a 2021 xenolith study of the Siberian (Udachnaya) and Tanzanian cratons is the best primary source, and I only saw its abstract.
+- **Hydrogen molar volume: still assumed.** A measured fluid-hydrogen equation of state exists for 1-13 GPa and 293-526 K (Matsuishi et al., J. Chem. Phys. 118, 2003). The only open copy is a scanned PDF with no text layer, so I could not read the coefficients (OCR would be needed). The conclusion is not sensitive to this: an ideal gas gives the lower bound of 5 cm³/mol, and even 30 cm³/mol gives at most about 3.2% of the rock volume (0.47 mol/kg ceiling), so the gas stays small.
+- Look for hydrated mantle just below the Moho on old crust, and how water could reach it.
+- Magnetite stays when serpentinite breaks down, so a collapsed layer would leave a magnetic signature; compare with crustal magnetic anomaly data.
+- Decide whether to record this in Section 4.8 as candidate B alongside the gabbro layer.
+
+### 21.8 Sources (Phase B step 7)
+Search snippets only (not read in full): antigorite dehydration experiments (Springer Contrib. Mineral. Petrol., Bern and ANU experimental papers, 2025 Griggs study), Ulmer and Trommsdorff (1995) reactions; hydrogen yield from Oxford (ORA), Frontiers in Earth Science 2021 (West Iberia margin) and Miller et al. 2017; hydrogen-methane behaviour from EGU26-4772 and a Lithos paper on subducted serpentinite; Cascadia, Galicia, Porcupine and Western Alps serpentinite studies; Nature Communications 2020 on mid-lithospheric discontinuities. Volume arithmetic is mine.
+
+---
+
+## 22. Phase B step 8: crustal cracks as province boundaries and vent routes (2026-11-24, FIRST PASS)
+
+**Idea (user's).** The cracks that let water escape from the collapsing layer (Section 21.1) lie along the boundaries between crustal provinces (suture zones). This section tests only the geometry of that idea, using mapped provinces. What it hands to the separate DTAT theory is listed in Section 23.
+
+**Method.** `scripts/province_suture_distance.py`. Hasterok et al. (2022) global provinces (914; 647 continental), boundaries shared between two continental or transitional provinces, sampled every ~0.05° (about 5 km), and great-circle distance from each 1° land cell (cos-latitude weighted, 26,037 cells) to the nearest one. Deep-time ages in the data are not used (P1). Two runs: all shared boundaries (2,057 province pairs) and "strict", only boundaries between provinces of different type (1,489 pairs).
+
+### 22.1 Results: distance from continental crust to the nearest boundary (km)
+| Group (strict run) | Area share | 25% | Median | 75% | 95% |
+|--------------------|-----------|-----|--------|-----|-----|
+| All continental | 100% | 34 | 81 | 161 | 330 |
+| Craton or shield | 31% | 48 | 111 | 210 | 396 |
+| Orogenic, accretionary, arc | 51% | 30 | 70 | 135 | 276 |
+| Rift, passive margin, basin | 13% | 31 | 78 | 160 | 320 |
+
+Share of continental area within 100 / 250 / 500 km of a strict boundary: 57% / 89% / 99%. The all-boundaries run gives a median of 57 km and 96% within 250 km.
+
+### 22.2 What this shows and does not show
+1. **Reach.** Mapped province boundaries are dense. Almost all land lies within 250-400 km of one, so a water route along them would not need very long lateral paths. Craton and shield interiors are the farthest (median 111 km, 95% within 396 km), which matches the expectation that they are the hardest places to vent, but the gap is modest.
+2. **Weak test.** Because the boundaries are so dense, nearly any set of cracks would pass this check. It does not show that cracks follow these lines, only that using them would not be geometrically impossible.
+3. **Not the same as sutures.** Province boundaries include rift edges, arc terrane edges and mapping choices, not only collision sutures. `named_sutures.csv` lists only five named sutures and no routes, so a true suture test needs a better suture map.
+4. **Path length is not flow.** Whether water can travel 100-400 km through rock in a short time is a permeability question I have not touched (O17 and Section 17).
+5. **Craton interiors.** About 31% of land (cratons and shields) lies farthest from boundaries and has the thickest, coldest lower crust. If vents follow boundaries, interiors depend on cracks that run far from the mapped lines. That repeats the O16 coverage concern in another form.
+
+### 22.3 Verdict
+**Unresolved, consistent but not tested.** Geometry allows boundary-guided venting. Nothing here supports it independently.
+
+### 22.4 Follow-up
+- Obtain a real suture map and test the vent-route idea against it.
+- Check against seismicity and fault data (lower-crustal faults) to see whether faults reach the crust base along boundaries.
+- Link to the serpentinite and gas ideas (Section 21): a cracked layer vents water and hydrogen at the same time.
+
+### 22.5 Sources (Phase B step 8)
+Hasterok et al. (2022) provinces (`global_gprv.shp`, local copy in `Noah's Pangea v2`). Computation is mine.
+
+---
+
+## 23. Interface with DTAT (kept separate; 2026-11-24)
+
+CMCT and the Differential Terrane Accretion Theory (DTAT, `Noah's Pangea v1/Theories.md`; a separate document is planned) depend on each other but are kept as two theories. This section extends the handoff note in Section 5.2. CMCT does not rely on DTAT's mechanism, numbers or conclusions in its verdicts (Sections 1-22 mention DTAT only as a handoff). The table lists the points where the two meet, so each document can state what it takes from the other. None has been tested.
+
+| Direction | Item | Status |
+|-----------|------|--------|
+| CMCT gives DTAT | A cause for the submergence DTAT starts from (crust-base collapse, Sections 4.8, 15-21), replacing the struck keel-loss version (CKDT) that DTAT's text assumes | Unresolved; see Section 19 and 21 verdicts |
+| CMCT gives DTAT | Possible crack lines along province boundaries that could vent water (Section 22) | Geometry only |
+| DTAT gives CMCT | Whether crust that was cracked or fragmented behaves as the venting model needs, and whether later collision closes or re-opens vents | Not examined |
+| DTAT gives CMCT | Recession of the flood (land re-emerging), which CMCT does not address | Outside CMCT |
+| Shared | Any claim of sequence between the two (collapse, fragmentation, collision) | Not decided; to be set in the DTAT document |
+
+**Rule for this file:** DTAT results are cited here only by pointing to the DTAT document, and nothing in CMCT's verdicts rests on DTAT.
+
+---
+
+## 24. Phase B step 9: craton Moho temperature from a conductive geotherm (2026-11-24, COMPUTED, INPUTS ASSUMED)
+
+**Question.** Sections 19-21 need the temperature at the craton Moho (about 1.0-1.25 GPa). No source gave a present-day value (Section 21.7). **Method.** `scripts/craton_geotherm.py`: steady-state conduction with exponentially decreasing crustal heat production, T(z) = T0 + q_m z/k + (A0 hr²/k)(1 - e^(-z/hr)), where q_m = q0 - A0 hr. **Inputs from searches:** surface heat flow q0 = 40, 44, 47 mW/m² (Archean mean 41; Kalahari 47 ± 2); Moho depth 35-42 km (35-40 from search, 39 median from Section 19). **Inputs assumed from memory, not sourced:** surface temperature 15 °C, surface heat production A0 = 0.8-1.6 µW/m³, its decay depth hr = 8-12 km, conductivity k = 2.5-3.0 W/m/K. All 162 combinations are valid (reduced heat flow q_m 8-40 mW/m²). Nothing is fitted.
+
+### 24.1 Results: Moho temperature (°C)
+| Case | Median | Range |
+|------|--------|-------|
+| All 162 combinations | **502** | 330-717 (5%: 381, 95%: 650) |
+| q0 40 mW/m², Moho 39 km | 455 | 359-559 |
+| q0 44 mW/m², Moho 39 km | 512 | 411-622 |
+| q0 47 mW/m², Moho 39 km | 554 | 450-669 |
+| k = 2.5 W/m/K | 550 | 393-717 |
+| k = 3.0 W/m/K | 461 | 330-600 |
+
+Share of cases at or above 500 / 550 / 600 / 650 / 680 °C: 51% / 29% / 12% / 6% / 2%.
+
+### 24.2 What this means
+1. **The "500-600 °C" range used in Sections 15-19 is about right, as a present-day estimate.** The central value is about 500 °C, with 450-560 °C for typical craton heat flow. Values near 600 °C need heat flow near 47 mW/m², a deep Moho, and low conductivity.
+2. **Serpentinite (Section 21):** the antigorite limit is about 620-680 °C at 1.5-1.9 GPa and was not found at 1.0-1.25 GPa. Only 2-12% of the cases reach those temperatures. The Moho is therefore **inside the serpentinite stability field**, 100-150 °C below breakdown in the central case, so a trigger needs added heat (O1 and O2). The limit at the lower pressure could be lower, which would narrow the gap, but I found no value.
+3. **Gabbro to eclogite (Sections 19-20):** Buntin et al. say the reaction needs more than 600-800 °C plus a fluid to proceed in geological time. About 12% of cases reach 600 °C and 6% reach 650 °C. The craton Moho is cold for that reaction in most cases, which agrees with the Section 19 verdict and the kinetics note in Section 18.
+4. **Both candidates need heat from somewhere.** At the central temperature neither the dehydration (serpentinite) nor the eclogite reaction is triggered by the present geotherm. The collapse needs a heating or pressure-change step, which is O1 and O2 again.
+
+### 24.3 Limits
+- **Conductivity is constant.** Real rock conductivity drops with temperature, so the true Moho would be warmer than these values, especially at k = 3.0. I did not model that. The k = 2.5 rows are the closest guide.
+- **Steady state.** A craton cooled for long enough is near steady state, but any recent heating event would change it.
+- **The heat production inputs are assumed.** They set the reduced heat flow and the answer. A measured xenolith-based Moho temperature (the 2021 Siberian and Tanzanian study, abstract only seen) would replace this computation.
+- **Sweep, not distribution.** The percentages count combinations in my grid, not probabilities.
+
+### 24.4 Verdict
+**Moho temperature at a present-day craton: about 450-560 °C, central 500 °C (assumed inputs).** It confirms the working range, and it shows neither collapse mechanism is triggered by the present geotherm alone. O18 is unchanged. The O1/O2 heat problem is now sharper for the serpentinite candidate: it needs about 100-150 °C more at the Moho.
+
+### 24.5 Sources
+Surface heat flow and crust thickness from search results (Section 21.7); equation is the textbook form (Lachenbruch 1970, from memory). Computation is mine.
