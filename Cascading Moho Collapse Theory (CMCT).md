@@ -109,7 +109,7 @@ Whatever replaces the drip still needs something to start it and a way to spread
 Moho peeling (the keel's mantle peeling off along the Moho; v1 Section 13.6.1) was restored in draft 3 and struck in draft 4. It removes the whole 165 km keel mantle, so it leaves no keel and conflicts with P9. v1's analysis remains in `Noah's Pangea v1/Model.md` Section 13.6.1 for reference. The drip and peeling images were deleted in draft 5 (recoverable from git history). `images/` now holds the numbered diagrams for the idea in 4.8 (01-03).
 
 ### 4.8 Candidate: collapse of a thick layer at the crust base (untested)
-The one idea left that satisfies P9. A layer between the crust and the keel was thicker before the Flood and collapses to its present thickness in a cascade. The crust drops onto the keel, which is not touched. Images (numbered for sequential viewing, each as `.png` and `.svg`): `images/01_collapse_overview` (before, during, after), `images/02_craton_vs_margin` (where it can act and where it cannot, and the unresolved fluid source), `images/03_cascade_loop` (the five-step cascade with evidence levels).
+The one idea left that satisfies P9. A layer between the crust and the keel was thicker before the Flood and collapses to its present thickness in a cascade. The crust drops onto the keel, which is not touched. Images (numbered for sequential viewing, each as `.png` and `.svg`): `images/01_collapse_overview` (before, during, after), `images/02_craton_vs_margin` (where it can act and where it cannot, and the unresolved fluid source), `images/03_cascade_loop` (the five-step cascade with evidence levels), `images/04_craton_moho_pressure` (craton Moho pressure and lower-crust thickness against the eclogite field, from Section 19).
 
 **Arithmetic (mine, not checked against data).** Subsidence equals the thickness the layer loses, because mass is conserved and the keel does not move. Taking today's layer as 2.4 km (v1's estimate; published Moho transition zones run 0.1 to a few km):
 | Case | Subsidence needed | Layer before | Layer after | Collapse |
@@ -564,6 +564,8 @@ Albite, andesine and anorthite dissolution activation energies from the cited mi
 ## 19. Phase B step 5: does the craton Moho lie in the eclogite field? (2026-11-24)
 
 **Question.** Section 18 raised O18: at 35-42 km (1.0-1.25 GPa) a cold craton lower crust may be below the pressure where eclogite is stable. How deep and how high-pressure are real craton Mohos, and how thick is the lower crust? **Method.** I computed it from data already in the project: CRUST1.0 (crustal boundaries and layer densities on a 1° grid; `Noah's Pangea v1/data/reference/crust1/`) and the 114 craton polygons of Hasterok et al. (2022; `Noah's Pangea v2/data/hasterok_2022/cratons.shp`). 5,709 grid cells fall inside the craton polygons. Their cosine-latitude area share is 8.0% of the sphere, matching the 8% in Section 4.1. Everything below is area-weighted. Pressure at the Moho comes from integrating the CRUST1.0 layer densities (g = 9.81 m/s²).
+
+Chart: `images/04_craton_moho_pressure.png` (and `.svg`).
 
 ### 19.1 Results
 | Quantity (craton cells) | 5% | 25% | Median | 75% | 95% |
