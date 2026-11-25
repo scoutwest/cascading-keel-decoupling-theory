@@ -1360,3 +1360,11 @@ The 1.3×10⁸ km³ row agrees with the "highest ground only" case of Section 16
   3. **The 10% density gain is a maximum,** reached only after full conversion. Partial conversion lowers the supply by the same share.
 - **Status:** the boundary is still not sourced as a curve; this is bracketing only. Mode G stays conditional, now with a stated risk that the hot lower crust is already (partly) converted. Section 34.6 stands, and the "unreacted today" test in 34.7 matters more.
 
+### 34.9 Addendum: is the lower crust unreacted today? (2026-11-25, one search, abstracts only; INCONCLUSIVE)
+- **Siberia:** the lower crust is described as mainly mafic granulite, possibly heterogeneous. Very high P-wave velocities (above 7.2 km/s) in the lowermost crust are fitted by a mixture of rock types, and the same work argues for multistage magma underplating at the crust-mantle boundary.
+- **Kaapvaal:** one paper notes that cratonic lower crust may be less mafic than lower crust under Proterozoic terranes (citing earlier work). That would lower the mafic fraction f for cratons.
+- **Xenoliths are not faithful samples of in-situ velocity or density** (Hannuoba study): entrainment and surfacing change them. They cannot settle whether the rock is gabbro or garnet granulite at depth.
+- **Not found:** Tanzania lower-crust data, density values for gabbro and garnet granulite, or a clean link between a 7.0-7.4 km/s layer and either rock.
+- **Reading:** a mafic, heterogeneous lower crust with very high velocities at the base fits some garnet-bearing material already being present at the base, which is the risk named in 34.8. It is not shown either way. The craton mafic fraction may be below 0.5, and Section 34.2 shows G falls to 0.6% (0.48 km) or 29% (0.28 km) of continental area at f = 0.3.
+- **Status:** the "unreacted today" test cannot be run with the sources found. Mode G stays conditional.
+
