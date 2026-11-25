@@ -1350,3 +1350,13 @@ The 1.3×10⁸ km³ row agrees with the "highest ground only" case of Section 16
 - Test the unreacted-today condition: seismic velocities or xenolith densities for cratonic lower crust.
 - Verify the sediment-pore-water and serpentinite reservoirs (O9). The route depends on 1.3×10⁸ km³.
 - Ask whether pre-Flood high ground (thick-crust interiors) can be placed from a source other than present elevation.
+
+### 34.8 Addendum: the garnet-granulite boundary search (2026-11-25, one extended search, abstracts only)
+- **The transition is wide and gradual, not a line.** An experimental study of the gabbro-eclogite transformation (*Tectonophysics* 1966, authors not shown in the excerpt) puts the garnet-granulite transitional zone at about 3.4 to 12 kbar (0.34-1.2 GPa) at 1,100 °C. The pressure at which garnet appears and plagioclase disappears depends on the bulk composition. Density and seismic velocity change gradually across it.
+- **Eclogite** is commonly described as forming above about 500 °C and 1.2 GPa for natural rocks (*Scientific Reports* excerpt). Mineral-equilibria modelling shows the granulite-eclogite transition is sensitive to ferric iron and bulk composition.
+- **What this does to mode G:**
+  1. The assumed boundary (T of 600 °C or more, P of 1.0 GPa or more) is not unreasonable, and may be conservative: the transition at lower temperature is expected at lower pressure than at 1,100 °C (slope not checked).
+  2. **A gradual transition weakens the "unreacted today" condition.** If hot lower crust at 1.0-1.2 GPa and 700-900 °C is inside the transition zone, then at equilibrium it is already partly garnet granulite, and the collapse would be only the part that is kinetically stuck. Dry granulite that stays out of equilibrium is documented (Holsnøy), but how much of the 10% is still unreacted is not known.
+  3. **The 10% density gain is a maximum,** reached only after full conversion. Partial conversion lowers the supply by the same share.
+- **Status:** the boundary is still not sourced as a curve; this is bracketing only. Mode G stays conditional, now with a stated risk that the hot lower crust is already (partly) converted. Section 34.6 stands, and the "unreacted today" test in 34.7 matters more.
+
