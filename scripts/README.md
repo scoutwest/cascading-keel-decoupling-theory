@@ -16,6 +16,7 @@ Scripts that produce the images and the numbers quoted in `Cascading Keel Decoup
 | `craton_table.py` | The Section 31 per-craton Moho temperature table and window classes | Hasterok craton polygons, CRUST1.0, `data/heatflow/` |
 | `coverage_modes.py` | The Section 34 coverage of the serpentinite-window and garnet-granulite modes over continental crust (set `HEAT_PRODUCTION=0.8,0.9,1.0` for the second run) | CRUST1.0 and `data/heatflow/` |
 | `flood_fraction_needed.py` | The Section 34.3 share of Pangea that must be lowered, by released water | none |
+| `water_net_effect.py` | The Section 35 net sea-level effect of the shallow water reservoirs and the flood geometry with net water | none |
 | `vent_water_heat.py` | The Section 26 heat carried by vented water against the heat budget | none |
 | `free_water_layer.py` | The Section 27.1 free-water-layer checks (buoyant crack height, ascent time, density-inversion time) | none |
 | `vent_steam.py` | The Section 27.2-27.3 steam-state and heat calculation (IAPWS-95) | needs `iapws` (`pip install iapws`) |

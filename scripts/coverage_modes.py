@@ -83,7 +83,7 @@ for tg, pg in ((550, 0.9), (600, 1.0), (650, 1.0), (700, 1.1), (750, 1.2)):
 # Section 34.3: the collapse need only lower the highest ground (flood_fraction_needed.py), so the needed drop is smaller.
 print("\nShare of continental area where S (window) or G supplies a given drop (heat production set above):")
 print("  %-34s %-9s %-9s %-9s" % ("drop needed at the highest ground", "f = 1.0", "f = 0.5", "f = 0.3"))
-for need, lab in ((0.08, "0.08 km (2.3e8 km3 water)"), (0.28, "0.28 km (1.3e8 km3 water)"), (0.41, "0.41 km (7.3e7 km3 water)"), (0.48, "0.48 km (uniform, 1.3e8 km3)"), (0.91, "0.91 km (no water)")):
+for need, lab in ((0.08, "0.08 km (2.3e8 km3 water)"), (0.28, "0.28 km (1.3e8 km3 water)"), (0.41, "0.41 km (7.3e7 km3 water)"), (0.48, "0.48 km (uniform, 1.3e8 km3)"), (0.52, "0.52 km (net water about 3e7 km3)"), (0.91, "0.91 km (no water)")):
     row = []
     for f in (1.0, 0.5, 0.3):
         u = S | (Gm & (lower * f * 0.10 >= need))
