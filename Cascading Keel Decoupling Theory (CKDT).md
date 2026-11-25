@@ -1,6 +1,6 @@
 # Cascading Keel Decoupling Theory (CKDT): a young-earth Flood model that avoids the CPT "heat problem"
 
-**Status:** Draft 7 (stretching removed as a flood source: all flood subsidence is now assigned to the collapsed Moho layer plus released water). The keel-drip mechanism and Moho peeling are **struck** under premise P9 (no mechanism may conflict with the deep keels cratons have today). The theory currently has **no keel-based subsidence mechanism**; what survives is the heat analysis, the flood geometry and shallow released water. Stretching is kept only as a note explaining the major geological provinces (Section 4.5). The one untested idea left is collapse or densification of a layer at the crust base (O15). Phase A (attribute re-verification) is done (Section 14). Phase B steps 1-5 (the crust-base collapse test, the stretching-plus-water coverage test, the reaction-speed test, the craton-temperature speed test and the eclogite-field depth test) are done (Sections 15-19). Phase B steps 6-9 are done or partly done: the gabbro-to-eclogite boundary (Section 20, partial), serpentinite as the collapsing layer (Section 21), cracks along province boundaries as vent routes (Section 22, geometry only) and the craton Moho temperature (Section 24, inputs assumed). Section 23 sets out the interface with DTAT, which is kept as a separate theory. Steps 10-12 follow: the craton selection test for a serpentinite layer (Section 25), the heat carried by water vented from the crust base (Section 26) and the free-water-layer and steam-route calculations (Section 27, with an interface note for a separate ice-age study). The rest of Phases B-E has not been run. The main open problem is now heat (O20, O21). Draft 1 was written 2026-11-24 by merging `Noah's Pangea v1` (`Theories.md`, `Model.md` Phase 13) and `Noah's Pangea v2` (`Model.md` Phases 1, 3-6). Numbers not listed in Section 14 are still carried over from v1 or v2 and are not yet re-verified. **DTAT now has its own document** (written 2026-11-25): `..\Differential Terrane Accretion Theory (DTAT)\Differential Terrane Accretion Theory (DTAT).md`. It takes over motion, fragments, collisions, uplift and recession (Sections 5.2 and 23), and holds a new, untested idea that crust slips at the Moho over fixed keels. No CKDT verdict has changed.
+**Status:** Draft 8 (Phase B closed: claim register and P9 decision in Section 28; no mechanism is shown to satisfy P9 with the flood requirement). Draft 7 (stretching removed as a flood source: all flood subsidence is now assigned to the collapsed Moho layer plus released water). The keel-drip mechanism and Moho peeling are **struck** under premise P9 (no mechanism may conflict with the deep keels cratons have today). The theory currently has **no keel-based subsidence mechanism**; what survives is the heat analysis, the flood geometry and shallow released water. Stretching is kept only as a note explaining the major geological provinces (Section 4.5). The one untested idea left is collapse or densification of a layer at the crust base (O15). Phase A (attribute re-verification) is done (Section 14). Phase B steps 1-5 (the crust-base collapse test, the stretching-plus-water coverage test, the reaction-speed test, the craton-temperature speed test and the eclogite-field depth test) are done (Sections 15-19). Phase B steps 6-9 are done or partly done: the gabbro-to-eclogite boundary (Section 20, partial), serpentinite as the collapsing layer (Section 21), cracks along province boundaries as vent routes (Section 22, geometry only) and the craton Moho temperature (Section 24, inputs assumed). Section 23 sets out the interface with DTAT, which is kept as a separate theory. Steps 10-12 follow: the craton selection test for a serpentinite layer (Section 25), the heat carried by water vented from the crust base (Section 26) and the free-water-layer and steam-route calculations (Section 27, with an interface note for a separate ice-age study). The rest of Phases B-E has not been run. The main open problem is now heat (O20, O21). Draft 1 was written 2026-11-24 by merging `Noah's Pangea v1` (`Theories.md`, `Model.md` Phase 13) and `Noah's Pangea v2` (`Model.md` Phases 1, 3-6). Numbers not listed in Section 14 are still carried over from v1 or v2 and are not yet re-verified. **DTAT now has its own document** (written 2026-11-25): `..\Differential Terrane Accretion Theory (DTAT)\Differential Terrane Accretion Theory (DTAT).md`. It takes over motion, fragments, collisions, uplift and recession (Sections 5.2 and 23), and holds a new, untested idea that crust slips at the Moho over fixed keels. No CKDT verdict has changed.
 **Name:** Cascading Keel Decoupling Theory (CKDT): the crust decouples from a keel that stays in place (the fixed-keel crust slip, DTAT document Section 8), and the crust-base collapse studied here is the vertical side of the picture. Whether the slip and the collapse are one event is still open (DTAT D10).
 **Nature:** a speculative young-earth creation-science model. Mainstream geoscience rejects its premises. Where a number fails, the failure is stated.
 
@@ -253,7 +253,7 @@ Run in this order. Each phase ends with findings and an updated Sections 9-10.
 ### Phase A: Re-verify scientific attributes (DONE, see Section 14)
 Check every property used as an input against a primary source or a stated public dataset: keel thickness and extent, keel density (thermal α, ΔT, chemical depletion), olivine flow-law parameters (wet and dry), asthenosphere and keel temperatures, water solubility and content, ocean volume, ocean-floor heat per m², Moho and lithosphere properties, mantle solidus. Replace every "my estimate" in Sections 3-6 with a sourced value or mark it as a free parameter with a justified range. Output: an attribute table (value, source, status).
 
-### Phase B: Re-verify claims against real scientific data
+### Phase B: Re-verify claims against real scientific data (DONE, see Section 28)
 Test each claim, not each number:
 - Stretching plus shallow water coverage: **done in step 2, results in Section 16.**
 - Compare predicted flooded area and submerged fraction with ETOPO 2022 and the 647/136 province data.
@@ -267,6 +267,7 @@ Output: claim register with verdicts (supported, unsupported, contradicted, unre
 - Craton Moho temperature: **computed with assumed inputs, step 9, Section 24.**
 - Craton selection test for a serpentinite layer: **first pass, step 10, Section 25.**
 - Heat of vented water, free-water storage, steam route: **first pass, steps 11-12, Sections 26-27.**
+- **Phase B is closed (2026-11-25): claim register and the P9 decision are in Section 28.** Answer: no mechanism is shown to satisfy P9 with the flood requirement; the crust-base collapse is not ruled out but is unsupported. Unrun items (ETOPO area comparison, GIA check, 500-600 °C eclogite boundary, two unread papers) are listed in 28.3.
 
 ### Phase C: Rebuild the Python math files
 Rebuild from scratch into one clean package with a shared `sphere.py`, one script per calculation, fixed seed (1656), unit tests for each formula, and a single `run_all.py`. Cover: heat budget (3.2), water budget (4.2, 5.1), energy table (Section 6), and any math for a crust-base mechanism (O15). Every number in this file must be produced by a script. v1 files (`phase13_keel_delamination.py`, `test_math.py`, `phase13_dtat_terranes.py`) and v2 files (`phase1_heat.py` through `phase6c_fragments.py`) are inputs to the rebuild, not trusted outputs. Output: scripts, a results log, and a table showing each model number and its script.
@@ -1037,3 +1038,63 @@ No heat lost in the rock above the Moho beyond the 0.08% wall cooling; start pre
 - Check the equation-of-state results against a published steam table at one or two points.
 - Redo the Section 16 subsidence budget with the vented water capped at 6-9×10⁷ km³ (Section 26.3, solution 1).
 - Check lizardite and brucite breakdown temperatures for a cooler water source.
+
+---
+
+## 28. Phase B close-out: claim register and the P9 decision (2026-11-25)
+
+Phase B asked for a verdict on each claim and a plain answer to the P9 question. This section gives both from the results in Sections 14-27. It runs no new calculation and adds no new source. Verdict codes: **Supported** (arithmetic or sourced data back it), **Unsupported** (the sourced data point the other way, or nothing backs it), **Contradicted** (a test or premise rules it out), **Unresolved** (not shown either way).
+
+### 28.1 Claim register
+
+| ID | Claim | Verdict | Basis |
+|----|-------|---------|-------|
+| K1 | Cratons carry keels 150-250 km thick today | **Supported** | Section 14.1 row 10; Section 4.1 |
+| K2 | A flood of Pangea needs about 0.91 km of uniform subsidence, or about 0.48 km with 1.3×10⁸ km³ of released water | **Supported** (arithmetic only) | Sections 4.2, 16. Rests on free parameters: mean land height 200 m, peak 610 m, cubit length, ocean floor fixed |
+| K3 | A dense keel base drips off and lowers the surface | **Contradicted** | Net-dense keel would raise the surface (14.2); the drip leaves about 65 km of keel, against P9 (4.3) |
+| K4 | Moho peeling lowers the surface | **Contradicted** | Removes the whole keel, against P9 (4.7) |
+| K5 | Stretching of the margins is a flood source | **Contradicted** | Lowers sea level, so the interior must drop 60-147 m more (16.3) |
+| K6 | Stretching explains the submerged transitional crust and Zealandia | **Unresolved** | The 92.6% submergence fits β of about 1.5-1.6 (4.5, 14.1 row 8), but timing and mechanism are untested and the data would fit other causes |
+| K7 | Shallow reservoirs release 1.3×10⁸ km³ | **Unsupported** | Only groundwater (2.3×10⁷ km³) is sourced; the other two reservoirs are my guesses (14.1 row 6, O9) |
+| K8 | A layer at the crust base collapses by 9-17% and lowers the land, leaving keels untouched | **Unresolved** | Not ruled out (15.3). Its supporting conditions are rated K9-K16 |
+| K9 | Gabbro turns to eclogite at the craton Moho | **Unsupported** | Boundary for basic rock about 1.9 GPa; craton Moho median 1.07 GPa, 3% of craton area reaches 1.3 GPa (Sections 19, 20); temperature below the 600-800 °C needed (24) |
+| K10 | A serpentinized layer shrinks enough (23-25% of the solid) | **Supported** (volume only) | 2-4 km of layer is enough (21.2) |
+| K11 | That layer exists under cratons | **Unsupported** | Serpentinite forms where water meets mantle rock, not under cratons (21.4, O19); not tested with seismic or magnetic data |
+| K12 | The craton Moho is hot enough for the reaction to start | **Unsupported** | Measured 500-600 °C (Tanzania) or below 400 °C (Siberia), at or below the antigorite limit of 500-550 °C at 1.2 GPa; extra heat needed 0-200 °C (24.6-24.8, O20) |
+| K13 | The reaction can finish within 150 days | **Unresolved** | 12 days to 15 years at craton temperature; best case needs fluid-saturated shear zones (17, 18) |
+| K14 | Fluid reaches 35-42 km | **Unresolved** | No source found (O17); the slab analog depends on a subducting slab (17.7) |
+| K15 | A lower-crustal earthquake triggers the first collapse and the cascade follows | **Unresolved** | A candidate only (17, O4); no data that cratons have such earthquakes (17.5) |
+| K16 | The collapse also covers the warm margins (18% of Pangea) | **Unsupported** | Collapse needs cold lower crust (16.3, O16) |
+| K17 | Boundary cracks guide the venting | **Unresolved** | Geometry allows it: 89% of continental area is within 250 km of a boundary (22). Nothing independent supports it; no suture map |
+| K18 | Water vented from the Moho stays within the ocean heat budget | **Contradicted** for uncapped deep water (1.4-2.6 B); **Unresolved** for the capped fix | Sections 26, 27. The cap is 6-9×10⁷ km³ and needs 0.6-0.7 km of collapse; storage of the rest (about 8×10⁷ km³) in the crust is unchecked |
+| K19 | The collapse heat stays deep (H3) | **Supported** | About 1.1 B at about 35 km, conduction time about 40 million years (4.8, 15.2) |
+| K20 | Xenolith data show keels intact today | **Supported**, with a gap | Cool geotherms where sampled; samples do not reach 200-240 km (7.3) |
+| K21 | CKDT alone solves H9 (new ocean floor) and H10 (block motion) | **Contradicted** | v2 results: O1 and O2 stand; handed to DTAT (5.2, 9) |
+
+Tally of the 21 claims: 5 Supported (K1, K2, K10, K19, K20), 4 Contradicted (K3, K4, K5, K21), 5 Unsupported (K7, K9, K11, K12, K16), 6 Unresolved (K6, K8, K13, K14, K15, K17), and K18 split between Contradicted (uncapped water) and Unresolved (capped fix).
+
+### 28.2 The P9 decision
+
+The Phase B question was whether any mechanism satisfies P9, or whether none does.
+
+**Answer: no mechanism is shown to satisfy P9 together with the flood requirement.**
+1. **Every keel-removal mechanism fails P9.** The drip (K3) and peeling (K4) are struck. Stretching is not a flood source (K5).
+2. **One P9-compatible mechanism is left, the crust-base collapse (K8), and it is not ruled out.** It is also not supported. It needs all of the following at once: a layer that is not shown to exist (K11), a driving force or temperature that the measured craton Moho does not provide (K9, K12), fluid at 35-42 km with no known source (K14), a trigger with no data behind it (K15), coverage of the margins (K16), and a way to shed 1.4-2.6 B of heat from the water, or less water and more collapse (K18).
+3. **What stands without the collapse:** the flood geometry (K2), the heat limits (K19), the keel evidence (K1, K20) and a partial water source (K7, only groundwater sourced).
+
+So CKDT is a **flood geometry plus a heat analysis plus one untested candidate**. It does not yet have a mechanism that passes P4 (match known data). Section 1 says the same in different words; no change to its claim is needed.
+
+### 28.3 Phase B items not closed
+
+These were listed for Phase B and were not run. Each is carried forward and none changes a verdict above.
+| Item | Status | Why not run | Carried to |
+|------|--------|-------------|------------|
+| Compare predicted flooded area with ETOPO 2022 and the 647/136 province data | **Not run** | Today's land is post-Flood, and the pre-Flood hypsometry is a free parameter (16.4), so such a comparison cannot test the flood geometry. It can test only the province note (4.5), which Section 4.5 already covers with the dataset's submerged shares | Phase C, as a script, if needed |
+| Post-failure uplift against GIA and isostatic rebound data | **Not run** | Uplift and recession belong to DTAT (O12, DTAT D4-D6) | DTAT |
+| Eclogite boundary at 500-600 °C | **Partly done** (Section 20): not found, only the 1.9 GPa high-temperature value | No sourced boundary at that temperature | Phase E |
+| Hacker 2011 and Matsuishi 2003 | **Not read** (obstacle log 13) | No boundary numbers; scanned PDF with no text layer | Phase E (needs OCR) |
+| Redo Section 16 budget with vented water capped at 6-9×10⁷ km³ | **Done** (Section 26.1a, cases A-D) | n/a | n/a |
+
+### 28.4 What this sets up for Phase E
+
+The order of importance in Section 11 stays, with one change: the collapse conditions (K9-K16, O15-O20) are now the largest block of unresolved work, and they decide whether CKDT keeps any mechanism. O1 and O2 stay with DTAT.
