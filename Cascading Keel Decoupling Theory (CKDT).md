@@ -207,12 +207,12 @@ Cool, conductive xenolith geotherms show no recent catastrophic heating. Fine de
 |----|---------|----------------|--------|
 | O1 | **H9: origin of 1.64×10⁸ km² of ocean floor between separated continents.** Rotating blocks back leaves ≥1.08×10⁸ km² uncovered (302× H1). Exhumed mantle margins cover 21-85% at assumed 100-400 km widths. Intact new floor passes heat only if heat extraction stays above about 300 m. | Without it, CKDT floods Pangea but does not make today's oceans | v2 6.2 |
 | O2 | **H10: moving blocks about 3,841 km.** In 150 days that is 0.3 m/s and basal drag costs ≥ 350 B with no named energy source. Spread over 4,370 yr it still needs about 23,800× the present mean plate speed (3.7 cm/yr; v2's 5 cm/yr gave 17,600×). | Heat problem returns here | v2 6.1 |
-| O4 | Trigger for the first collapse. **Candidate (Section 17):** a lower-crustal earthquake in the cold, dry crust that opens fluid pathways; the volume loss then keeps the pathways open and the stress change triggers the next one. Needs fluid at 35-42 km (O17) | Without a trigger there is no cascade | v1 13.6, v2; Phase B step 3 |
+| O4 | Trigger for the first collapse. **Candidate (Section 17):** a lower-crustal earthquake in the cold, dry crust that opens fluid pathways; the volume loss then keeps the pathways open and the stress change triggers the next one. Needs fluid at 35-42 km (O17) | Without a trigger there is no cascade | v1 13.6, v2; Phase B step 3. **Phase E step 5 (Section 33):** lower-crustal earthquakes at 30-40 km are observed in cratonic Africa, mostly in rifts, so the physics is available; today's quiet cratons cannot test a Flood-time trigger; no link to a reaction |
 | O9 | Unverified inputs: ocean volume 1.335×10⁹ km³; 40 °C cap; 15 °C start; 5 cm/yr present speed; slab pull 3.3×10¹³ N/m; ridge push 2.5×10¹² N/m; crust heat 3.2×10¹³ J/m²; sediment and serpentinite reservoir sizes | Many results rest on these | v2 10 |
 | O11 | Post-Flood ice age (P8) and the 40-day "windows of heaven" water | Not modelled | v2 Phase 9 |
 | O12 | Recession: lasting uplift after collision; fragment paths | Belongs to DTAT | v2 |
 | O15 | **No subsidence mechanism for keel-bearing interiors that satisfies P9.** The drip and peeling are struck. Released water (partial) is the only surviving source; stretching is not a flood source (Section 16). One untested idea: collapse or densification of a 3-9 km (if fully converted) layer at the crust base, which removes no keel (limits: little pore space at about 1 GPa, needs a density-raising phase change, trigger and speed unknown) | Direct conflict with present-day data and with P9 | Raised by the user; 4.3 | **Phase B step 1:** not ruled out; main gaps are reaction speed (4.7-7 orders too slow, indirect rates) and a mafic layer 5-10 km thick that is debated (Section 15). **Phase B step 2:** with collapse as the only subsidence, all Pangea must drop 0.48-0.91 km (uniform) or 0.28-0.53 km at the highest ground (Section 16). **Phase B step 3:** best-case literature (weeks, fluid-saturated shear zones) fits the 150-day window; typical indirect estimates do not; fluid supply is unresolved (Section 17). **Phase B step 4:** scaled to craton temperature the speed ranges from about 12 days to 15 years for a decimetre-scale zone; the 150-day window is met only in the optimistic cases; a new concern is the driving force at 35-42 km (O18) (Section 18).
-| O16 | **Coverage of the margins.** The crust-base collapse probably acts only where the lower crust is cold (cratons). Warm, stretched margins (18% of Pangea) are not covered by it, and stretching is no longer a flood source. Needs the collapse to work there, another source, or a flood that does not cover the margins | A global flood needs all land covered | Phase B step 2; 16.3 |
+| O16 | **Coverage of the margins.** The crust-base collapse probably acts only where the lower crust is cold (cratons). Warm, stretched margins (18% of Pangea) are not covered by it, and stretching is no longer a flood source. Needs the collapse to work there, another source, or a flood that does not cover the margins | A global flood needs all land covered | Phase B step 2; 16.3. **Phase E step 6 (Section 34):** the collapse need lower only the highest 14-22% of land if 1.3×10⁸ km³ of water is released; a dry garnet-granulite mode in hot, deep crust (assumed boundary) plus the serpentinite window reaches 33-37% of continental area; conditions untested |
 | O17 | **Fluid supply at the crust base (35-42 km).** Eclogitization is fluid-limited and needs water in contact with dry lower-crust granulite. The model's shallow water is released near the surface; a source or path to 35-42 km is not identified. Heat is not a problem there (it stays deep, H3) | The reaction cannot start or spread without it | Phase B step 3; 17.3 | **Analog (17.7):** a study of subducting slab gabbros argues that fluid from the slab mantle accumulates beneath the Moho until the lower crust is breached by dynamic fluid vents, after which eclogitization starts. That is a fluid-supply-and-breach mechanism, but its fluid comes from slab dehydration, which a craton interior lacks.
 | O18 | **Driving force at 35-42 km.** The eclogite field at craton temperature (500-600 °C) is expected at about 1.3-1.6 GPa, but the layer sits at 1.0-1.25 GPa. The reaction may stop at garnet granulite (about 10% denser) or not start, which limits the collapse to the low end of 9-17% and raises the layer thickness needed (Section 18.3) | Without enough driving force the density change and the drop shrink | Phase B step 4 | **Phase B step 5:** by CRUST1.0, the craton Moho is at a median 1.07 GPa and only 3% of craton area reaches 1.3 GPa; the lower-crust layer itself is thick enough (median 12.5 km). The driving force is the weak point (Section 19). **Phase B steps 6-9:** the boundary pressure at 500-600 °C was not found; the sourced boundary for basic rock is about 1.9 GPa, higher than the 1.0-1.25 GPa layer (Section 20). The present-day craton Moho is about 450-560 °C (Section 24, assumed inputs), below the 600-800 °C that eclogitization needs in cool lithosphere. The serpentinite alternative is in O19.
 | O19 | **Existence of a serpentinized layer and an exit for its water.** Serpentinite shrinks 23-25% on breakdown (the low-pressure reaction), enough with 2-4 km of layer, but it forms where seawater reaches mantle rock, not under cratons, and the volume loss needs the water to escape. Hydrogen and methane add at most about 2% | Without the layer and an exit there is no subsidence from this route | User; Phase B step 7; Section 21 |
@@ -1255,3 +1255,98 @@ Search-only. The two papers read are about subducting serpentinite at 2.5-5 GPa.
 ### 32.5 Follow-up
 - Read Fujita et al. 2007 (brucite at 1 GPa) and a lizardite stability study at 1-1.5 GPa.
 - Check chlorite breakdown (above 700 °C from memory, not checked).
+
+
+---
+
+## 33. Phase E step 5: are there lower-crustal earthquakes in cratons? (2026-11-25, FIRST PASS, SEARCH ONLY)
+
+**Question.** The trigger candidate (Section 17, K15) is a lower-crustal earthquake in cold, dry crust that opens fluid pathways. Do such earthquakes occur at craton Moho depths (35-42 km)? **Method.** Web search only, two queries; results are abstracts and excerpts. No script.
+
+### 33.1 Findings
+| Item | Result | Source (excerpt only) |
+|------|--------|-----------------------|
+| Seismogenic thickness in Africa | Thin lithosphere: about 20 km or less. Around the Archean cratons the seismogenic layer can include the whole crust | Craig, Jackson, Priestley and McKenzie 2011, *Geophys. J. Int.* ("Earthquake distribution patterns in Africa") |
+| Depth of the deepest events | Lower-crustal earthquakes down to about 35 km in parts of the East African Rift; another abstract mentions about 40 km | same; search summary |
+| Why they are deep | A thick mantle root alone does not explain it; a strong dry granulite-like lower crust stays seismogenic at higher temperature | same |
+| Where it is common | Seismogenic thickness is larger where tectonothermal ages are 1,500 Ma or more (the age is a deep-time reading, not used here) | same |
+| Cratons overall | Fewer crustal earthquakes and a lower maximum magnitude than other stable regions, attributed to cold, dry lower crust and a depleted root | USGS stable-continental-region study (search summary) |
+| Lower-crust earthquakes elsewhere | Restricted to forelands in shortening and to rifts where lithosphere thickness changes abruptly | Sloan, Jackson, McKenzie and Priestley 2011, central Asia (search summary) |
+| Mantle events under a craton | Wyoming Craton, 2013: mainshock Mw 4.8 at 76 km, with eight of nine events more than 15 km below the Moho where T is probably above 700 °C | search summary |
+| Depth accuracy | Crustal focal depths are harder to constrain than epicentres | Tibet study (search summary) |
+
+### 33.2 What it shows
+1. **The precondition is real.** Brittle failure in the lower crust at 30-40 km does occur in cratonic Africa. A lower-crustal earthquake at a craton Moho is therefore not excluded by observation.
+2. **Today's quietness is not evidence against a Flood-time cascade.** Cratons are on the whole quiet now, and the deep events cited sit in rifts and at lithosphere-thickness steps. That describes the present. The model says today is the state after the collapse, with the stress released, so it predicts quiet cratons. The modern pattern therefore cannot test the trigger either way. What the observation does show is that the physics is available (brittle failure at 30-40 km). What it cannot show is whether the stress and trigger existed at the time of the Flood. Any such stress source would have to be named as an assumption (P4) and cannot be checked from today's seismicity.
+3. **The same papers say the lower crust is dry.** A strong, dry granulite is what lets it be brittle, and it is also why the reaction needs fluid (O17). The observation supports the trigger and the fluid problem at once.
+4. **Nothing found links an earthquake to a reaction in a craton.** The only linked case is the Holsnøy (Norway) analog already in Section 17.
+
+### 33.3 Limits
+Two searches, excerpts only, no focal-depth catalogue, and no study specific to Kaapvaal, Slave or Canadian Shield interiors. The papers' age statements are not used (P1).
+
+### 33.4 Verdict
+**K15 stays Unresolved, with a small gain:** lower-crustal rupture at craton Moho depth is observed, so the physics is available. Today's seismicity cannot test whether it happened at the Flood, and nothing ties an earthquake to a reaction.
+
+### 33.5 Follow-up
+- Look for evidence a past cascade would leave in cratons today, since seismicity cannot show it: reaction fronts or pseudotachylyte (fault-melt) in lower-crustal rock at Moho depth, a dense or high-velocity layer at the base of cratonic crust, and fractures along province boundaries (Section 22).
+- Focal-depth catalogue studies of the Kaapvaal, Slave, Tanzania and Canadian Shield interiors would still show how brittle the lower crust is now.
+
+---
+
+## 34. Phase E step 6: exploring solutions to what hurts (2026-11-25, FIRST PASS, ASSUMED BOUNDARIES)
+
+**Problems taken from the Phase E results.** (1) Coverage: the serpentinite window is about 2% of Pangea (Sections 29-31). (2) 84% of craton area is above the antigorite limit (Section 31). (3) O21: no cooler water source (Section 32). (4) The unsupported links (layer, fluid, trigger). **Method.** `scripts/flood_fraction_needed.py` (how much land must be lowered) and `scripts/coverage_modes.py` (what each mode can reach), on CRUST1.0 cells with the Lucazeau grid heat flow and the Section 24.7 geotherm. Continental crust here is CRUST1.0 cells with crust 25 km or thicker: 1.715×10⁸ km², against Pangea's 2.105×10⁸ km², so shares are of continental area.
+
+### 34.1 Two modes, one assumed boundary
+- **S (serpentinite window):** Moho T between 425 and 525 °C, layer assumed to exist (Sections 21, 25).
+- **G (garnet-granulite densification of the lower crust):** the lower crust, if it is gabbro, becomes about 10% denser (Section 19.2). Subsidence available = lower-crust thickness × mafic fraction × 10%. It is dry, so it vents no water. **Assumed boundary:** Moho T of 600-900 °C and Moho P of at least 1.0 GPa. The search found garnet growth in mafic lower crust at 1-1.5 GPa (Jijal granulite at about 1.5 GPa and 800 °C; an Athabasca reaction at about 1 GPa), but **no boundary curve**. The boundary is my choice; Section 34.2 shows how much it matters.
+
+### 34.2 Results
+| Quantity (continental crust, CRUST1.0) | Result |
+|---|---|
+| Moho T, area-weighted 10 / 50 / 90 % (heat production 0.3-0.6; 0.8-1.0 in brackets) | 625 / 833 / 1,109 °C (581 / 789 / 1,060) |
+| S window, share of continental area | **2.5%** (4.4%), about 2.1% of Pangea |
+| Above the antigorite limit | 96.9% (94.4%) |
+| Moho pressure, median; share at 1.0 GPa or more | 1.01 GPa; 60% |
+| Lower-crust thickness, median | 11.2 km |
+| G candidate (T and P met) | 29.9% (32.6%) |
+| G supplies 0.48 km at mafic fraction 1.0 / 0.5 / 0.3 | 29.9% / 26.4% / 0.6% |
+| G supplies 0.91 km at 1.0 / 0.5 / 0.3 | 26.8% / 0.1% / 0.0% |
+| G alone at f = 0.5, 0.48 km, for boundaries 550 °C and 0.9 GPa / 600 and 1.0 / 650 and 1.0 / 700 and 1.1 / 750 and 1.2 | 39.3% / 26.4% / 23.7% / 10.0% / 2.2% |
+
+**Reading.** If the lower crust were mafic and all of it converted, G reaches about a third of the continental area. It is very sensitive to the mafic fraction and to the assumed boundary, and it falls to a few percent if the boundary is at 750 °C and 1.2 GPa or the mafic fraction is 0.3.
+
+### 34.3 The water lever: the collapse need not lower all of Pangea
+The earlier budget (Section 16) took two extremes. A fuller version, `scripts/flood_fraction_needed.py`, lets each land cell end only as low as needed (cells below the final water level need no help). With pre-Flood heights spread between 0 and 610 m (mean about 200 m, three shapes tried), the result depends mainly on released water:
+| Released water | Share of Pangea that must be lowered | Largest drop needed |
+|---|---|---|
+| none | 100% | 0.60-0.61 km |
+| 2.26×10⁷ km³ (groundwater, verified) | 82-92% | 0.54-0.55 km |
+| 7.3×10⁷ km³ (hot Moho water at its heat cap) | 47% | 0.40-0.42 km |
+| 1.3×10⁸ km³ (all shallow reservoirs) | **14-22%** | **0.27-0.29 km** |
+| 2.3×10⁸ km³ (present-depth ocean) | 0.1-1.8% | 0.07-0.08 km |
+The 1.3×10⁸ km³ row agrees with the "highest ground only" case of Section 16 (279 m). The shares depend on the pre-Flood height distribution, which is unknown (16.4).
+
+### 34.4 What each problem looks like now
+| Problem | Candidate solution | Status |
+|---|---|---|
+| 1. Coverage (S is 2% of Pangea) | Add mode G and let water do the rest: with 1.3×10⁸ km³ only 14-22% of land (up to 0.28 km) needs lowering. S or G supplies 0.28 km over **33-37%** of continental area at mafic fraction 0.5 or more, and 29-33% at 0.3 (heat production 0.3-0.6 or 0.8-1.0 µW/m³) | **Open, conditional.** Needs (a) 1.3×10⁸ km³ of water, of which only 2.3×10⁷ is verified (O9); (b) lower crust that is mafic and converts (K9, O18); (c) the boundary assumed in 34.1; (d) the high ground to lie in the capable area. Test of (d): in present continental crust, the highest 20% by elevation is 21% capable and the lowest 20% is 16%, with 38-44% in the middle, so **no positive link was found**. The present highest ground is orogen crust that the model treats as post-Flood, so this test is weak |
+| 2. 84% above the antigorite limit | Hot areas are the wrong place for S but the right place for G (T and P above the boundary). It converts a problem into a split: cold areas serpentinite, hot areas garnet granulite | **Open.** G needs the lower crust to be unreacted today although inside the garnet-granulite field. CRUST1.0's craton lower-crust density (median 2.92 g/cm³) is gabbro-like, which fits that, but it comes from assumed velocity-density relations. Dry granulite out of equilibrium until fluid arrives is documented (Holsnøy) |
+| 3. Heat of vented water (O21) | G vents no water, so where G does the work no Moho water reaches the ocean (Section 26.1a cases B-C). The flood water would come from shallow reservoirs, which carry no ocean heat problem | **Relocated, not solved:** O21 shrinks to the S window (about 2% of Pangea) and the water question moves to O9 (reservoir sizes). G's own heat (at most about 1 B for a 0.9 km drop, less for 0.28 km, deep) passes H3 |
+| 4. Layer, fluid, trigger | G needs fluid to start (Holsnøy) and a trigger, so O17 and O4 remain. Section 33 supports brittle lower-crust failure as possible | **Unchanged** |
+
+### 34.5 Limits
+- G's boundary (T and P), the mafic fraction and the 10% density gain are assumptions; no boundary curve was found.
+- The conductive geotherm is not trusted above about 900 °C; those cells are excluded from G.
+- One heat-production set per run; continental Moho depth and lower-crust thickness are CRUST1.0.
+- The pre-Flood height distribution (three Beta shapes) is invented; the real one is unknown.
+- Nothing here tests whether a collapse can be triggered, spread or fed with fluid.
+
+### 34.6 Verdict
+**The coverage and heat problems have a possible route, but only on conditions that are not yet shown.** The route is: released water of about 1.3×10⁸ km³ so that only the highest 14-22% of land needs to drop 0.28 km; garnet-granulite densification of hot, deep lower crust (about 30% of continental area, dry, no vented water) plus the serpentinite window in cold areas. It shifts the weak points to O9 (water sizes), O18 (mafic lower crust and the boundary) and the high ground's location. Section 28 verdicts are unchanged (K16 stays Unsupported until G's boundary is sourced).
+
+### 34.7 Follow-up
+- **Source the garnet-granulite boundary** for gabbro (pressure at 600-900 °C) and the mafic fraction of the lower crust. This is the single most important gap for the route.
+- Test the unreacted-today condition: seismic velocities or xenolith densities for cratonic lower crust.
+- Verify the sediment-pore-water and serpentinite reservoirs (O9). The route depends on 1.3×10⁸ km³.
+- Ask whether pre-Flood high ground (thick-crust interiors) can be placed from a source other than present elevation.
