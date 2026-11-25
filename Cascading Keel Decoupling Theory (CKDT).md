@@ -1098,3 +1098,17 @@ These were listed for Phase B and were not run. Each is carried forward and none
 ### 28.4 What this sets up for Phase E
 
 The order of importance in Section 11 stays, with one change: the collapse conditions (K9-K16, O15-O20) are now the largest block of unresolved work, and they decide whether CKDT keeps any mechanism. O1 and O2 stay with DTAT.
+
+---
+
+## 29. Phase E step 1: craton heat-flow grid (2026-11-25, BLOCKED ON DATA)
+
+**Goal.** Replace the free surface-heat-flow variable in Section 25 with measured values sampled inside the 114 craton polygons, and see whether any craton falls in the serpentinite temperature window (K12, O20).
+
+**What was tried.**
+- Lucazeau (2019, *G-cubed* 20:4001-4024) is the target data set (0.5° grid; point data in the paper's supporting information).
+- The Wiley supplement download returned HTTP 403.
+- The two files linked from the IHFC mapping-studies page (`HeatFlowIHFC_global_original.rar` and `..._large.kmz`) both returned HTTP 404 (dead links, 2026-11-25).
+- A web search for the eclogite-in boundary at 500-600 °C (O18) again found no number. It found only that conversion is fluid-controlled and often partial (Holsnøy; New Zealand lower crust), which is already in Sections 17 and 20.
+
+**Status.** No result. Nothing in Section 28 changes. To continue, one of these is needed: the Lucazeau supplement file or grid placed locally (for example in `Noah's Pangea v2/data/heatflow/`), or another open heat-flow data set. The sampling script is a small extension of `scripts/craton_selection.py`.
