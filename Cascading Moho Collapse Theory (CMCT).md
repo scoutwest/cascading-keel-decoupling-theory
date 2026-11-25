@@ -1,6 +1,6 @@
 # Cascading Moho Collapse Theory (CMCT): a young-earth Flood model that avoids the CPT "heat problem"
 
-**Status:** Draft 6 (stretching removed as a flood source: all flood subsidence is now assigned to the collapsed Moho layer plus released water). The keel-drip mechanism (CKDT-II) and Moho peeling are **struck** under premise P9 (no mechanism may conflict with the deep keels cratons have today). The theory currently has **no keel-based subsidence mechanism**; what survives is the heat analysis, the flood geometry and shallow released water. Stretching is kept only as a note explaining the major geological provinces (Section 4.5). The one untested idea left is collapse or densification of a layer at the crust base (O15). Phase A (attribute re-verification) is done (Section 14). Phase B steps 1-3 (the crust-base collapse test, the stretching-plus-water coverage test and the reaction-speed test) are done (Sections 15, 16 and 17). The rest of Phases B-E has not been run. Draft 1 was written 2026-11-24 by merging `Noah's Pangea v1` (`Theories.md`, `Model.md` Phase 13) and `Noah's Pangea v2` (`Model.md` Phases 1, 3-6). Numbers not listed in Section 14 are still carried over from v1 or v2 and are not yet re-verified.
+**Status:** Draft 6 (stretching removed as a flood source: all flood subsidence is now assigned to the collapsed Moho layer plus released water). The keel-drip mechanism (CKDT-II) and Moho peeling are **struck** under premise P9 (no mechanism may conflict with the deep keels cratons have today). The theory currently has **no keel-based subsidence mechanism**; what survives is the heat analysis, the flood geometry and shallow released water. Stretching is kept only as a note explaining the major geological provinces (Section 4.5). The one untested idea left is collapse or densification of a layer at the crust base (O15). Phase A (attribute re-verification) is done (Section 14). Phase B steps 1-4 (the crust-base collapse test, the stretching-plus-water coverage test, the reaction-speed test and the craton-temperature speed test) are done (Sections 15-18). The rest of Phases B-E has not been run. Draft 1 was written 2026-11-24 by merging `Noah's Pangea v1` (`Theories.md`, `Model.md` Phase 13) and `Noah's Pangea v2` (`Model.md` Phases 1, 3-6). Numbers not listed in Section 14 are still carried over from v1 or v2 and are not yet re-verified.
 **Name:** renamed in draft 5 from Cascading Keel Delamination Theory (CKDT) after the keel-removal mechanisms were struck (P9). "CMCT" is a working name until Phase B reports on the crust-base collapse idea (Section 4.8). Earlier files and v1/v2 notes use the old name; "CKDT-II" refers to the struck keel-drip version.
 **Nature:** a speculative young-earth creation-science model. Mainstream geoscience rejects its premises. Where a number fails, the failure is stated.
 
@@ -206,9 +206,10 @@ Cool, conductive xenolith geotherms show no recent catastrophic heating. Fine de
 | O9 | Unverified inputs: ocean volume 1.335×10⁹ km³; 40 °C cap; 15 °C start; 5 cm/yr present speed; slab pull 3.3×10¹³ N/m; ridge push 2.5×10¹² N/m; crust heat 3.2×10¹³ J/m²; sediment and serpentinite reservoir sizes | Many results rest on these | v2 10 |
 | O11 | Post-Flood ice age (P8) and the 40-day "windows of heaven" water | Not modelled | v2 Phase 9 |
 | O12 | Recession: lasting uplift after collision; fragment paths | Belongs to DTAT | v2 |
-| O15 | **No subsidence mechanism for keel-bearing interiors that satisfies P9.** The drip and peeling are struck. Released water (partial) is the only surviving source; stretching is not a flood source (Section 16). One untested idea: collapse or densification of a 3-9 km (if fully converted) layer at the crust base, which removes no keel (limits: little pore space at about 1 GPa, needs a density-raising phase change, trigger and speed unknown) | Direct conflict with present-day data and with P9 | Raised by the user; 4.3 | **Phase B step 1:** not ruled out; main gaps are reaction speed (4.7-7 orders too slow, indirect rates) and a mafic layer 5-10 km thick that is debated (Section 15). **Phase B step 2:** with collapse as the only subsidence, all Pangea must drop 0.48-0.91 km (uniform) or 0.28-0.53 km at the highest ground (Section 16). **Phase B step 3:** best-case literature (weeks, fluid-saturated shear zones) fits the 150-day window; typical indirect estimates do not; fluid supply is unresolved (Section 17).
+| O15 | **No subsidence mechanism for keel-bearing interiors that satisfies P9.** The drip and peeling are struck. Released water (partial) is the only surviving source; stretching is not a flood source (Section 16). One untested idea: collapse or densification of a 3-9 km (if fully converted) layer at the crust base, which removes no keel (limits: little pore space at about 1 GPa, needs a density-raising phase change, trigger and speed unknown) | Direct conflict with present-day data and with P9 | Raised by the user; 4.3 | **Phase B step 1:** not ruled out; main gaps are reaction speed (4.7-7 orders too slow, indirect rates) and a mafic layer 5-10 km thick that is debated (Section 15). **Phase B step 2:** with collapse as the only subsidence, all Pangea must drop 0.48-0.91 km (uniform) or 0.28-0.53 km at the highest ground (Section 16). **Phase B step 3:** best-case literature (weeks, fluid-saturated shear zones) fits the 150-day window; typical indirect estimates do not; fluid supply is unresolved (Section 17). **Phase B step 4:** scaled to craton temperature the speed ranges from about 12 days to 15 years for a decimetre-scale zone; the 150-day window is met only in the optimistic cases; a new concern is the driving force at 35-42 km (O18) (Section 18).
 | O16 | **Coverage of the margins.** The crust-base collapse probably acts only where the lower crust is cold (cratons). Warm, stretched margins (18% of Pangea) are not covered by it, and stretching is no longer a flood source. Needs the collapse to work there, another source, or a flood that does not cover the margins | A global flood needs all land covered | Phase B step 2; 16.3 |
 | O17 | **Fluid supply at the crust base (35-42 km).** Eclogitization is fluid-limited and needs water in contact with dry lower-crust granulite. The model's shallow water is released near the surface; a source or path to 35-42 km is not identified. Heat is not a problem there (it stays deep, H3) | The reaction cannot start or spread without it | Phase B step 3; 17.3 | **Analog (17.7):** a study of subducting slab gabbros argues that fluid from the slab mantle accumulates beneath the Moho until the lower crust is breached by dynamic fluid vents, after which eclogitization starts. That is a fluid-supply-and-breach mechanism, but its fluid comes from slab dehydration, which a craton interior lacks.
+| O18 | **Driving force at 35-42 km.** The eclogite field at craton temperature (500-600 °C) is expected at about 1.3-1.6 GPa, but the layer sits at 1.0-1.25 GPa. The reaction may stop at garnet granulite (about 10% denser) or not start, which limits the collapse to the low end of 9-17% and raises the layer thickness needed (Section 18.3) | Without enough driving force the density change and the drop shrink | Phase B step 4 |
 | O13 | Ten highest peaks need 7.5-8.2 km of uplift from under 610 m | Phase 7 target | v2 2.3 |
 
 Removed with the drip in draft 5: keel water (old O3), dynamic-subsidence factor (O5), cross-craton propagation (O6), stalling (O7), keel density sign (O8), shear-localization width (O10).
@@ -501,3 +502,59 @@ Ahrens & Schubert 1975, *Reviews of Geophysics* 13(2); Ito & Kennedy 1971; Austr
 - The fluid came from the deserpentinizing slab mantle, trapped at very high pore pressure beneath the slab Moho until the lower crust failed. A craton interior has no such reservoir under its Moho (a cold, depleted keel lies there), so the fluid question (O17) is unchanged.
 
 **Effect on the verdict.** The speed objection is weaker still for the breach stage (days to months at 820 °C) but remains open at craton temperature and over a whole layer. The "weeks" wording in earlier sections should be read as "days to a few months".
+
+---
+
+## 18. Phase B step 4: reaction speed at craton temperature (2026-11-24)
+
+**Question.** The best-case timescale (Section 17.8) was measured at about 820 °C. A cold craton Moho is 500-600 °C. How much slower is the reaction there? **Method.** Arrhenius scaling with activation energies from the literature on fluid-mediated mineral reactions, plus arithmetic. Codes as in Section 14.
+
+### 18.1 Inputs
+| Input | Value | Code |
+|-------|-------|------|
+| Measured base time (Section 17.8) | 7.1 and 13.6 days (the time fluid-filled pores existed in one shear zone at about 820 °C); "perhaps months" (taken here as 90 days) | C |
+| Activation energy, albite dissolution in fluid (100-300 °C) | 69 kJ/mol at neutral pH, 85-89 kJ/mol at acid or basic pH | C |
+| Activation energy, andesine (150 °C) | about 61-63 kJ/mol (neutral and acid), about 38 kJ/mol (alkaline) | C |
+| Activation energy, anorthite (60 °C, acid) | 18.4 kJ/mol | C |
+| Albite breakdown to jadeite and quartz in the laboratory | proceeds rapidly at 400-500 °C, with and without added water, at overstepping above 2 GPa (preliminary) | C |
+| Eclogitization rate as a function of temperature at 500-600 °C | none found | U |
+| Temperature dependence of Li diffusivity in the pore fluid | none found | U |
+
+The activation energies are for feldspar dissolution in laboratory fluids at 60-300 °C. They are not rates for the gabbro-to-eclogite reaction. They are used here only to set a plausible range.
+
+### 18.2 Arithmetic (mine)
+Slowdown factor relative to 820 °C, exp[E/R × (1/T − 1/1093 K)]:
+| Temperature | E = 20 kJ/mol | E = 60 | E = 90 | E = 100 |
+|-------------|---------------|--------|--------|---------|
+| 600 °C | ×1.7 | ×5.3 | ×12 | ×16 |
+| 550 °C | ×2.1 | ×8.7 | ×26 | ×37 |
+| 500 °C | ×2.5 | ×15 | ×60 | ×95 |
+
+Scaled time (days) for the same decimetre-scale shear zone, with a base of 7, 14 or 90 days. The 150-day window is the target.
+| Temperature, E | 7 d base | 14 d base | 90 d base |
+|----------------|----------|-----------|-----------|
+| 600 °C, 60 | 37 | 74 | 475 |
+| 600 °C, 90 | 85 | 170 | 1,091 |
+| 550 °C, 60 | 61 | 122 | 785 |
+| 550 °C, 90 | 180 | 360 | 2,317 |
+| 500 °C, 60 | 108 | 215 | 1,383 |
+| 500 °C, 90 | 422 | 844 | 5,423 |
+
+**Reading.** With the 7-14 day base the window is met at 550-600 °C for E = 60 and marginally at 600 °C for E = 90. With the "months" base it is met only for very low activation energy. Across all cases the scaled time runs from about 12 days to about 15 years.
+
+### 18.3 What this does not settle, and a new concern
+1. **The base time was not a reaction time.** The paper says the reaction front outran the lithium, and that lithium diffusion in the pore fluid set the 7-14 days. So at 820 °C the reaction was faster than that, by an unknown amount. If a temperature-sensitive reaction step was the limit at craton temperature, the scaled times are upper bounds. If fluid supply or fracture-network spacing stays the limit, temperature matters little. Either way the table brackets the possibilities and does not give a measured answer.
+2. **The activation energies are borrowed** from feldspar dissolution at much lower temperature. The eclogite reaction may differ by a large factor.
+3. **Scale** is still about 0.1 m, not kilometres (Section 17.8).
+4. **New concern: the driving force at 35-42 km.** That depth is 1.0-1.25 GPa. Section 15.1 reports cratonic lower crust at 500-600 °C expected to be in the eclogite field at about 1.3-1.6 GPa, and eclogite facies quoted at 1.8-2.2 GPa. At 1.0-1.25 GPa the rock may be near or below the eclogite boundary. If it stops at garnet granulite (3.2-3.3 g/cm³ against a 2.9-3.0 g/cm³ start, about 10% denser), the collapse is at the low end of 9-17%, so the layer must be about 10 km thick for 0.91 km of drop (5.3 km with all shallow water). A deeper layer, or a smaller reaction, is open. This may matter more than the speed.
+
+### 18.4 Verdict
+**Speed at craton temperature is not shown to fail, and not shown to work.** The scaled estimates (12 days to 15 years for a decimetre-scale zone) span the 150-day window and are built on borrowed activation energies. The decisive unknowns are now the driving force at 35-42 km (O18) and the fluid supply (O17). Together with the unshown mafic layer (Section 15), these are the three conditions most likely to decide whether the idea survives.
+
+### 18.5 Follow-up
+- Find actual eclogite-reaction rates at 500-700 °C and the temperature dependence of Li diffusivity in the pore fluid.
+- Check the depth of the eclogite boundary against cratonic Moho depth: do cratonic lower crusts lie inside the eclogite field?
+- Estimate the layer thickness needed if the product is garnet granulite.
+
+### 18.6 Sources (Phase B step 4)
+Albite, andesine and anorthite dissolution activation energies from the cited mineral-dissolution studies (a 1995 anorthite study, a review of albite dissolution at 100-300 °C, andesine at 150 °C); a JpGU 2006 abstract on plagioclase breakdown at 400-500 °C; Smit & Pogge von Strandmann 2020 (Section 17.8). Figures from search summaries, not full-paper reads.
