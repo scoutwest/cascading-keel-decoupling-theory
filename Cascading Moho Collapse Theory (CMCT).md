@@ -289,7 +289,8 @@ Work through Section 9 in this order of importance: O1 and O2 (the heat problem 
 | Unsolved: new ocean floor | 1.64×10⁸ km², 456 B if made new |
 | Unsolved: basal drag for 3,841 km in 150 d | ≥ 350 B |
 | Craton Moho: median depth, pressure | 39.0 km, 1.07 GPa (CRUST1.0; Section 19) |
-| Craton Moho temperature (conductive geotherm, assumed inputs) | about 500 °C (450-560 typical; 330-717 full range; Section 24) |
+| Craton Moho temperature, measured on xenoliths | below 400 °C (Siberia), 500-600 °C (Tanzania), above 650 °C (Mozambique Belt) (Section 24.6) |
+| Craton Moho temperature, conductive model with cratonic heat production 0.3-0.6 µW/m³ | 425-654 °C at 40 mW/m², 507-772 °C at 47 mW/m² (Section 24.7; the earlier 450-560 °C used assumed 0.8-1.6) |
 | Eclogite boundary, basic rock (high temperature) | about 1.9 GPa (Chapman et al. 2017; Section 20) |
 | Serpentinite breakdown, solid volume lost | 28-31%; layer needed 1.5-3.6 km (Section 21) |
 | Hydrogen in serpentinite, volume share | at most about 2% (0.47 mol/kg ceiling; Section 21.3) |
@@ -827,3 +828,33 @@ Surface heat flow and crust thickness from search results (Section 21.7); equati
 - **Dates:** the xenolith ages are conventional ages and are not used here (P1). Only the temperature inferences are.
 
 **Consequence.** Measured present-day Moho temperatures span below 400 °C (Siberia) to 500-600 °C (Tanzania), and the craton median in this model (500 °C) is the upper half of that range. A craton Moho at 400 °C is 200-300 °C below the antigorite limit and further below the 600-800 °C that eclogitization needs, so O20 (heat to trigger) is harder at the cold end. The model must say which craton it describes. Heat is needed in every case, and it is least available where the Moho is coldest.
+
+### 24.7 Rerun with the measured values (2026-11-24)
+`scripts/craton_geotherm_measured.py`. Same conductive model as 24.1, but heat production is now 0.3-0.6 µW/m³ (from the xenolith study, Section 24.6) instead of my assumed 0.8-1.6. Still assumed from memory: surface temperature 15 °C, decay depth 8-12 km, conductivity 2.5-3.0 W/m/K, Moho depth 35-42 km.
+
+**Forward: Moho temperature for the usual heat flow of 40-47 mW/m².** Low heat production means more of the surface heat flow comes from the mantle, so the Moho runs hotter than in 24.1, not colder.
+| Surface heat flow | Median Moho temperature | Range | Share at or above 600 °C |
+|-------------------|------------------------|-------|--------------------------|
+| 40 mW/m² | 528 °C | 425-654 | 19% |
+| 44 mW/m² | 584 °C | 472-722 | 39% |
+| 47 mW/m² | 626 °C | 507-772 | 69% |
+
+**Inverse: the heat flow each measured Moho temperature requires.**
+| Region | Measured Moho | Heat production | Surface heat flow needed (median) | Mantle heat flow q_m |
+|--------|---------------|-----------------|-----------------------------------|----------------------|
+| Siberian craton (upper bound) | 300-400 °C | 0.3 µW/m³ | 19-35 (26) mW/m² | 16-33 mW/m² |
+| Tanzanian craton | 500-600 °C | 0.5 µW/m³ | 32-54 (41) mW/m² | 27-49 mW/m² |
+
+**What it shows**
+1. **The measured values are consistent with the model.** Tanzania's 500-600 °C needs a surface heat flow of about 41 mW/m², right in the 40-47 range from the heat flow compilations. Siberia needs about 26 mW/m² for 400 °C or less, so it is a colder, lower-heat-flow craton. The conductive model reproduces both with heat production taken from the same xenoliths.
+2. **My earlier central value of 500 °C was not conservative.** With cratonic heat production, a 40-47 mW/m² craton gives 530-630 °C. The measured Tanzanian range fits that; the Siberian value does not, because it needs a much lower surface heat flow.
+3. **The Siberian 19 mW/m² measurement.** The source calls it "impossibly low". The model gives a median 250 °C Moho (208-302 °C) for 19 mW/m², which is within the "below 400 °C" bound but would be extremely cold. Siberia's value is only an upper bound, so the true temperature could be lower than 400 °C.
+4. **Spread between cratons is large.** The measured range is under 400 °C to 600 °C, and the model range for 40-47 mW/m² is 425-770 °C. The Moho temperature is a property of the individual craton, not one number.
+
+**Consequence for the collapse candidates (Sections 19-21).**
+- At Tanzanian-type conditions (500-600 °C) the Moho sits 20-180 °C below the antigorite limit (620-680 °C at 1.5-1.9 GPa; not found at 1.0-1.25 GPa) and at or just under the lower edge of the 600-800 °C that eclogitization needs. Added heat of 20-180 °C would be needed.
+- At Siberian-type conditions (below 400 °C) the gap is 200-300 °C or more.
+- A hot craton with heat flow near 47 mW/m² and low conductivity reaches 600-770 °C. That is the best case for either mechanism and the least typical one for an old craton.
+- **O20 stands, with a range:** the heat to add depends on the craton, from tens of degrees (Tanzania-type) to more than 200 °C (Siberia-type).
+
+**Limits:** constant conductivity (real rock conducts less when hot, so true temperatures are slightly higher); steady state; the Siberian and Tanzanian papers themselves were not read, only a conference abstract; heat production is a single bulk value per craton; the decay depth and conductivity ranges are assumed.
