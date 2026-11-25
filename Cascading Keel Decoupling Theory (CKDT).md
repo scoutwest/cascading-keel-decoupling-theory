@@ -217,7 +217,7 @@ Cool, conductive xenolith geotherms show no recent catastrophic heating. Fine de
 | O18 | **Driving force at 35-42 km.** The eclogite field at craton temperature (500-600 °C) is expected at about 1.3-1.6 GPa, but the layer sits at 1.0-1.25 GPa. The reaction may stop at garnet granulite (about 10% denser) or not start, which limits the collapse to the low end of 9-17% and raises the layer thickness needed (Section 18.3) | Without enough driving force the density change and the drop shrink | Phase B step 4 | **Phase B step 5:** by CRUST1.0, the craton Moho is at a median 1.07 GPa and only 3% of craton area reaches 1.3 GPa; the lower-crust layer itself is thick enough (median 12.5 km). The driving force is the weak point (Section 19). **Phase B steps 6-9:** the boundary pressure at 500-600 °C was not found; the sourced boundary for basic rock is about 1.9 GPa, higher than the 1.0-1.25 GPa layer (Section 20). The present-day craton Moho is about 450-560 °C (Section 24, assumed inputs), below the 600-800 °C that eclogitization needs in cool lithosphere. The serpentinite alternative is in O19.
 | O19 | **Existence of a serpentinized layer and an exit for its water.** Serpentinite shrinks 23-25% on breakdown (the low-pressure reaction), enough with 2-4 km of layer, but it forms where seawater reaches mantle rock, not under cratons, and the volume loss needs the water to escape. Hydrogen and methane add at most about 2% | Without the layer and an exit there is no subsidence from this route | User; Phase B step 7; Section 21 |
 | O20 | **Heat to trigger a collapse at the craton Moho.** A conductive geotherm puts the Moho at about 500 °C (range 330-717 °C, assumed inputs). Antigorite breakdown is near 620-680 °C at 1.5-1.9 GPa and **500-550 °C at 1.2 GPa in long experiments** (570-625 °C in one-week runs; Section 21.2); eclogitization needs more than 600-800 °C. For serpentinite the added heat is **about 0-50 °C at a Tanzanian-type Moho (500-600 °C, which may already be at the limit) and 100-200 °C or more at a Siberian-type Moho (below 400 °C)**; for gabbro-eclogite it is larger. The heat requirement returns O1 and O2 | Without a heat source neither mechanism starts | Phase B step 9; Section 24. **Phase E step 1 (Section 29):** with the Lucazeau 2019 heat-flow grid, only 5-14% of craton area is in the window where a serpentinite layer could be stable and need little added heat; the grid's median craton Moho is hotter than the xenolith values, unresolved |
-| O21 | **Heat of water vented from the crust base.** Water leaving the craton Moho at 400-700 °C carries 1.4-2.6 times the ocean heat budget B (for 1.3×10⁸ km³); narrow cracks cool it by 0.08%. The steam route moves about 90% of the heat to the atmosphere as latent heat but does not remove it (about 80 years to radiate). Options: cap hot Moho water at 6-9×10⁷ km³ and take the rest from cool shallow reservoirs or more collapse (0.48 km up to 0.6-0.7 km); store the extra in the crust above; a cooler source | Without a way to shed the heat, a deep-water flood overheats the ocean | Phase B steps 11-12; Sections 26-27 |
+| O21 | **Heat of water vented from the crust base.** Water leaving the craton Moho at 400-700 °C carries 1.4-2.6 times the ocean heat budget B (for 1.3×10⁸ km³); narrow cracks cool it by 0.08%. The steam route moves about 90% of the heat to the atmosphere as latent heat but does not remove it (about 80 years to radiate). Options: cap hot Moho water at 6-9×10⁷ km³ and take the rest from cool shallow reservoirs or more collapse (0.48 km up to 0.6-0.7 km); store the extra in the crust above; a cooler source | Without a way to shed the heat, a deep-water flood overheats the ocean | Phase B steps 11-12; Sections 26-27. **Phase E step 4 (Section 32):** no cooler source found; lizardite breaks down at about the same temperatures as antigorite |
 | O13 | Ten highest peaks need 7.5-8.2 km of uplift from under 610 m | Phase 7 target | v2 2.3 |
 
 Removed with the drip in draft 5: keel water (old O3), dynamic-subsidence factor (O5), cross-craton propagation (O6), stalling (O7), keel density sign (O8), shear-localization width (O10).
@@ -295,6 +295,7 @@ Work through Section 9 in this order of importance: O1 and O2 (the heat problem 
 | Unsolved: basal drag for 3,841 km in 150 d | ≥ 350 B |
 | Craton Moho: median depth, pressure | 39.0 km, 1.07 GPa (CRUST1.0; Section 19) |
 | Craton Moho temperature, measured on xenoliths | below 400 °C (Siberia), 500-600 °C (Tanzania), above 650 °C (Mozambique Belt) (Section 24.6) |
+| Craton Moho temperature across the 114 polygons (Sections 30-31): per-polygon median from NGHF or grid heat flow, heat production 0.3-0.6 | 5 polygons below 425 °C, 13 in the 425-525 °C window (12% of area), 96 above 525 °C (84%); the typical craton is about 650-700 °C, not 500 °C |
 | Craton Moho temperature, conductive model with cratonic heat production 0.3-0.6 µW/m³ | 425-654 °C at 40 mW/m², 507-772 °C at 47 mW/m² (Section 24.7; the earlier 450-560 °C used assumed 0.8-1.6) |
 | Eclogite boundary, basic rock (high temperature) | about 1.9 GPa (Chapman et al. 2017; Section 20) |
 | Serpentinite breakdown (antigorite = forsterite + talc + water), solid volume lost | 23-25%; water released 10.7 wt%; layer needed 2-4 km; total volume 0-5% larger if the water stays (Section 21.2) |
@@ -1184,3 +1185,73 @@ The order of importance in Section 11 stays, with one change: the collapse condi
 - Add the Section 28 note that the central 500 °C Moho of Sections 24-25 is replaced by a 400-800 °C spread (cheat sheet, Section 12).
 - Still open from Phase E: eclogite boundary at 500-600 °C, lizardite and brucite limits (O21), lower-crustal earthquakes in cratons (K15), Matsuishi OCR.
 
+
+---
+
+## 31. Phase E step 3: per-craton Moho temperature and the serpentinite window (2026-11-25, FIRST PASS)
+
+**Question.** Section 30 showed the craton Moho is a spread. Which named polygons fall where? **Method.** `scripts/craton_table.py`: for each of the 114 Hasterok polygons, CRUST1.0 median Moho depth, the NGHF measured median heat flow (66 polygons with 3 or more points) or, where fewer, the Lucazeau grid median (48 polygons), and the Section 24.7 geotherm (heat production 0.3-0.6 µW/m³, decay depth and conductivity swept, median). Window: Moho T at or below the antigorite limit L = 525 °C (long runs, Section 21.2) and no more than 100 °C below it.
+
+### 31.1 Results
+| Class | Polygons | Share of craton area |
+|-------|----------|----------------------|
+| Cold, T below 425 °C (heat to add over 100 °C) | 5 | 3.6% |
+| **Window, 425-525 °C** | **13** | **12.1%** |
+| Above the limit (T over 525 °C) | 96 | 84.3% |
+
+**In the window (Moho T; heat flow in mW/m²):** Karelia (443 °C, 31), Leo Rise (464, 35), Chuddapah Basin (467, 40), Eastern Yilgarn (479, 35), Rivière-Arnauld (498, grid 39), Kola (498, 38), Eastern Dharwar (501, 40), Chesterfield Block (501, grid 41), Southern Granulite Terrane (504, 38), Hudson Bay Terrane (508, grid 39), Wawa-Abitibi (514, 38), Pilbara (517, 45), **Tanzania (523, 41)**.
+**Cold:** Closepet Batholith (177), Magan Terrane (347), North Caribou (360), Eastern Wabigoon (402), English River-Opinaca (406).
+**Above the limit, among the well-known cratons:** Western Yilgarn (557), Tungus (571), Slave (614), Zimbabwe (618), Aldan (651), São Francisco (672), Kaapvaal (692), Eastern Yangtze (734), Wyoming (1,005; unphysical).
+
+### 31.2 Findings
+1. **The window holds 13 polygons, 12% of craton area,** which agrees with Section 29 (5-14%). Most of it is shield in Fennoscandia, India, Australia, Canada and Tanzania.
+2. **Tanzania sits at the edge of the window (523 °C against 525),** the same place the xenolith result put it (500-600 °C). A small change in assumptions moves it out.
+3. **Kaapvaal, Slave, Zimbabwe and most of Siberia are above the limit.** At Udachnaya the local heat flow is 20 mW/m² (Section 30) but the Tungus polygon median is higher, so a polygon median can hide a cold local site.
+4. **The best candidates are already near the limit,** so the heat to add is small there, but a craton at 520 °C is also one where any serpentinite would be on the edge of breaking down without a trigger.
+5. **84% of craton area is above the limit.** A serpentinite layer there would already be dehydrated, which removes the collapse from the model for that area (K11, K12).
+
+### 31.3 Limits
+- The polygons are Hasterok's "craton" layer, which includes terranes, belts and basins (for example Tarim Basin, Sichuan Basin, Kibaran Belt), not only stable cores.
+- 48 of the 114 polygons have fewer than 3 measurements and use the grid, which is a prediction.
+- One Moho depth per polygon (CRUST1.0 median) and the assumed geotherm parameters (Section 30.4).
+- The 525 °C limit and the 100 °C addable heat are the choices of Section 25; the window moves with them.
+
+### 31.4 Verdict
+**The window is real but small: 13 polygons, 12% of craton area, with Tanzania at its edge.** No change to Section 28. It sharpens K12: where the layer could be stable the Moho is within 100 °C of its limit; where the Moho is hotter, the layer has no reason to be there.
+
+### 31.5 Follow-up
+- Test the window against other limits and addable heat (L 500-650 °C, 0-200 °C) to see which polygons stay in.
+- Ask whether the 13 polygons are a coherent region in the Pangea reconstruction (see DTAT).
+
+---
+
+## 32. Phase E step 4: is there a cooler water source? (2026-11-25, FIRST PASS, SEARCH ONLY)
+
+**Question.** Section 26.3 solution 3 asked for water released at a lower temperature than the 500-580 °C of antigorite breakdown (lizardite, brucite, chlorite), because water that arrives cooler carries less heat (O21). **Method.** Web search plus two open-access Bayreuth papers read in full text (Eberhard et al. 2023, *J. Petrology* 64: egad069; Eberhard, Plümper and Frost 2023, *Contrib. Mineral. Petrol.*, doi:10.1007/s00410-023-01997-y). No script.
+
+### 32.1 Findings
+| Item | Result | Source |
+|------|--------|--------|
+| Lizardite to antigorite | 300 °C at 2 GPa | Eberhard et al. 2023 (agrees with Schwartz et al.) |
+| Lizardite breakdown, carbonate-free | persists at 600 °C and 2.5-3 GPa; starts about 550-600 °C; complete by 650 °C at 3 GPa | Eberhard, Plümper and Frost 2023 |
+| Lizardite at ambient pressure | breaks down above about 500 °C | search summary (not read) |
+| Effect of 20 wt.% CaCO₃ | onset lowered by over 100 °C at 2.5 GPa; antigorite maximum stability lowered by 50 °C | Eberhard, Plümper and Frost 2023 |
+| Brucite dehydration at 1 GPa | **not found**; a conductivity study (Fujita et al. 2007) exists but its temperature was not in the excerpt | search |
+| Brucite plus antigorite to olivine plus fluid | 480-520 °C at 1.3-4 GPa | a 2025 study (search snippet) |
+| Chlorite | not searched | n/a |
+
+### 32.2 What this does to O21
+1. **Lizardite is no cooler than antigorite.** In the experiments it breaks down at about the same temperatures (550-650 °C at 2.5-3 GPa). The serpentine group does not give water below about 500 °C, so the water leaves at the rock's breakdown temperature or above.
+2. **The best case is the carbonate effect:** an ophicarbonate (serpentine with calcite) loses water more than 100 °C earlier at 2.5 GPa. The craton Moho is not shown to be an ophicarbonate, and 2.5 GPa is above the 1.0-1.25 GPa of the craton Moho.
+3. **Pressure mismatch.** The experiments are at 2.5-5 GPa. Boundaries at 1 GPa for lizardite and brucite were not checked.
+4. **A cooler Moho does not help,** because the water leaves at the temperature where the layer breaks down, and the Moho must reach that temperature for the collapse to start (O20).
+
+### 32.3 Verdict
+**No cooler source found. Solution 3 of Section 26.3 is not supported.** Solution 1 (cap the hot Moho water at 6-9×10⁷ km³ and take more collapse subsidence) stays the cheapest fix. Status of O21 unchanged: open.
+
+### 32.4 Limits
+Search-only. The two papers read are about subducting serpentinite at 2.5-5 GPa. No 1 GPa boundary was found for lizardite or brucite. Chlorite was not examined. The Fujita brucite paper was not read.
+
+### 32.5 Follow-up
+- Read Fujita et al. 2007 (brucite at 1 GPa) and a lizardite stability study at 1-1.5 GPa.
+- Check chlorite breakdown (above 700 °C from memory, not checked).
