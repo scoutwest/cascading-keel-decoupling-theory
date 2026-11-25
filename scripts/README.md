@@ -10,6 +10,7 @@ Scripts that produce the images and the numbers quoted in `Cascading Moho Collap
 | `gas_volume.py` | The Section 21.3 upper bound on hydrogen volume in serpentinite | none |
 | `craton_geotherm.py` | The Section 24 Moho temperature sweep (conductive geotherm; heat production and conductivity assumed) | none |
 | `craton_geotherm_measured.py` | The Section 24.7 forward and inverse geotherm with the measured xenolith values | none |
+| `craton_selection.py` | The Section 25 craton selection test (Moho temperature against surface heat flow, window against the antigorite limit) | CRUST1.0 and the Hasterok craton polygons |
 | `province_suture_distance.py` | The Section 22 distances from continental crust to province boundaries (`python province_suture_distance.py strict` for different-type boundaries only) | Hasterok provinces (`global_gprv.shp`); needs `scipy` too |
 | `draw_01_collapse_overview.py` | `images/01_collapse_overview` (.png, .svg) | none |
 | `draw_02_craton_vs_margin.py` | `images/02_craton_vs_margin` | none |

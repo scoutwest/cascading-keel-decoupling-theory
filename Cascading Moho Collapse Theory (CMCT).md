@@ -875,4 +875,49 @@ With the antigorite limit near 1.2 GPa at 500-550 °C (long runs) or 570-625 °C
 | Tanzanian craton | 500-600 °C | at the limit or up to about 100 °C above it (long runs); 0-125 °C below (short runs) | A layer would be at the point of breakdown and could not persist in equilibrium; 0-50 °C would trigger it |
 | Hot craton (heat flow near 47 mW/m², Section 24.7) | 600-770 °C | above the limit | Any serpentinite would already have dehydrated |
 
-This turns the heat problem (O20) into a **selection problem**: the craton must be cold enough to hold serpentinite for the pre-Flood period and warm enough that a modest heat input triggers it. A cold craton holds the layer but needs more heat; a warm craton needs little but would not keep it. I have not tested whether any real craton fits between. The same figures also suggest that mantle just below a warm craton Moho should be dehydrated today, which would favour cold cratons and, for serpentinite formed at the sea floor (Section 21.4), margins and forearcs. Limits as in 21.2: one abstract, no pressure series, run-length effects.
+This turns the heat problem (O20) into a **selection problem**: the craton must be cold enough to hold serpentinite for the pre-Flood period and warm enough that a modest heat input triggers it. A cold craton holds the layer but needs more heat; a warm craton needs little but would not keep it. A first test is in Section 25. The same figures also suggest that mantle just below a warm craton Moho should be dehydrated today, which would favour cold cratons and, for serpentinite formed at the sea floor (Section 21.4), margins and forearcs. Limits as in 21.2: one abstract, no pressure series, run-length effects.
+
+---
+
+## 25. Phase B step 10: the craton selection problem tested (2026-11-24, FIRST PASS)
+
+**Question (from Section 24.8).** A craton can hold a serpentinite layer at the crust base only if its Moho is below the antigorite limit L, and can trigger it only if the heat to be added (L minus Moho temperature) is small. How many cratons fit that window? **Method.** `scripts/craton_selection.py`. Moho depth in each of the 5,709 craton cells from CRUST1.0 (median 39.0 km, as in Section 19); Moho temperature from the Section 24 conductive geotherm with the measured heat production (0.3-0.6 µW/m³), median over decay depth 8-12 km and conductivity 2.5-3.0 W/m/K; surface heat flow is the free variable. **No global heat-flow grid is on disk**, so I cannot yet say which real craton has which heat flow. The Lucazeau (2019) global heat-flow grid (0.5° × 0.5°, Geochem. Geophys. Geosyst. 20) is the obvious source; I did not find a direct download. Two limits for L: **525 °C** (500-550 °C, long runs, Gemba and Nakamura 2006) and **625 °C** (600-650 °C, one-week runs, Gemba and Nakamura 2005). Both are from conference abstracts (Section 21.2).
+
+### 25.1 Craton Moho temperature against surface heat flow
+| Surface heat flow | Median craton Moho | 10-90% of craton area |
+|-------------------|--------------------|-----------------------|
+| 28 mW/m² | 363 °C | 318-408 |
+| 32 mW/m² | 421 °C | 367-473 |
+| 36 mW/m² | 478 °C | 417-538 |
+| 40 mW/m² | 535 °C | 466-603 |
+| 44 mW/m² | 592 °C | 516-668 |
+| 48 mW/m² | 649 °C | 565-732 |
+
+The slope is about 14 °C of Moho temperature per mW/m², so a change of 6 mW/m² moves the Moho by 85 °C. The spread inside a craton from Moho depth alone (35-46 km) is about ±60 °C.
+
+### 25.2 The window
+Surface heat flow band that puts the median craton Moho between L - ΔT and L (ΔT = heat that would have to be added), and the share of that band in an Archean heat-flow distribution of 41 ± 11 mW/m². The 41 ± 11 comes from a garbled search snippet and is unverified.
+| L | ΔT ≤ 50 °C | ΔT ≤ 100 °C | ΔT ≤ 200 °C |
+|---|-----------|-------------|-------------|
+| 525 °C (long runs) | 35-39 mW/m², 14% | 33-39, 19% | 25-39, 36% |
+| 625 °C (one-week runs) | 43-47, 14% | 39-47, 28% | 33-47, 47% |
+
+**Area inside the window at fixed heat flow** (L = 525 °C, ΔT ≤ 100 °C): at 34 mW/m², 95% of craton area holds the layer and 69% is in the window; at 41 mW/m² (the Archean mean), only 34% holds it, 32% is in the window, and 66% is above the limit; at 47 mW/m², 95% is above the limit. At 26 mW/m² (Siberian-type) all of it holds but under 1% is in the window.
+
+### 25.3 What it shows
+1. **The window exists but is narrow.** About 14-47% of the Archean heat-flow range falls in it, depending on the limit and on how much heat can be added. Only a few mW/m² separates "too cold to trigger" from "too hot to keep the layer".
+2. **The answer depends on which limit applies.** With the lower, long-run limit (525 °C), a typical Archean craton (41 mW/m²) is mostly above the limit: serpentinite would not have survived there. With the higher, short-run limit (625 °C) a typical craton sits in the window. Over the model's few thousand years the long-run value is the safer one for persistence. This is the least certain input in the section.
+3. **The cold end is out.** Cratons at 26-30 mW/m² (Siberian-type) hold the layer but are 150-250 °C below the limit, and the model has no heat source (O20).
+4. **A heat source is still required in every case.** Even the best window needs 0-100 °C added at the Moho. The test does not supply it, and the window width (ΔT) is a requirement, not a result.
+5. **Circular at one point.** The window assumes a layer exists; Section 21.4 found no evidence that one does under cratons. Passing the temperature test would not show that.
+
+### 25.4 Limits
+Median geotherm per craton cell (not per craton); constant conductivity (true temperatures are slightly higher); heat production is a single bulk range for all cratons; the pressure at the Moho (1.0-1.25 GPa) is used only through the cited limits; no real heat-flow data by craton; the Archean heat-flow distribution is unverified.
+
+### 25.5 Verdict
+**Narrow but not empty.** A craton-by-craton heat-flow map is needed to say which cratons, if any, fall in the window. As it stands the selection problem makes the serpentinite candidate fragile: it needs the right heat flow, the right limit, an existing layer, and an unidentified heat source at the same time.
+
+### 25.6 Follow-up
+- Get a global heat-flow grid (Lucazeau 2019; IHFC database) and sample it inside the 114 craton polygons, replacing the free heat-flow variable.
+- Obtain the antigorite limit at 1.0-1.25 GPa from a refereed source (Section 21.7).
+- Look for the layer itself (Section 21.7, magnetic and seismic tests).
