@@ -1119,7 +1119,7 @@ The order of importance in Section 11 stays, with one change: the collapse condi
 ### 29.2 What it shows
 1. **The earlier heat-flow assumption was too low.** The grid's median craton value is 58 mW/m², not 41. At that heat flow most of the craton area (82-92%, depending on L) has a computed Moho already above the antigorite limit, so a serpentinite layer there would be unstable now, not waiting for a trigger.
 2. **Only 5-14% of craton area is in the window** where the layer could be stable and need little added heat. This is the selection problem of Section 25 with measured input, and it is no better: K11 (layer exists) and K12 (Moho hot enough to trigger) are not helped.
-3. **The result does not agree with the measured xenolith temperatures** (Section 24.6: below 400 °C Siberia, 500-600 °C Tanzania). The computed median of 770 °C is hotter than any xenolith value except the Mozambique Belt (above 650 °C). Either the grid over-predicts heat flow in the craton polygons, or the assumed crustal heat production is too low. This is not settled and should be read as a limit of the method, not as a measurement of Moho temperature.
+3. **The result does not agree with the measured xenolith temperatures** (Section 24.6: below 400 °C Siberia, 500-600 °C Tanzania). The computed median of 770 °C is hotter than any xenolith value except the Mozambique Belt (above 650 °C). Either the grid over-predicts heat flow in the craton polygons, or the assumed crustal heat production is too low. Resolved in Section 30: the grid matches the point data, the xenolith sites are the cold end of the craton set, and the earlier central value was too cool.
 
 ### 29.3 Limits
 - The grid is a **prediction** (generalized similarity method) with its own uncertainty (`sHF_pred`, not used); only 912 of 5,709 cells hold an observation. Predicted values in poorly sampled cratons follow geology, not measurements.
@@ -1135,3 +1135,52 @@ The order of importance in Section 11 stays, with one change: the collapse condi
 - Resolve the disagreement with the xenolith temperatures: use `sHF_pred` and the NGHF point data (heat production and conductivity columns) in place of the assumed parameters.
 - List which named cratons fall in the window (the per-craton view was not run).
 - Still open from the earlier plan: eclogite boundary at 500-600 °C, lizardite and brucite limits (O21), lower-crustal earthquakes in cratons (K15), Matsuishi OCR.
+
+---
+
+## 30. Phase E step 2: resolving the heat-flow disagreement (2026-11-25, FIRST PASS)
+
+**Question.** Section 29 gave a craton median Moho of about 770 °C from the Lucazeau grid, against measured xenolith values of below 400 °C (Siberia) and 500-600 °C (Tanzania, Section 24.6). Is the grid wrong, are the xenolith sites unrepresentative, or is the geotherm wrong? **Method.** `scripts/craton_heatflow_points.py`: the NGHF point measurements (Lucazeau 2019, supplement S02, 69,377 records with heat flow) inside the 114 craton polygons, compared with the grid at the same points, at the two xenolith sites, and against measured heat production; Moho temperature at 39 km from the Section 24.7 geotherm.
+
+### 30.1 Results
+| Test | Result |
+|------|--------|
+| NGHF points inside craton polygons | 7,277 of 69,377 (10.5%); 78 of 114 cratons have at least one point, 36 have none |
+| Measured heat flow at those points, 10 / 50 / 90 % | 35 / 62 / 200 mW/m² |
+| Grid prediction at the same points | 40 / 63 / 142; median difference (grid minus measured) **0.3 mW/m²** |
+| Per-craton median measured heat flow (66 cratons with 3 or more points), 10 / 50 / 90 % | **35 / 52 / 76 mW/m²** |
+| Udachnaya (Siberia): grid; nearby points (6, within 1.5°) | 23 mW/m²; median 20 (15-22) |
+| Tanzanian craton, Lashaine/Labait: grid; nearby points (7) | 39 mW/m²; median 35 (17-51) |
+| Tanzanian craton, west: grid; nearby points (3) | 46 mW/m²; median 21 (20-33) |
+| Heat flow that gives a 400 / 500 / 600 °C Moho at 39 km (heat production 0.3-0.6) | 31 / 38 / 45 mW/m² |
+| Moho T from per-craton medians, 10 / 50 / 90 % (heat production 0.3-0.6) | 464 / 699 / 1055 °C; 20% of cratons at or below 525 °C, 42% at or below 625 °C |
+| Same with heat production 0.8-1.0 (continental mean) | 416 / 652 / 1008 °C; 29% and 47% |
+| Measured heat production in cratons (416 samples), 10 / 50 / 90 % | 0 / 1 / 3 µW/m³ (surface samples, not bulk crust) |
+
+### 30.2 Findings
+1. **The grid is not the problem.** Where cratons have measurements, the grid matches them (difference 0.3 mW/m²). The Section 29 median of 58 mW/m² is what the data say for the polygons, within the sampling limits below.
+2. **The xenolith sites are consistent with the model.** Udachnaya's measured 15-22 mW/m² gives a Moho well under 400 °C (Section 24.7: about 250 °C at 19 mW/m²). The Tanzanian craton's 35 mW/m² (grid 39) is within a few mW/m² of the 38 mW/m² that gives 500 °C, so it is consistent with the measured 500-600 °C within the model's spread. Local heat flow and xenolith temperature agree at both sites.
+3. **The disagreement is one of representativeness.** The two xenolith sites are the cold end of the craton set. The median craton in the 114 polygons has about 52 mW/m², which on this geotherm is a Moho near 650-700 °C, and the xenolith values (two craton sites, plus the Mozambique Belt above 650 °C) do not sample that. The "median craton Moho of 500 °C" used in Sections 24-25 was too low for the craton set as a whole.
+4. **The heat-production assumption matters less than expected.** Going from 0.3-0.6 to 0.8-1.0 µW/m³ lowers the median Moho by 47 °C (699 to 652 °C). It does not close the gap.
+5. **The conductive geotherm is not valid at the hot end.** A 90th percentile of 1000 °C and higher is unphysical for a stable craton (it would mean melting or advection), so the hot tail is hot spots, volcanic or hydrothermal sites, or polygons that are not stable craton. Only about 40-45% of cratons by count have a median Moho at or below 625 °C.
+
+### 30.3 What this does to the collapse candidates
+- **Serpentinite:** the share of craton area in the window is small (Section 29: 5-14%) and the craton set is hotter than the Tanzanian and Siberian cases that Sections 24 and 25 used. Roughly 20-29% of cratons (by count) have a Moho at or below the 525 °C antigorite limit, and most of those are near it. Cratons that are hotter than the limit would already have lost their serpentinite (K11, K12).
+- **Heat to add:** at the cold end (Siberian type) the added heat is 100-200 °C or more; at the hot end it is zero or negative. Section 24.7's range stands, but the middle of the craton set is hotter than its "central" values.
+- **K12 stays Unsupported.** It is more accurate to say the Moho temperature varies by craton from under 300 to over 800 °C, and the model must name which craton it is describing. No single craton type passes the serpentinite test without also failing another (layer existence, trigger).
+
+### 30.4 Limits
+- Points are clustered: 36 cratons have none, and many points sit in geothermal, volcanic or basin sites (the 90th percentile of 200 mW/m² shows this). Per-craton medians reduce but do not remove this bias.
+- The Hasterok craton polygons include terranes that are not stable Archean cores.
+- Moho depth is a single 39 km (the CRUST1.0 median); the geotherm parameters are assumed (decay depth, conductivity, constant over depth).
+- Measured heat production in the NGHF is from surface samples and cannot be used as the bulk crustal value.
+- No per-craton named list was produced.
+
+### 30.5 Verdict
+**Resolved: the grid and the xenolith data agree where they overlap, and the model's earlier "central" craton Moho (500 °C) was too cool for the craton set as a whole.** The craton Moho is a spread, not a point: cold at Siberian-type cratons, near the antigorite limit at Tanzanian-type ones, and above it for most others. This narrows the serpentinite candidate further and does not change any Section 28 verdict.
+
+### 30.6 Follow-up
+- Produce the per-craton table (named cratons, their measured heat flow and Moho T, and which fall in the window).
+- Add the Section 28 note that the central 500 °C Moho of Sections 24-25 is replaced by a 400-800 °C spread (cheat sheet, Section 12).
+- Still open from Phase E: eclogite boundary at 500-600 °C, lizardite and brucite limits (O21), lower-crustal earthquakes in cratons (K15), Matsuishi OCR.
+

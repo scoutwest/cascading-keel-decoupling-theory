@@ -12,6 +12,7 @@ Scripts that produce the images and the numbers quoted in `Cascading Keel Decoup
 | `craton_geotherm_measured.py` | The Section 24.7 forward and inverse geotherm with the measured xenolith values | none |
 | `craton_selection.py` | The Section 25 craton selection test (Moho temperature against surface heat flow, window against the antigorite limit) | CRUST1.0 and the Hasterok craton polygons |
 | `craton_heatflow.py` | The Section 29 craton heat-flow sampling and Moho-temperature window | CRUST1.0, Hasterok craton polygons, and the Lucazeau 2019 grid `HFgrid14.csv` (`data/heatflow/` in this repository's folder; override with `HEATFLOW_GRID`) |
+| `craton_heatflow_points.py` | The Section 30 comparison of NGHF point heat flow, the grid and the xenolith sites, and the Moho temperature spread | Hasterok craton polygons; `data/heatflow/NGHF.csv` and `HFgrid14.csv` |
 | `vent_water_heat.py` | The Section 26 heat carried by vented water against the heat budget | none |
 | `free_water_layer.py` | The Section 27.1 free-water-layer checks (buoyant crack height, ascent time, density-inversion time) | none |
 | `vent_steam.py` | The Section 27.2-27.3 steam-state and heat calculation (IAPWS-95) | needs `iapws` (`pip install iapws`) |
