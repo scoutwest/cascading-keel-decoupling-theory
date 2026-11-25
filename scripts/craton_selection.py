@@ -53,7 +53,7 @@ for q in qs[::2]:
 def cdf(x, mu=41.0, sd=11.0): return 0.5 * (1 + erf((x - mu) / (sd * sqrt(2))))
 print("\nWINDOW: surface heat flow band that puts the median craton cell at L-dT <= T <= L")
 print("  (and the share of Archean cratons, q0 ~ N(41, 11), that fall in that band)")
-for L in (525, 625):
+for L in (525, 595, 625):
     for dT in (50, 100, 200):
         ok = [q for q in qs if np.median(Tq[q]) <= L and np.median(Tq[q]) >= L - dT]
         if ok:
