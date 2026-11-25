@@ -283,6 +283,7 @@ Work through Section 9 in this order of importance: O1 and O2 (the heat problem 
 - `Noah's Pangea v2/Model.md`, `data/`, `model/`, `sources/README.md` (S01-S23). Clean-room; raw data unmodified; Hasterok et al. 2022 provinces and cratons, ETOPO 2022, Mortimer et al. 2017, Hirth and Kohlstedt 2000.
 - Literature named in v1 and v2 and not yet re-read in full: Pearson et al. 2021, Wang, Liu and Zhou 2022, Liu et al. 2022 (*Geology* 50:891), Jollands et al. 2017/2018, Gleeson et al. 2016, Bird 1978/1979.
 - Numbers marked "my estimate" in v2 or "assumption" here are placeholders for Phase A.
+- `scripts/`: the working scripts behind the images and the arithmetic in Sections 14-19 (see `scripts/README.md`). Phase C will replace them with a tested package.
 
 ---
 
@@ -397,7 +398,7 @@ Correction (draft 6): the first version of this table had "margins stay put" row
 | Water released | Sea-level rise from water | A. Collapse only: **all** Pangea drops uniformly (the v2 H6 line) | B. Collapse only: only the **highest ground** drops | C. Margins stretched (β = 1.5), interior drops uniformly | D. Margins stretched, interior highest ground only |
 |---|---|---|---|---|---|
 | none | 0 | 910 | 534 | 970 | 642 |
-| 2.26×10⁷ km³ (groundwater, verified) | 44 | 835 | 490 | 903 | 598 |
+| 2.26×10⁷ km³ (groundwater, verified) | 44 | 834 | 490 | 903 | 598 |
 | 1.3×10⁸ km³ (all shallow reservoirs; two of three assumed) | 255 | 476 | 279 | 585 | 387 |
 | 2.3×10⁸ km³ (present-depth requirement, Section 5.1) | 451 | 142 | 83 | 289 | 191 |
 
@@ -597,4 +598,4 @@ Chart: `images/04_craton_moho_pressure.png` (and `.svg`).
 - Check the sensitivity of the answer to composition (iron content, water).
 
 ### 19.5 Sources (Phase B step 5)
-CRUST1.0 (Laske et al.), local copy from v1; Hasterok et al. (2022) cratons, local copy from v2; eclogite-field pressure ranges from the cited studies in Section 15.1 (unverified in full). Computation is mine (script in the scratchpad, not yet in the repository).
+CRUST1.0 (Laske et al.), local copy from v1; Hasterok et al. (2022) cratons, local copy from v2; eclogite-field pressure ranges from the cited studies in Section 15.1 (unverified in full). Computation is mine (`scripts/craton_moho_stats.py`).
