@@ -11,6 +11,7 @@ Scripts that produce the images and the numbers quoted in `Cascading Keel Decoup
 | `craton_geotherm.py` | The Section 24 Moho temperature sweep (conductive geotherm; heat production and conductivity assumed) | none |
 | `craton_geotherm_measured.py` | The Section 24.7 forward and inverse geotherm with the measured xenolith values | none |
 | `craton_selection.py` | The Section 25 craton selection test (Moho temperature against surface heat flow, window against the antigorite limit) | CRUST1.0 and the Hasterok craton polygons |
+| `craton_heatflow.py` | The Section 29 craton heat-flow sampling and Moho-temperature window | CRUST1.0, Hasterok craton polygons, and the Lucazeau 2019 grid `HFgrid14.csv` (`data/heatflow/` in this repository's folder; override with `HEATFLOW_GRID`) |
 | `vent_water_heat.py` | The Section 26 heat carried by vented water against the heat budget | none |
 | `free_water_layer.py` | The Section 27.1 free-water-layer checks (buoyant crack height, ascent time, density-inversion time) | none |
 | `vent_steam.py` | The Section 27.2-27.3 steam-state and heat calculation (IAPWS-95) | needs `iapws` (`pip install iapws`) |
@@ -30,7 +31,7 @@ python craton_moho_stats.py                # prints the Section 19 statistics
 
 Needs Python 3 with `numpy` and `matplotlib`. The two data scripts also need `pyshp` (`pip install pyshp`) and `shapely`.
 
-## Data the two data scripts need
+## Data the data scripts need
 
 The data are not in this repository. The scripts look for them in the folder that holds this repository's folder (override with the `FLOOD_MODELS_ROOT` environment variable):
 
@@ -42,3 +43,5 @@ The data are not in this repository. The scripts look for them in the folder tha
 - Moho depth is the surface elevation minus the top-of-mantle boundary (the last CRUST1.0 column); pressure at the Moho is the sum of layer density x g x thickness. Statistics are area-weighted by the cosine of latitude over the 5,709 cells that fall inside the craton polygons (8.0% of the sphere).
 - Inputs marked as assumptions in the scripts (densities, cubit length, ocean volume) are placeholders recorded in Section 14 of the model.
 - The images regenerate to identical PNGs. The SVGs differ only in embedded metadata (date and identifiers).
+
+`data/` (git-ignored, not in the repository) holds the Lucazeau (2019) supplement files for `craton_heatflow.py`: `2019gc008389-sup-0003-data_set_si-s01.zip` (grid `HFgrid14.csv`), `-sup-0004-...-s02.zip` (point data `NGHF.csv`) and the figure PDF. Source: doi:10.1029/2019GC008389, Supporting Information.

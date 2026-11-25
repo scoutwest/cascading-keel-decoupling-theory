@@ -216,7 +216,7 @@ Cool, conductive xenolith geotherms show no recent catastrophic heating. Fine de
 | O17 | **Fluid supply at the crust base (35-42 km).** Eclogitization is fluid-limited and needs water in contact with dry lower-crust granulite. The model's shallow water is released near the surface; a source or path to 35-42 km is not identified. Heat is not a problem there (it stays deep, H3) | The reaction cannot start or spread without it | Phase B step 3; 17.3 | **Analog (17.7):** a study of subducting slab gabbros argues that fluid from the slab mantle accumulates beneath the Moho until the lower crust is breached by dynamic fluid vents, after which eclogitization starts. That is a fluid-supply-and-breach mechanism, but its fluid comes from slab dehydration, which a craton interior lacks.
 | O18 | **Driving force at 35-42 km.** The eclogite field at craton temperature (500-600 °C) is expected at about 1.3-1.6 GPa, but the layer sits at 1.0-1.25 GPa. The reaction may stop at garnet granulite (about 10% denser) or not start, which limits the collapse to the low end of 9-17% and raises the layer thickness needed (Section 18.3) | Without enough driving force the density change and the drop shrink | Phase B step 4 | **Phase B step 5:** by CRUST1.0, the craton Moho is at a median 1.07 GPa and only 3% of craton area reaches 1.3 GPa; the lower-crust layer itself is thick enough (median 12.5 km). The driving force is the weak point (Section 19). **Phase B steps 6-9:** the boundary pressure at 500-600 °C was not found; the sourced boundary for basic rock is about 1.9 GPa, higher than the 1.0-1.25 GPa layer (Section 20). The present-day craton Moho is about 450-560 °C (Section 24, assumed inputs), below the 600-800 °C that eclogitization needs in cool lithosphere. The serpentinite alternative is in O19.
 | O19 | **Existence of a serpentinized layer and an exit for its water.** Serpentinite shrinks 23-25% on breakdown (the low-pressure reaction), enough with 2-4 km of layer, but it forms where seawater reaches mantle rock, not under cratons, and the volume loss needs the water to escape. Hydrogen and methane add at most about 2% | Without the layer and an exit there is no subsidence from this route | User; Phase B step 7; Section 21 |
-| O20 | **Heat to trigger a collapse at the craton Moho.** A conductive geotherm puts the Moho at about 500 °C (range 330-717 °C, assumed inputs). Antigorite breakdown is near 620-680 °C at 1.5-1.9 GPa and **500-550 °C at 1.2 GPa in long experiments** (570-625 °C in one-week runs; Section 21.2); eclogitization needs more than 600-800 °C. For serpentinite the added heat is **about 0-50 °C at a Tanzanian-type Moho (500-600 °C, which may already be at the limit) and 100-200 °C or more at a Siberian-type Moho (below 400 °C)**; for gabbro-eclogite it is larger. The heat requirement returns O1 and O2 | Without a heat source neither mechanism starts | Phase B step 9; Section 24 |
+| O20 | **Heat to trigger a collapse at the craton Moho.** A conductive geotherm puts the Moho at about 500 °C (range 330-717 °C, assumed inputs). Antigorite breakdown is near 620-680 °C at 1.5-1.9 GPa and **500-550 °C at 1.2 GPa in long experiments** (570-625 °C in one-week runs; Section 21.2); eclogitization needs more than 600-800 °C. For serpentinite the added heat is **about 0-50 °C at a Tanzanian-type Moho (500-600 °C, which may already be at the limit) and 100-200 °C or more at a Siberian-type Moho (below 400 °C)**; for gabbro-eclogite it is larger. The heat requirement returns O1 and O2 | Without a heat source neither mechanism starts | Phase B step 9; Section 24. **Phase E step 1 (Section 29):** with the Lucazeau 2019 heat-flow grid, only 5-14% of craton area is in the window where a serpentinite layer could be stable and need little added heat; the grid's median craton Moho is hotter than the xenolith values, unresolved |
 | O21 | **Heat of water vented from the crust base.** Water leaving the craton Moho at 400-700 °C carries 1.4-2.6 times the ocean heat budget B (for 1.3×10⁸ km³); narrow cracks cool it by 0.08%. The steam route moves about 90% of the heat to the atmosphere as latent heat but does not remove it (about 80 years to radiate). Options: cap hot Moho water at 6-9×10⁷ km³ and take the rest from cool shallow reservoirs or more collapse (0.48 km up to 0.6-0.7 km); store the extra in the crust above; a cooler source | Without a way to shed the heat, a deep-water flood overheats the ocean | Phase B steps 11-12; Sections 26-27 |
 | O13 | Ten highest peaks need 7.5-8.2 km of uplift from under 610 m | Phase 7 target | v2 2.3 |
 
@@ -1101,14 +1101,37 @@ The order of importance in Section 11 stays, with one change: the collapse condi
 
 ---
 
-## 29. Phase E step 1: craton heat-flow grid (2026-11-25, BLOCKED ON DATA)
+## 29. Phase E step 1: craton heat flow from the Lucazeau grid (2026-11-25, FIRST PASS)
 
-**Goal.** Replace the free surface-heat-flow variable in Section 25 with measured values sampled inside the 114 craton polygons, and see whether any craton falls in the serpentinite temperature window (K12, O20).
+**Question.** Section 25 used surface heat flow as a free variable (Archean value 41 ± 11 mW/m², from an unverified snippet). With measured heat flow inside the 114 craton polygons, how much craton area has a Moho cold enough to hold serpentinite (T ≤ antigorite limit L) and warm enough that the heat to add (L − T) is small? **Method.** `scripts/craton_heatflow.py`: the Lucazeau (2019, *G-cubed* 20:4001, doi:10.1029/2019GC008389) 0.5° grid, `HFgrid14.csv` (predicted heat flow `HF_pred` plus the observed value where one exists), averaged to the 1° CRUST1.0 cells used in Sections 19 and 25, inside the 114 Hasterok craton polygons (5,709 cells, median Moho depth 39.0 km). Each cell's Moho temperature uses the Section 24 conductive geotherm with its own heat flow and the same assumed rock parameters (heat production 0.3-0.6 µW/m³, decay depth 8-12 km, conductivity 2.5-3.0 W/m/K; median over the parameter sets). Data are kept in this folder's `data/heatflow/` (git-ignored): the grid, the NGHF point file and the supplement PDF, all from the paper's Supporting Information.
 
-**What was tried.**
-- Lucazeau (2019, *G-cubed* 20:4001-4024) is the target data set (0.5° grid; point data in the paper's supporting information).
-- The Wiley supplement download returned HTTP 403.
-- The two files linked from the IHFC mapping-studies page (`HeatFlowIHFC_global_original.rar` and `..._large.kmz`) both returned HTTP 404 (dead links, 2026-11-25).
-- A web search for the eclogite-in boundary at 500-600 °C (O18) again found no number. It found only that conversion is fluid-controlled and often partial (Holsnøy; New Zealand lower crust), which is already in Sections 17 and 20.
+### 29.1 Results
+| Quantity | Result |
+|----------|--------|
+| Craton surface heat flow, area-weighted 10 / 50 / 90 % (predicted grid) | **41 / 58 / 74 mW/m²** |
+| Same, cells with an observation only (912 cells) | 33 / 52 / 88 mW/m² |
+| Moho temperature from each cell's own heat flow, 10 / 50 / 90 % | 538 / 770 / 1015 °C |
+| Craton area with Moho T ≤ L, L = 525 / 595 / 625 °C | 8.2% / 17.3% / 21.9% |
+| Craton area in the window (T ≤ L and heat to add ≤ 100 °C), same L | 7.2% / 12.5% / 13.7% |
+| Same, heat to add ≤ 50 °C | 5.1% / 6.6% / 7.4% |
+| Observed-cell subset: median Moho T; share in the window (L = 525, ≤ 100 °C) | 711 °C; 12.5% |
 
-**Status.** No result. Nothing in Section 28 changes. To continue, one of these is needed: the Lucazeau supplement file or grid placed locally (for example in `Noah's Pangea v2/data/heatflow/`), or another open heat-flow data set. The sampling script is a small extension of `scripts/craton_selection.py`.
+### 29.2 What it shows
+1. **The earlier heat-flow assumption was too low.** The grid's median craton value is 58 mW/m², not 41. At that heat flow most of the craton area (82-92%, depending on L) has a computed Moho already above the antigorite limit, so a serpentinite layer there would be unstable now, not waiting for a trigger.
+2. **Only 5-14% of craton area is in the window** where the layer could be stable and need little added heat. This is the selection problem of Section 25 with measured input, and it is no better: K11 (layer exists) and K12 (Moho hot enough to trigger) are not helped.
+3. **The result does not agree with the measured xenolith temperatures** (Section 24.6: below 400 °C Siberia, 500-600 °C Tanzania). The computed median of 770 °C is hotter than any xenolith value except the Mozambique Belt (above 650 °C). Either the grid over-predicts heat flow in the craton polygons, or the assumed crustal heat production is too low. This is not settled and should be read as a limit of the method, not as a measurement of Moho temperature.
+
+### 29.3 Limits
+- The grid is a **prediction** (generalized similarity method) with its own uncertainty (`sHF_pred`, not used); only 912 of 5,709 cells hold an observation. Predicted values in poorly sampled cratons follow geology, not measurements.
+- The Hasterok craton polygons include terranes with higher heat flow than a classic Archean craton core.
+- The geotherm form and rock parameters are the Section 24 assumptions. Moho temperature is very sensitive to crustal heat production, which is not measured here.
+- The antigorite limit L is the experiment range in Section 21.2; one-week and long-run values differ by 70-100 °C.
+- Moho depth is CRUST1.0 (1° cells).
+
+### 29.4 Verdict
+**K11 and K12 stay Unsupported, and the window is narrow: about 5-14% of craton area.** Section 25's conclusion (the serpentinite candidate needs the right heat flow, limit, layer and heat source together) is confirmed, not softened. K18, K9 and the rest of Section 28 are unchanged.
+
+### 29.5 Follow-up
+- Resolve the disagreement with the xenolith temperatures: use `sHF_pred` and the NGHF point data (heat production and conductivity columns) in place of the assumed parameters.
+- List which named cratons fall in the window (the per-craton view was not run).
+- Still open from the earlier plan: eclogite boundary at 500-600 °C, lizardite and brucite limits (O21), lower-crustal earthquakes in cratons (K15), Matsuishi OCR.
