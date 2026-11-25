@@ -1,6 +1,6 @@
 # Scripts
 
-Scripts that produce the images and the numbers quoted in `Cascading Moho Collapse Theory (CMCT).md`. They are the working scripts from draft 6, not the Phase C rebuild; Phase C will replace them with a single tested package (see Section 11 of the model).
+Scripts that produce the images and the numbers quoted in `Cascading Keel Decoupling Theory (CKDT).md`. They are the working scripts from draft 6, not the Phase C rebuild; Phase C will replace them with a single tested package (see Section 11 of the model).
 
 | Script | Produces | Inputs |
 |--------|----------|--------|
